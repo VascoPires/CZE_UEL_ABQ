@@ -1,0 +1,141 @@
+{
+  "run_name": "T300_Gaussian",
+  "material_key": "T300_9772",
+  "specimen_index": 0,
+  "mode": "CZM",
+  "Run Subroutine": true,
+  "cohesive_tie": false,
+  "Pseudo_2D":  true,
+  "Symmetry": false,
+  "density": 1.76e-09,
+  "dynamic_implicit": false,
+  "key_load": "Displacement",
+  "def_u2": 9.0,
+  "geometry": {
+    "l": 150.0
+  },
+  "mesh": {
+    "global_divisor": 8.0,
+    "fine_divisor": 32.0,
+    "elements_across_thickness": 6
+  },
+  "materials": {
+    "T300_9772": {
+      "engineering_const": {
+        "e1": 150000.0,
+        "e2": 11000.0,
+        "e3": 11000.0,
+        "nu_12": 0.25,
+        "nu_13": 0.25,
+        "nu_23": 0.45,
+        "g12": 6000.0,
+        "g13": 6000.0,
+        "g23": 3700.0
+      },
+      "specimens": [
+        {
+          "t": 3.96,
+          "b": 2.0,
+          "a": 55.0,
+          "l1": 0.0,
+          "l2": 0.0,
+          "def_u2": 10.0,
+          "sample_number": 1
+        }
+      ]
+    },
+    "T300_1076": {
+      "engineering_const": {
+        "e1": 139400.0,
+        "e2": 10160.0,
+        "e3": 10160.0,
+        "nu_12": 0.30,
+        "nu_13": 0.30,
+        "nu_23": 0.436,
+        "g12": 4600.0,
+        "g13": 4600.0,
+        "g23": 3540.0
+      },
+      "specimens": [
+        {
+          "t": 3.0,
+          "b": 25.0,
+          "a": 30.5,
+          "l1": 5.0,
+          "l2": 5.0,
+          "def_u2": 1.34,
+          "mesh_size": 0.5,
+          "mesh_size_fine": 0.05,
+          "sample_number": 1
+        }
+      ]
+    },
+    "GFRP": {
+      "engineering_const": {
+        "e1": 50400.0,
+        "e2": 14300.0,
+        "e3": 14300.0,
+        "nu_12": 0.296,
+        "nu_13": 0.296,
+        "nu_23": 0.30,
+        "g12": 3200.0,
+        "g13": 3200.0,
+        "g23": 5454.0
+      },
+      "specimens": [
+        { "t": 4.49, "b": 2.0, "a": 53.19, "l1": 0.0, "l2": 0.0, "def_u2": 3.96, "sample_number": 1 },
+        { "t": 4.52, "b": 2.30, "a": 51.1, "l1": 0.0, "l2": 0.0, "def_u2": 4.06, "sample_number": 2 },
+        { "t": 4.52, "b": 2.40, "a": 62.64, "l1": 6.02, "l2": 5.82, "def_u2": 6.15, "sample_number": 3 },
+        { "t": 4.53, "b": 2.24, "a": 53.68, "l1": 0.0, "l2": 0.0, "def_u2": 4.76, "sample_number": 4 },
+        { "t": 4.51, "b": 2.30, "a": 57.38, "l1": 6.36, "l2": 6.35, "def_u2": 4.65, "sample_number": 5 }
+      ]
+    },
+    "CFRP": {
+      "engineering_const": {
+        "e1": 123500.0,
+        "e2": 7300.0,
+        "e3": 7300.0,
+        "nu_12": 0.351,
+        "nu_13": 0.351,
+        "nu_23": 0.40,
+        "g12": 3300.0,
+        "g13": 3300.0,
+        "g23": 2700.0
+      },
+      "specimens": [
+        { "t": 3.81, "b": 2.18, "a": 63.34, "l1": 0.0, "l2": 0.0, "def_u2": 4.69, "sample_number": 1 },
+        { "t": 3.81, "b": 2.13, "a": 65.98, "l1": 0.0, "l2": 0.0, "def_u2": 4.17, "sample_number": 2 },
+        { "t": 3.8, "b": 2.05, "a": 63.09, "l1": 0.0, "l2": 0.0, "def_u2": 4.74, "sample_number": 3 },
+        { "t": 3.813, "b": 2.13, "a": 59.65, "l1": 0.0, "l2": 0.0, "def_u2": 4.11, "sample_number": 4 },
+        { "t": 3.76, "b": 2.08, "a": 59.88, "l1": 0.0, "l2": 0.0, "def_u2": 4.32, "sample_number": 5 }
+      ]
+    }
+  },
+  "cohesive_standard": {
+    "name": "COH",
+    "section_name": "COH_Section",
+    "elastic": [1E6, 1E6, 1E6],
+    "initiation": [30.0, 52.0, 52.0],
+    "evolution": {
+      "type": "B-K",
+      "power": 1.23,
+      "table": [0.352, 0.786, 0.786]
+    },
+    "layer_thickness": 0.0001,
+    "viscosity": 1E-6,
+    "elem_deletion": true,
+    "max_degradation": 0.9999
+  },
+  "cohesive_UEL": {
+    "name": "COH",
+    "section_name": "COH_Section",
+    "elastic": 1E5,
+    "initiation": [60.0, 60.0],
+    "evolution": {
+      "power": 1.23,
+      "table": [0.352, 0.786]
+    },
+    "viscosity": 1E-6,
+    "integration_scheme": 1 
+  }
+}
