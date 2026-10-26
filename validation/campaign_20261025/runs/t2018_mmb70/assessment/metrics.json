@@ -1,0 +1,21 @@
+{
+  "name": "t2018_mmb70",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 379.3479690551758,
+  "displacement_at_maximum_reached_force_mm": 5.039999961853027,
+  "last_displacement_mm": 5.085255146026611,
+  "target_displacement_mm": 6.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.012579518644326023,
+  "compliance_fit_R2": 0.9999952683138182,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 4.5168405923167094e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 4.5168405923167094e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

@@ -1,0 +1,11 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Traceback (most recent call last):
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\scripts\extract_odb.py", line 41, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\scripts\extract_odb.py", line 12, in main
+    odb=openOdb(manifest['name']+'.odb',readOnly=True)
+TypeError: arg1; found 'unicode', expecting a recognized type

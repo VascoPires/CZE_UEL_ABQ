@@ -1,0 +1,21 @@
+{
+  "kind": "reference-equation transcription check; not UEL verification",
+  "source": "Turon2010CS p.1859; Table1 p.1860; Appendix A1-A2 p.1863; Fig4 p.1860",
+  "inputs": {
+    "E11_MPa": 120000.0,
+    "b_mm": 20.0,
+    "h_mm": 1.55,
+    "GIc_N_per_mm": 0.26,
+    "a0_mm": 35.0
+  },
+  "samples": 41,
+  "max_abs_error_N": 0.25415472070194767,
+  "max_abs_relative_error": 0.005096235926846475,
+  "graphical_uncertainty_mm_N": [
+    0.01,
+    0.3
+  ],
+  "UEL_status": "NOT RUN",
+  "initial_compliance_mm_per_N": 0.03837848119678203,
+  "acceptance_tolerance": "NOT APPROVED"
+}

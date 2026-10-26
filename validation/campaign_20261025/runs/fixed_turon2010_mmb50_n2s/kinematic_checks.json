@@ -1,0 +1,24 @@
+[
+  {
+    "vcct_behind_relative_U1_mm": 0.0, 
+    "vcct_tip_tie_jump_norm_mm": 0.0, 
+    "max_abs_E33": 0.0, 
+    "vcct_tip_force_upper_x_N": 0.0, 
+    "vcct_tip_force_upper_y_N": 0.0, 
+    "max_abs_E23": 0.0, 
+    "max_abs_U3_mm": 0.0, 
+    "time": 0.0, 
+    "vcct_GI_N_per_mm": 0.0, 
+    "vcct_behind_relative_U2_mm": 0.0, 
+    "max_abs_E13": 0.0, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "lever_equation_residual_mm": 0.0, 
+    "increment": 0, 
+    "max_precrack_global_Y_penetration_mm": 0.0, 
+    "max_contact_penetration_mm": 0.0, 
+    "vcct_GII_N_per_mm": 0.0, 
+    "vcct_raw_normal_closure_work_N_per_mm": 0.0, 
+    "max_abs_E": 0.0
+  }
+]

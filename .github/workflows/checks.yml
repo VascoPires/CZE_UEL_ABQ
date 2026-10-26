@@ -1,0 +1,44 @@
+name: Portable workflow checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prepare-examples:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Check Python syntax
+        run: python -m compileall -q scripts examples visualization
+      - name: Prepare supplied input decks without Abaqus
+        shell: python
+        run: |
+          from pathlib import Path
+          import subprocess
+          import sys
+
+          decks = sorted(Path('examples').rglob('*.inp'))
+          if not decks:
+              raise SystemExit('No example input decks found.')
+          for index, deck in enumerate(decks):
+              subprocess.run([
+                  sys.executable, 'scripts/run_case.py', str(deck),
+                  '--name', f'example_{index}', '--out', f'runs/ci/{index}',
+              ], check=True)
+      - name: Check model and conversion command-line entry points
+        run: |
+          python scripts/build_model.py --help
+          python scripts/convert_input.py --help
+          python examples/dcb/main_script.py --help
+          python examples/mmb/main_script.py --help

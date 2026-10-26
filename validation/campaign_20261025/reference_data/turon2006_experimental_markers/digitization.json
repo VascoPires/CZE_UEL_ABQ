@@ -1,0 +1,174 @@
+{
+  "source_pdf_sha256": "aec1f54b7ff7dcf5efd7849d6f5dae42adb44db207164a493b057bde05f302c2",
+  "source": "Turon2006MM Figs9\u201313",
+  "method": "pypdf vector path centres of registered black filled squares",
+  "series": [
+    {
+      "case": "dcb",
+      "page": 12,
+      "figure": 9,
+      "ids": [
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61
+      ],
+      "axis": [
+        159.017,
+        370.068,
+        409.262,
+        553.201
+      ],
+      "maximum": [
+        8,
+        170
+      ],
+      "uncertainty": [
+        0.02,
+        1.5
+      ],
+      "filename": "fig09_dcb_experimental_markers_graphical.csv",
+      "samples": 12,
+      "peak_graphical_N": 147.51354480077316,
+      "peak_graphical_displacement_mm": 5.390659553637435
+    },
+    {
+      "case": "mmb20",
+      "page": 12,
+      "figure": 10,
+      "ids": [
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218
+      ],
+      "axis": [
+        152.731,
+        104.334,
+        416.576,
+        298.947
+      ],
+      "maximum": [
+        13,
+        120
+      ],
+      "uncertainty": [
+        0.02,
+        1.5
+      ],
+      "filename": "fig10_mmb20_experimental_markers_graphical.csv",
+      "samples": 9,
+      "peak_graphical_N": 108.06415809837985,
+      "peak_graphical_displacement_mm": 8.8256915992344
+    },
+    {
+      "case": "mmb50",
+      "page": 13,
+      "figure": 11,
+      "ids": [
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100
+      ],
+      "axis": [
+        159.257,
+        480.57,
+        422.015,
+        672.895
+      ],
+      "maximum": [
+        8,
+        300
+      ],
+      "uncertainty": [
+        0.02,
+        3.0
+      ],
+      "filename": "fig11_mmb50_experimental_markers_graphical.csv",
+      "samples": 8,
+      "peak_graphical_N": 275.3087482126608,
+      "peak_graphical_displacement_mm": 5.43887835955518
+    },
+    {
+      "case": "mmb80",
+      "page": 13,
+      "figure": 12,
+      "ids": [
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208
+      ],
+      "axis": [
+        159.259,
+        209.047,
+        422.027,
+        401.38
+      ],
+      "maximum": [
+        7,
+        600
+      ],
+      "uncertainty": [
+        0.02,
+        5.0
+      ],
+      "filename": "fig12_mmb80_experimental_markers_graphical.csv",
+      "samples": 9,
+      "peak_graphical_N": 518.5197548002683,
+      "peak_graphical_displacement_mm": 5.21687648419899
+    },
+    {
+      "case": "enf",
+      "page": 14,
+      "figure": 13,
+      "ids": [
+        220,
+        222,
+        224
+      ],
+      "axis": [
+        154.917,
+        482.784,
+        417.648,
+        675.054
+      ],
+      "maximum": [
+        5,
+        850
+      ],
+      "uncertainty": [
+        0.02,
+        5.0
+      ],
+      "filename": "fig13_enf_experimental_markers_graphical.csv",
+      "samples": 3,
+      "peak_graphical_N": 748.564544650752,
+      "peak_graphical_displacement_mm": 3.8640206142404203
+    }
+  ],
+  "limitation": "Republished observations; missing raw records, repeat/specimen scatter and detailed acquisition metadata. Toughness/eta were already fitted to related experimental data; no independent held-out validation claim."
+}

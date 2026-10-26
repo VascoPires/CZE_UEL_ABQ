@@ -1,0 +1,44 @@
+[
+  {
+    "run": "legacy_default",
+    "reference": "element_dt001",
+    "files": {
+      "nodal_response.csv": {
+        "byte_identical": true,
+        "sha256": "a720df3f31dda4c6fb348b98a7ff49dd30893c8e372db44c4b84ca666bbe042a"
+      },
+      "sdv.csv": {
+        "byte_identical": true,
+        "sha256": "2f75e7885a2f4570527cf504a7a4b72ef3db3721f12bafefd14978cc362e1d66"
+      }
+    }
+  },
+  {
+    "run": "explicit_default",
+    "reference": "element_dt001",
+    "files": {
+      "nodal_response.csv": {
+        "byte_identical": true,
+        "sha256": "a720df3f31dda4c6fb348b98a7ff49dd30893c8e372db44c4b84ca666bbe042a"
+      },
+      "sdv.csv": {
+        "byte_identical": true,
+        "sha256": "2f75e7885a2f4570527cf504a7a4b72ef3db3721f12bafefd14978cc362e1d66"
+      }
+    }
+  },
+  {
+    "run": "explicit_small",
+    "reference": "element_z8_dt001",
+    "files": {
+      "nodal_response.csv": {
+        "byte_identical": true,
+        "sha256": "a720df3f31dda4c6fb348b98a7ff49dd30893c8e372db44c4b84ca666bbe042a"
+      },
+      "sdv.csv": {
+        "byte_identical": true,
+        "sha256": "2f75e7885a2f4570527cf504a7a4b72ef3db3721f12bafefd14978cc362e1d66"
+      }
+    }
+  }
+]

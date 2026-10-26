@@ -1,0 +1,61 @@
+{
+  "name": "dcb_native_dx06",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Native damage field not requested in this control"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.04693585534195529,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "status": "NOT RUN",
+    "reason": "Earlier ODB extraction predates additional strain and lever checks"
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ETOTAL": 7.623898000019835e-06,
+    "ALLSE": 3.5386574268341064,
+    "ALLSD": 0.0,
+    "ALLWK": 3.6875245571136475,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 3.6875321865081787
+  },
+  "subset_ledger_final_relative_error": 2.0689745690051186e-06,
+  "final_work_balance_relative_error": 2.067483994191302e-06,
+  "work_balance_relative_error": 2.067483994191302e-06,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "numerical_reference": {
+    "kind": "published numerical curve, graphical estimate",
+    "uncertainty_mm_N": [
+      0.03,
+      0.8
+    ],
+    "path": "validation/campaign_20261025/reference_data/turon2010CS_dcb/fig04_tau30_graphical.csv",
+    "peak_graphical_N": 50.99977071338087,
+    "peak_graphical_displacement_mm": 2.661079451043755,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": 0.036424154051668545,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Incomplete loading path"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 56.22716316471089,
+    "initial_compliance_mm_per_N": 0.03837848119678203,
+    "initial_beam_GII_over_GT": 0.0,
+    "final_beam_GII_over_GT": 0.0,
+    "initial_compliance_relative_error": 0.22297328016229523
+  }
+}

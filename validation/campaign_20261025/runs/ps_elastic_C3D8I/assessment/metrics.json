@@ -1,0 +1,18 @@
+{
+  "name": "ps_elastic_C3D8I",
+  "termination": "COMPLETED",
+  "peak_force_N": 4.261138439178467,
+  "peak_displacement_mm": 0.20000000298023224,
+  "maximum_reached_force_N": 4.261138439178467,
+  "displacement_at_maximum_reached_force_mm": 0.20000000298023224,
+  "last_displacement_mm": 0.20000000298023224,
+  "target_displacement_mm": 0.2,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

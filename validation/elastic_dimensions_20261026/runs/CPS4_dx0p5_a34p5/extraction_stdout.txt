@@ -1,0 +1,11 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Traceback (most recent call last):
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\elastic_dimensions_20261026\scripts\extract.py", line 89, in <module>
+    if __name__=='__main__': main()
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\elastic_dimensions_20261026\scripts\extract.py", line 9, in main
+    odb = openOdb(meta['name']+'.odb',readOnly=True)
+TypeError: arg1; found 'unicode', expecting a recognized type

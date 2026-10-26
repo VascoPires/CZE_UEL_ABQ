@@ -1,0 +1,18 @@
+{
+  "name": "dcb_strength15",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 50.60258865356445,
+  "displacement_at_maximum_reached_force_mm": 2.7408008575439453,
+  "last_displacement_mm": 2.7408008575439453,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.047819447433073245,
+  "compliance_fit_R2": 0.9999724172116398,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.24599634852363117,
+  "final_solver_energy_balance_error": 0.002799283916841496,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

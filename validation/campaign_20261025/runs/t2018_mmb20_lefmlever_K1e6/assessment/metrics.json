@@ -1,0 +1,21 @@
+{
+  "name": "t2018_mmb20_lefmlever_K1e6",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 99.48726558685303,
+  "displacement_at_maximum_reached_force_mm": 8.800000190734863,
+  "last_displacement_mm": 9.662718772888184,
+  "target_displacement_mm": 11.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.08116609179418485,
+  "compliance_fit_R2": 0.9999828069443273,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0012659618218349002,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0012659893225513553,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

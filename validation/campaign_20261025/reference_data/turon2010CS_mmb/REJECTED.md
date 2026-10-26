@@ -1,0 +1,1 @@
+This first graphical extraction is rejected: visual review found isolated green LEFM dots contaminating the numerical envelope. Do not use its CSVs as numerical targets. The v2 extraction removes small disconnected pixel components and retains a review overlay.

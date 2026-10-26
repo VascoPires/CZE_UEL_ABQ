@@ -1,0 +1,18 @@
+{
+  "name": "dcb_local06",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.3373327255249,
+  "displacement_at_maximum_reached_force_mm": 2.7200000286102295,
+  "last_displacement_mm": 2.740000009536743,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04693581518263988,
+  "compliance_fit_R2": 0.9999999999999978,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22297218959710619,
+  "final_solver_energy_balance_error": 0.00017738827501349955,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

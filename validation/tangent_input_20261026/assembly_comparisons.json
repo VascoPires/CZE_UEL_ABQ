@@ -1,0 +1,23 @@
+[
+  {
+    "baseline": "baseline_v13",
+    "test": "default_v14",
+    "rows": 7272,
+    "maximum_absolute_state_difference": 0.0,
+    "scope": "Full UEL residual, Jacobian, all200 state variables and eight energy slots across nine elastic/softening/separated rotated states"
+  },
+  {
+    "baseline": "default_v14",
+    "test": "explicit_default_v14",
+    "rows": 7272,
+    "maximum_absolute_state_difference": 0.0,
+    "scope": "Full UEL residual, Jacobian, all200 state variables and eight energy slots across nine elastic/softening/separated rotated states"
+  },
+  {
+    "baseline": "fixed_small_v13",
+    "test": "explicit_small_v14",
+    "rows": 7272,
+    "maximum_absolute_state_difference": 0.0,
+    "scope": "Full UEL residual, Jacobian, all200 state variables and eight energy slots across nine elastic/softening/separated rotated states"
+  }
+]

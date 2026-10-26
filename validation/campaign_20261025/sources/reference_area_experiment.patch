@@ -1,0 +1,73 @@
+--- canonical/src/3D_CZM.f
++++ 3D_CZM_reference_area_experiment.f
+@@ -61,7 +61,7 @@
+      4 x_gp, y_gp, z_gp, tr_tan, tr_norm, u1, u2, u3,
+      5 xi_gp, eta_gp, wgt, jac_w
+      
+-      DOUBLE PRECISION psi_ip, diss_inc, damage_force
++      DOUBLE PRECISION psi_ip, diss_inc, damage_force, ref_area
+ 
+ !                          UEL Properties Table
+ ! +------------+-------------------------------------------------+-----------+
+@@ -126,7 +126,7 @@
+       INT_SCHEME=1
+       if (NJPROP .GE. 1) INT_SCHEME=JPROPS(1)
+ 
+-      echo=1
++      echo=0
+       ip_nvals=20
+       unit_ipvals = 28
+       unit_unvals = 30
+@@ -367,7 +367,10 @@
+ ! Multiply Jacobian with the Global stiffness and add contribution
+ ! from each Gauss Point
+ !
+-            jac_w = a_Jacob*wgt
++! EXPERIMENT: nominal traction and energy per reference area.
++            call k_reference_area(xi_gp,eta_gp,COORDS,
++     &           MCRD,NNODE,ref_area)
++            jac_w = ref_area*wgt
+ 
+ ! ENERGY is recomputed from the start-of-increment SVARS on every call.
+ ! Accumulate dissipated energy with the area at which it was produced;
+@@ -1019,3 +1022,40 @@
+ 
+ 
+       
++
++! Experimental reference midsurface integration measure.
++      subroutine k_reference_area(xi,eta,coords,mcrd,nnode,area)
++      INCLUDE 'ABA_PARAM.INC'
++      INTEGER mcrd,nnode,i,j,k
++      DOUBLE PRECISION xi,eta,coords(mcrd,nnode),area
++      DOUBLE PRECISION dN(2,4),mid(3,4),tangent(2,3),cross(3)
++      dN(1,1)=-0.25d0*(1.d0-eta)
++      dN(1,2)= 0.25d0*(1.d0-eta)
++      dN(1,3)= 0.25d0*(1.d0+eta)
++      dN(1,4)=-0.25d0*(1.d0+eta)
++      dN(2,1)=-0.25d0*(1.d0-xi)
++      dN(2,2)=-0.25d0*(1.d0+xi)
++      dN(2,3)= 0.25d0*(1.d0+xi)
++      dN(2,4)= 0.25d0*(1.d0-xi)
++      do j=1,3
++         do k=1,4
++            mid(j,k)=0.5d0*(coords(j,k)+coords(j,k+4))
++         end do
++      end do
++      tangent=0.d0
++      do i=1,2
++         do j=1,3
++            do k=1,4
++               tangent(i,j)=tangent(i,j)+dN(i,k)*mid(j,k)
++            end do
++         end do
++      end do
++      cross(1)=tangent(1,2)*tangent(2,3)
++     &        -tangent(1,3)*tangent(2,2)
++      cross(2)=tangent(1,3)*tangent(2,1)
++     &        -tangent(1,1)*tangent(2,3)
++      cross(3)=tangent(1,1)*tangent(2,2)
++     &        -tangent(1,2)*tangent(2,1)
++      area=SQRT(SUM(cross**2))
++      return
++      end

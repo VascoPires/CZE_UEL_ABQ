@@ -1,0 +1,9 @@
+{
+  "prompt_sha256": "662ae2ccb47a57eceb7b8289e74650f8757e14d292a6b0424e7807a451226ebf",
+  "authority": "current autonomous Prompt0.md, D17",
+  "canonical_uel_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+  "phase": "single_element_then_DCB",
+  "concurrent_solver_limit": 1,
+  "calibration": "not authorized",
+  "final_scientific_acceptance": "diagnostic criteria only until researcher judgment"
+}

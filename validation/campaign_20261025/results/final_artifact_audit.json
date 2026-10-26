@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-10-26T00:24:29.949574+00:00",
+  "queues_ended": true,
+  "solver_status_counts": {
+    "FAILED": 56,
+    "COMPLETED": 50
+  },
+  "all_applicable_run_assessments_present": true,
+  "source_and_example_hashes_unchanged": true,
+  "run_deck_and_source_hashes_verified": 106,
+  "protected_files_verified": 62,
+  "overlapping_submissions": 0,
+  "unresolved_controller_errors": 0,
+  "live_solver_lock_files": 0,
+  "python_syntax": "PASS",
+  "local_report_links": "PASS",
+  "scientific_figure_sets_verified": 16,
+  "scope": "Execution/artifact integrity only; scientific verdicts remain in the verification/validation matrix"
+}

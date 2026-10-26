@@ -1,0 +1,180 @@
+{
+  "case": "turon2010CS_mmb50",
+  "paper": "turon2010CS",
+  "role": "numerical/analytical verification",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "length": {
+      "value": 150,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "width": {
+      "value": 20,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "arm_thickness": {
+      "value": 1.55,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "a0": {
+      "value": 35,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "E11": {
+      "value": 120000,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "E22_E33": {
+      "value": 10500,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "G12_G13": {
+      "value": 5250,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "G23": {
+      "value": 3480,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "nu12_nu13": {
+      "value": 0.3,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "nu23": {
+      "value": 0.5,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "GIc": {
+      "value": 0.26,
+      "unit": "N/mm",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "GIIc": {
+      "value": 1.002,
+      "unit": "N/mm",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "eta": {
+      "value": 2.0,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "original_equal_penalty": {
+      "value": 1000000.0,
+      "unit": "N/mm^3",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "cohesive_length": {
+      "value": 0.15,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "bulk_state": {
+      "value": "CPE4 named; text plane stress",
+      "unit": "\u2014",
+      "source": "\u00a73 p.1859",
+      "status": "Contradictory"
+    },
+    "thickness_mesh": {
+      "value": "10 elements; allocation per arm/full thickness unclear",
+      "unit": "count",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "solver_controls": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73; Appendix A",
+      "status": "Missing"
+    },
+    "rho": {
+      "value": null,
+      "unit": "time",
+      "source": "not specified",
+      "status": "Missing"
+    },
+    "nominal_GII_GT": {
+      "value": 0.5,
+      "unit": "1",
+      "source": "\u00a73 pp.1859\u20131860",
+      "status": "Directly stated"
+    },
+    "c": {
+      "value": 63.18,
+      "unit": "mm",
+      "source": "\u00a73 pp.1859\u20131860",
+      "status": "Directly stated"
+    },
+    "L": {
+      "value": null,
+      "unit": "mm",
+      "source": "Fig.3 versus Appendix A2",
+      "status": "Contradictory"
+    },
+    "strength_families": {
+      "value": "15 with30/45/60;30 with60/90/120",
+      "unit": "MPa",
+      "source": "Table1; Figs.6\u20137",
+      "status": "Directly stated"
+    },
+    "adjusted_strength_pairs": {
+      "value": "15/29.4 and30/58.9",
+      "unit": "MPa",
+      "source": "\u00a74.1 p.1862; Fig.11",
+      "status": "Directly stated"
+    },
+    "crack_initialization": {
+      "value": "remove initial cohesive elements",
+      "unit": "\u2014",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "outputs": {
+      "value": "lever-applied total P vs lever displacement",
+      "unit": "N, mm",
+      "source": "Appendix A5-A7; Figs.6\u20137,11\u201312",
+      "status": "Directly stated"
+    },
+    "reference": {
+      "value": "Appendix A5-A7; corrected Fig.12; Fig.11",
+      "unit": "\u2014",
+      "source": "pp.1862\u20131863",
+      "status": "Directly stated"
+    }
+  }
+}

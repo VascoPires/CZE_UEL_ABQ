@@ -1,0 +1,9 @@
+{
+  "source": "src/3D_CZM.f",
+  "sha256": "b93cadaf39fe8ad34d97e1819d77ef53c9803673a3655ca4358f87522bc36ab8",
+  "returncode": 0,
+  "tangent_perturbation": null,
+  "test": "assembled tangent",
+  "area_intervals": null,
+  "limitations": "Standalone serial full-assembly check; echo disabled; Mutex/GETRANK stubs; no Abaqus solver interface verification"
+}

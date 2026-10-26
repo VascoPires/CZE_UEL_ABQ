@@ -1,0 +1,44 @@
+[
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.6,
+    "ny": 5,
+    "refine_to": 60.0,
+    "max_inc": 0.25,
+    "line_search": 5,
+    "opening": 0.2,
+    "nlgeom": false,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "ps_elastic_C3D8I",
+    "bulk_type": "C3D8I"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.6,
+    "ny": 5,
+    "refine_to": 60.0,
+    "max_inc": 0.25,
+    "line_search": 5,
+    "opening": 0.2,
+    "nlgeom": false,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "ps_elastic_C3D8",
+    "bulk_type": "C3D8"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.6,
+    "ny": 5,
+    "refine_to": 60.0,
+    "max_inc": 0.25,
+    "line_search": 5,
+    "opening": 0.2,
+    "nlgeom": false,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "ps_elastic_C3D8R",
+    "bulk_type": "C3D8R"
+  }
+]

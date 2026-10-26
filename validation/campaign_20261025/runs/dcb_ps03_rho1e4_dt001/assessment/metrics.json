@@ -1,0 +1,21 @@
+{
+  "name": "dcb_ps03_rho1e4_dt001",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.82720184326172,
+  "peak_displacement_mm": 2.615999937057495,
+  "maximum_reached_force_N": 51.82720184326172,
+  "displacement_at_maximum_reached_force_mm": 2.615999937057495,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.047078910593893346,
+  "compliance_fit_R2": 0.9999999999999876,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22670072201400293,
+  "final_solver_energy_balance_error": 0.0041455922322880066,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.004145563849520674,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

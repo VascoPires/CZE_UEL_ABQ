@@ -1,0 +1,74 @@
+START dcb_local015_z8
+dcb_local015_z8 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_local015_z8
+{
+  "name": "dcb_local015_z8",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.557321548461914,
+  "displacement_at_maximum_reached_force_mm": 2.6081395149230957,
+  "last_displacement_mm": 2.6081395149230957,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04731940406366144,
+  "compliance_fit_R2": 0.999993726301036,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23296708436781732,
+  "final_solver_energy_balance_error": 5.009462317711232e-05,
+  "source_hash": "fad999c120f0ff255e42a06698fb4a984d851809e167eb44719f6b439e63ad75",
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_local015_z8 FAILED
+START dcb_local015_rho1e5
+dcb_local015_rho1e5 COMPLETED
+ERROR dcb_local015_rho1e5 **********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Traceback (most recent call last):
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\scripts\extract_odb.py", line 85, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\scripts\extract_odb.py", line 80, in main
+    if checks:json.dump(checks,open('kinematic_checks.json','w'),indent=2)
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 431, in _iterencode
+    for chunk in _iterencode_list(o, _current_indent_level):
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: 0.0 is not JSON serializable
+
+END dcb_local015_rho1e5 COMPLETED
+START dcb_native_local015
+dcb_native_local015 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_native_local015
+{
+  "name": "dcb_native_local015",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.499762535095215,
+  "displacement_at_maximum_reached_force_mm": 2.605288028717041,
+  "last_displacement_mm": 2.605288028717041,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.047319744039469154,
+  "compliance_fit_R2": 0.999993718742481,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23297594286865198,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": null,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_native_local015 FAILED
+START as4_dcb
+as4_dcb FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_dcb

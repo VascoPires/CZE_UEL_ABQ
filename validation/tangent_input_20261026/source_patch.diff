@@ -1,0 +1,76 @@
+--- v1.3 baseline
++++ src/3D_CZM.f v1.4
+@@ -3,11 +3,11 @@
+ ! Chair of Designing Plastics and Composite Materials
+ !*************************************************************************
+ ! 3D CZM UEL
+-! VERSION: 1.3
++! VERSION: 1.4
+ !-------------------------------------------------------------------------
+ ! AUTHOR: Vasco Pires
+ !
+-! DATE: 16.10.2026
++! DATE: 26.10.2026
+ !
+ !=========================================================================
+ ! HEADER OF THE SUBROUTINE
+@@ -61,7 +61,7 @@
+      4 x_gp, y_gp, z_gp, tr_tan, tr_norm, u1, u2, u3,
+      5 xi_gp, eta_gp, wgt, jac_w
+      
+-      DOUBLE PRECISION psi_ip, diss_inc, damage_force
++      DOUBLE PRECISION psi_ip, diss_inc, damage_force, zeta
+ 
+ !                          UEL Properties Table
+ ! +------------+-------------------------------------------------+-----------+
+@@ -74,6 +74,7 @@
+ ! | eta        | BK exponent                                   | 5         |
+ ! | K3         | Normal penalty stiffness                      | 6         |
+ ! | rho        | Viscous regularization (time scale)           | 7         |
++! | zeta       | Optional tangent perturbation (length)        | 8         |
+ ! +------------+-------------------------------------------------+-----------+
+ 
+ ! +++++++++ Notation +++++++++
+@@ -121,6 +122,17 @@
+       GSH=GIIc
+       rho=0.d0
+       if (NPROPS .GE. 7) rho=PROPS(7)
++! Seven-property decks retain the v1.3 numerical tangent exactly.
++      zeta=1.d-6
++      if (NPROPS .GE. 8) then
++         zeta=PROPS(8)
++         if (.NOT.(zeta.GT.0.d0 .AND. zeta.LE.huge(1.d0))) then
++            write(7,*) 'CZE UEL: PROPS(8), tangent perturbation zeta,'
++            write(7,*) 'must be finite and strictly positive.'
++            call XIT
++            return
++         end if
++      end if
+ 
+       GP_n=4d0
+       INT_SCHEME=1
+@@ -328,7 +340,7 @@
+             DMGv_OLD = Svars(base+11)
+             call k_cohesive_law(Trac,Trac_Jacob,GIc,GSH,tau3c,tau_sh,
+      & eta,K3,KSH,delu_loc_gp,mcrd,nrhs,DMG_OLD,DMGv_OLD,
+-     & DMG,DMGv,delta,delta0,deltaF,B_VAR,DTIME,rho)
++     & DMG,DMGv,delta,delta0,deltaF,B_VAR,DTIME,rho,zeta)
+             Svars(base+8)=DMG
+             Svars(base+9)=delta
+             Svars(base+10)=B_VAR
+@@ -530,14 +542,13 @@
+ ! - Linear elastic to damage, with traction softening
+       subroutine k_cohesive_law(T,T_d,GIc,GSH,tau3c,tau_sh,
+      & eta,K3,KSH,delu,mcrd,nrhs,DMG_OLD,DMGv_OLD,
+-     & DMG,DMGv,delta,delta0,deltaF,B_VAR,DTIME,rho)
++     & DMG,DMGv,delta,delta0,deltaF,B_VAR,DTIME,rho,zeta)
+       INCLUDE 'ABA_PARAM.INC'
+       dimension T(mcrd,nrhs),T_d(mcrd,mcrd),delu(mcrd)
+       dimension pert(mcrd),Tp(mcrd,nrhs)
+       DOUBLE PRECISION GIc,GSH,tau3c,tau_sh,eta,K3,KSH
+       DOUBLE PRECISION DMG_OLD,DMGv_OLD,DMG,DMGv,delta,delta0,deltaF
+       DOUBLE PRECISION B_VAR,DTIME,rho,dp,dvp,lp,l0p,lfp,bp,zeta
+-      PARAMETER (zeta=1.0d-6)
+ 
+ ! Turon 2018 Eqs. 33-35. All perturbations use the same committed history.
+ ! zeta has displacement units; the distributed examples use mm.

@@ -1,0 +1,261 @@
+{
+  "compliance_spread_fraction": 4.816278184864276e-08, 
+  "frames": [
+    {
+      "strain_stress_checks": {
+        "max_abs_S11": 4.844954013824463, 
+        "max_abs_E22": 5.7080600527115166e-05, 
+        "max_abs_E23": 1.01920248538721e-17, 
+        "max_abs_S13": 1.9978993655457968e-15, 
+        "max_abs_E13": 3.805522731714455e-19, 
+        "max_abs_E12": 8.892380719771609e-05, 
+        "max_abs_E11": 3.964548886870034e-05, 
+        "max_abs_S12": 0.46685001254081726, 
+        "max_abs_E33": 8.927785993883817e-18, 
+        "max_abs_S33": 0.5983291268348694, 
+        "max_abs_S22": 0.9459946155548096, 
+        "max_abs_S23": 3.54682476693801e-14
+      }, 
+      "compliance_mm_per_N": 0.04696448645169571, 
+      "reaction_imbalance_fraction": 0.0, 
+      "opening_mm": 0.05000000074505806, 
+      "reaction_work_slice_Nmm": 0.0013307928305982472, 
+      "GI_N_per_mm": 0.00010637820315388506, 
+      "front": [
+        {
+          "node": 3683, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.00010637820315388506
+        }, 
+        {
+          "node": 5489, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.00010637820315388506
+        }
+      ], 
+      "tip_tie_jump_mm": 0.0, 
+      "energies_slice_Nmm": {
+        "ALLAE": 0.0, 
+        "ALLDMD": 0.0, 
+        "ETOTAL": 3.082410628824084e-13, 
+        "ALLSE": 0.0013307927874848247, 
+        "ALLSD": 0.0, 
+        "ALLWK": 0.0013307927874848247, 
+        "ALLVD": 0.0, 
+        "ALLPD": 0.0, 
+        "ALLIE": 0.0013307927874848247
+      }, 
+      "time": 0.25, 
+      "GII_N_per_mm": 0.0, 
+      "strain_energy_relative_error": 3.239679502546733e-08, 
+      "force_N": 1.0646342486143112
+    }, 
+    {
+      "strain_stress_checks": {
+        "max_abs_S11": 9.689908027648926, 
+        "max_abs_E22": 0.00011416120105423033, 
+        "max_abs_E23": 1.2180875584818061e-17, 
+        "max_abs_S13": 2.9531471245589384e-15, 
+        "max_abs_E13": 5.625042198344086e-19, 
+        "max_abs_E12": 0.00017784761439543217, 
+        "max_abs_E11": 7.929097773740068e-05, 
+        "max_abs_S12": 0.9337000250816345, 
+        "max_abs_E33": 6.4433419930455915e-18, 
+        "max_abs_S33": 1.1966582536697388, 
+        "max_abs_S22": 1.8919892311096191, 
+        "max_abs_S23": 4.238944536095329e-14
+      }, 
+      "compliance_mm_per_N": 0.04696448645169571, 
+      "reaction_imbalance_fraction": 0.0, 
+      "opening_mm": 0.10000000149011612, 
+      "reaction_work_slice_Nmm": 0.005323171322392989, 
+      "GI_N_per_mm": 0.00042551281261554025, 
+      "front": [
+        {
+          "node": 3683, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.00042551281261554025
+        }, 
+        {
+          "node": 5489, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.00042551281261554025
+        }
+      ], 
+      "tip_tie_jump_mm": 0.0, 
+      "energies_slice_Nmm": {
+        "ALLAE": 0.0, 
+        "ALLDMD": 0.0, 
+        "ETOTAL": 6.167314922644884e-13, 
+        "ALLSE": 0.005323171149939299, 
+        "ALLSD": 0.0, 
+        "ALLWK": 0.005323171149939299, 
+        "ALLVD": 0.0, 
+        "ALLPD": 0.0, 
+        "ALLIE": 0.005323171149939299
+      }, 
+      "time": 0.5, 
+      "GII_N_per_mm": 0.0, 
+      "strain_energy_relative_error": 3.239679502546733e-08, 
+      "force_N": 2.1292684972286224
+    }, 
+    {
+      "strain_stress_checks": {
+        "max_abs_S11": 14.53486156463623, 
+        "max_abs_E22": 0.0001712418015813455, 
+        "max_abs_E23": 1.6449229288807028e-17, 
+        "max_abs_S13": 4.217519769430774e-15, 
+        "max_abs_E13": 8.033371313961867e-19, 
+        "max_abs_E12": 0.0002667714434210211, 
+        "max_abs_E11": 0.00011893646296812221, 
+        "max_abs_S12": 1.4005500078201294, 
+        "max_abs_E33": 7.290276919397304e-18, 
+        "max_abs_S33": 1.7949873208999634, 
+        "max_abs_S22": 2.8379838466644287, 
+        "max_abs_S23": 5.724332005586572e-14
+      }, 
+      "compliance_mm_per_N": 0.046964488713636024, 
+      "reaction_imbalance_fraction": 0.0, 
+      "opening_mm": 0.15000000596046448, 
+      "reaction_work_slice_Nmm": 0.011977135493442814, 
+      "GI_N_per_mm": 0.0009574038252439451, 
+      "front": [
+        {
+          "node": 3683, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.0009574038252439451
+        }, 
+        {
+          "node": 5489, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.0009574038252439451
+        }
+      ], 
+      "tip_tie_jump_mm": 0.0, 
+      "energies_slice_Nmm": {
+        "ALLAE": 0.0, 
+        "ALLDMD": 0.0, 
+        "ETOTAL": 6.171504279839368e-13, 
+        "ALLSE": 0.011977135203778744, 
+        "ALLSD": 0.0, 
+        "ALLWK": 0.011977135203778744, 
+        "ALLVD": 0.0, 
+        "ALLPD": 0.0, 
+        "ALLIE": 0.011977135203778744
+      }, 
+      "time": 0.75, 
+      "GII_N_per_mm": 0.0, 
+      "strain_energy_relative_error": 2.41847535803565e-08, 
+      "force_N": 3.1939026713371277
+    }, 
+    {
+      "strain_stress_checks": {
+        "max_abs_S11": 19.37981605529785, 
+        "max_abs_E22": 0.00022832240210846066, 
+        "max_abs_E23": 1.9668818064932875e-17, 
+        "max_abs_S13": 5.25168347055723e-15, 
+        "max_abs_E13": 1.0003206816986458e-18, 
+        "max_abs_E12": 0.00035569522879086435, 
+        "max_abs_E11": 0.00015858195547480136, 
+        "max_abs_S12": 1.867400050163269, 
+        "max_abs_E33": 9.130939897965615e-18, 
+        "max_abs_S33": 2.3933165073394775, 
+        "max_abs_S22": 3.7839784622192383, 
+        "max_abs_S23": 6.844748563512165e-14
+      }, 
+      "compliance_mm_per_N": 0.04696448645169571, 
+      "reaction_imbalance_fraction": 0.0, 
+      "opening_mm": 0.20000000298023224, 
+      "reaction_work_slice_Nmm": 0.021292685289571955, 
+      "GI_N_per_mm": 0.001702051250462161, 
+      "front": [
+        {
+          "node": 3683, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.001702051250462161
+        }, 
+        {
+          "node": 5489, 
+          "GII_N_per_mm": 0.0, 
+          "tributary_width_mm": 0.5, 
+          "GI_N_per_mm": 0.001702051250462161
+        }
+      ], 
+      "tip_tie_jump_mm": 0.0, 
+      "energies_slice_Nmm": {
+        "ALLAE": 0.0, 
+        "ALLDMD": 0.0, 
+        "ETOTAL": 6.171660404952206e-13, 
+        "ALLSE": 0.021292684599757195, 
+        "ALLSD": 0.0, 
+        "ALLWK": 0.021292684599757195, 
+        "ALLVD": 0.0, 
+        "ALLPD": 0.0, 
+        "ALLIE": 0.021292684599757195
+      }, 
+      "time": 1.0, 
+      "GII_N_per_mm": 0.0, 
+      "strain_energy_relative_error": 3.239679502546733e-08, 
+      "force_N": 4.258536994457245
+    }
+  ], 
+  "last": {
+    "strain_stress_checks": {
+      "max_abs_S11": 19.37981605529785, 
+      "max_abs_E22": 0.00022832240210846066, 
+      "max_abs_E23": 1.9668818064932875e-17, 
+      "max_abs_S13": 5.25168347055723e-15, 
+      "max_abs_E13": 1.0003206816986458e-18, 
+      "max_abs_E12": 0.00035569522879086435, 
+      "max_abs_E11": 0.00015858195547480136, 
+      "max_abs_S12": 1.867400050163269, 
+      "max_abs_E33": 9.130939897965615e-18, 
+      "max_abs_S33": 2.3933165073394775, 
+      "max_abs_S22": 3.7839784622192383, 
+      "max_abs_S23": 6.844748563512165e-14
+    }, 
+    "compliance_mm_per_N": 0.04696448645169571, 
+    "reaction_imbalance_fraction": 0.0, 
+    "opening_mm": 0.20000000298023224, 
+    "reaction_work_slice_Nmm": 0.021292685289571955, 
+    "GI_N_per_mm": 0.001702051250462161, 
+    "front": [
+      {
+        "node": 3683, 
+        "GII_N_per_mm": 0.0, 
+        "tributary_width_mm": 0.5, 
+        "GI_N_per_mm": 0.001702051250462161
+      }, 
+      {
+        "node": 5489, 
+        "GII_N_per_mm": 0.0, 
+        "tributary_width_mm": 0.5, 
+        "GI_N_per_mm": 0.001702051250462161
+      }
+    ], 
+    "tip_tie_jump_mm": 0.0, 
+    "energies_slice_Nmm": {
+      "ALLAE": 0.0, 
+      "ALLDMD": 0.0, 
+      "ETOTAL": 6.171660404952206e-13, 
+      "ALLSE": 0.021292684599757195, 
+      "ALLSD": 0.0, 
+      "ALLWK": 0.021292684599757195, 
+      "ALLVD": 0.0, 
+      "ALLPD": 0.0, 
+      "ALLIE": 0.021292684599757195
+    }, 
+    "time": 1.0, 
+    "GII_N_per_mm": 0.0, 
+    "strain_energy_relative_error": 3.239679502546733e-08, 
+    "force_N": 4.258536994457245
+  }, 
+  "name": "fixed_dcb_a35p0"
+}

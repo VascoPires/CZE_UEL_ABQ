@@ -1,0 +1,27 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Analysis initiated from SIMULIA established products
+Abaqus JOB fixed_krueger2012_mmb20_open
+Abaqus 2023
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server licsrv.unileoben.ac.at.
+<213 out of 425 licenses remain available>.
+Begin Analysis Input File Processor
+10/25/2026 9:02:29 PM
+Run pre.exe
+10/25/2026 9:02:31 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+10/25/2026 9:02:31 PM
+Run standard.exe
+10/25/2026 9:02:36 PM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+10/25/2026 9:02:37 PM
+Run SMASimUtility.exe
+10/25/2026 9:02:37 PM
+End SIM Wrap-up
+Abaqus JOB fixed_krueger2012_mmb20_open COMPLETED

@@ -1,0 +1,29 @@
+[
+  {
+    "material": "turon2010",
+    "kind": "mmb",
+    "mix": 0.5,
+    "dx": 0.5,
+    "ny": 5,
+    "max_inc": 0.25,
+    "line_search": 5,
+    "opening": 0.2,
+    "nlgeom": false,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "fixed_turon2010_mmb50_n2s",
+    "bonded": true
+  },
+  {
+    "material": "turon2010",
+    "kind": "mmb",
+    "mix": 0.5,
+    "dx": 0.5,
+    "ny": 5,
+    "max_inc": 0.25,
+    "line_search": 5,
+    "opening": 0.2,
+    "nlgeom": false,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "elastic_turon2010_mmb50_n2s"
+  }
+]

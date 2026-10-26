@@ -1,0 +1,210 @@
+{
+  "case": "turon2006MM_exp_mmb20",
+  "paper": "turon2006MM",
+  "role": "provisional experimental validation target",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "length": {
+      "value": 102,
+      "unit": "mm",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "width": {
+      "value": 25.4,
+      "unit": "mm",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "arm_thickness": {
+      "value": 1.56,
+      "unit": "mm",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "E11": {
+      "value": 122700,
+      "unit": "MPa",
+      "source": "Table1 p.1080",
+      "status": "Directly stated"
+    },
+    "E22_E33": {
+      "value": 10100,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "G12_G13": {
+      "value": 5500,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "G23": {
+      "value": 3700,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "nu12_nu13": {
+      "value": 0.25,
+      "unit": "1",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "nu23": {
+      "value": 0.45,
+      "unit": "1",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "GIc": {
+      "value": 0.969,
+      "unit": "N/mm",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "GIIc": {
+      "value": 1.719,
+      "unit": "N/mm",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "eta": {
+      "value": 2.284,
+      "unit": "1",
+      "source": "\u00a74.1 p.1083",
+      "status": "Directly stated"
+    },
+    "normal_strength": {
+      "value": 80,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "shear_strength": {
+      "value": 100,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "original_equal_K": {
+      "value": 1000000.0,
+      "unit": "N/mm^3",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "bulk_element_and_thickness_mesh": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73; \u00a74.1",
+      "status": "Missing"
+    },
+    "solver_controls": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a74.1",
+      "status": "Missing"
+    },
+    "NLGEOM_rho": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a74.1",
+      "status": "Missing"
+    },
+    "nominal_GII_GT": {
+      "value": 0.2,
+      "unit": "1",
+      "source": "Table2 p.1080",
+      "status": "Directly stated"
+    },
+    "a0": {
+      "value": 33.7,
+      "unit": "mm",
+      "source": "Table2 p.1080",
+      "status": "Directly stated"
+    },
+    "measured_Gc": {
+      "value": 1.103,
+      "unit": "N/mm",
+      "source": "Table2 p.1080",
+      "status": "Directly stated"
+    },
+    "experimental_Pmax": {
+      "value": 108.1,
+      "unit": "N",
+      "source": "Table3 p.1085",
+      "status": "Directly stated"
+    },
+    "published_model_Pmax": {
+      "value": 100.5,
+      "unit": "N",
+      "source": "Table3 p.1085",
+      "status": "Directly stated"
+    },
+    "companion_a0": {
+      "value": 33.7,
+      "unit": "mm",
+      "source": "Camanho2002 Table3 p.22",
+      "status": "Directly stated"
+    },
+    "companion_experimental_Pmax": {
+      "value": 108.09,
+      "unit": "N",
+      "source": "Camanho2002 Table4 p.23",
+      "status": "Directly stated, rounding differs"
+    },
+    "interface_mesh": {
+      "value": "8-node;150 along length,4 across width",
+      "unit": "\u2014",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "crack_initialization": {
+      "value": "open decohesion elements retain compression contact",
+      "unit": "\u2014",
+      "source": "\u00a74.1 p.1082",
+      "status": "Directly stated"
+    },
+    "reference": {
+      "value": "Fig.10,Table3;companion Fig.8/Table4",
+      "unit": "\u2014",
+      "source": "pp.1083\u20131085; Camanho2002 p.23",
+      "status": "Directly stated"
+    },
+    "c_numerical_companion": {
+      "value": 109.4,
+      "unit": "mm",
+      "source": "Camanho2002 Appendix B Table5 p.33",
+      "status": "Directly stated"
+    },
+    "c_experimental_companion": {
+      "value": 97.4,
+      "unit": "mm",
+      "source": "Camanho2002 Appendix B Table5 p.33",
+      "status": "Directly stated"
+    },
+    "BC": {
+      "value": "end/midspan force split;lever absent;reconstruct lever displacement",
+      "unit": "\u2014",
+      "source": "\u00a74.1 p.1083;companion Appendices B\u2013C",
+      "status": "Directly stated"
+    },
+    "outputs": {
+      "value": "total lever P versus lever load-point displacement",
+      "unit": "N,mm",
+      "source": "\u00a74.1 p.1083;Figs.10\u201312",
+      "status": "Directly stated"
+    }
+  }
+}

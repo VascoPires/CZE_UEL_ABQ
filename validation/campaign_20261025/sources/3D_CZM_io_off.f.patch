@@ -1,0 +1,11 @@
+--- canonical
++++ 3D_CZM_io_off.f
+@@ -126,7 +126,7 @@
+       INT_SCHEME=1
+       if (NJPROP .GE. 1) INT_SCHEME=JPROPS(1)
+ 
+-      echo=1
++      echo=0
+       ip_nvals=20
+       unit_ipvals = 28
+       unit_unvals = 30

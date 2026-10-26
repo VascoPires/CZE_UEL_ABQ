@@ -1,0 +1,193 @@
+{
+  "case": "turon2018CS_mmb50",
+  "paper": "turon2018CS",
+  "role": "internal constitutive-formulation check;appendix at most",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "length": {
+      "value": 102,
+      "unit": "mm",
+      "source": "\u00a73.1 p.509",
+      "status": "Directly stated"
+    },
+    "width": {
+      "value": 25.4,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Directly stated"
+    },
+    "arm_thickness": {
+      "value": 1.56,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Directly stated"
+    },
+    "a0": {
+      "value": 32.64,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Directly stated"
+    },
+    "E11": {
+      "value": 122700,
+      "unit": "MPa",
+      "source": "Table1 p.509",
+      "status": "Directly stated"
+    },
+    "E22_E33": {
+      "value": 10100,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "G12_G13": {
+      "value": 5500,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "G23": {
+      "value": 3700,
+      "unit": "MPa",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "nu12_nu13": {
+      "value": 0.25,
+      "unit": "1",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "nu23": {
+      "value": 0.45,
+      "unit": "1",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "GIc": {
+      "value": 0.969,
+      "unit": "N/mm",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "GIIc": {
+      "value": 1.719,
+      "unit": "N/mm",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "eta": {
+      "value": 2.0,
+      "unit": "1",
+      "source": "Table1",
+      "status": "Directly stated"
+    },
+    "K3": {
+      "value": 100000.0,
+      "unit": "N/mm^3",
+      "source": "\u00a73.1",
+      "status": "Directly stated"
+    },
+    "perturbation": {
+      "value": 1e-06,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Directly stated"
+    },
+    "strength_pairs": {
+      "value": [
+        [
+          5,
+          80
+        ],
+        [
+          15,
+          80
+        ],
+        [
+          30,
+          80
+        ],
+        [
+          45,
+          80
+        ],
+        [
+          80,
+          106.5
+        ],
+        [
+          80,
+          120
+        ]
+      ],
+      "unit": "MPa",
+      "source": "Figs.2\u20134 legends",
+      "status": "Directly stated"
+    },
+    "mesh": {
+      "value": "CPE4I plane strain;5/arm;0.1-mm length;4-node interface",
+      "unit": "\u2014",
+      "source": "\u00a73.1 p.509",
+      "status": "Directly stated"
+    },
+    "c": {
+      "value": null,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Missing"
+    },
+    "support_span": {
+      "value": null,
+      "unit": "mm",
+      "source": "\u00a73.1",
+      "status": "Missing"
+    },
+    "BC": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73.1",
+      "status": "Missing"
+    },
+    "crack_initialization": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73.1",
+      "status": "Missing"
+    },
+    "solver_controls": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73.1",
+      "status": "Missing"
+    },
+    "outputs": {
+      "value": "lever-applied total load vs lever displacement",
+      "unit": "N,mm",
+      "source": "Figs.2\u20134",
+      "status": "Directly stated"
+    },
+    "nominal_GII_GT": {
+      "value": 0.5,
+      "unit": "1",
+      "source": "Fig.3 p.509",
+      "status": "Directly stated"
+    },
+    "reference": {
+      "value": "Fig.3 new-law markers and analytical line",
+      "unit": "\u2014",
+      "source": "p.509 / PDF4",
+      "status": "Directly stated"
+    }
+  }
+}

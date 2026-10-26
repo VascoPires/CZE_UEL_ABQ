@@ -1,0 +1,9 @@
+{
+  "source": "validation/campaign_20261025/sources/3D_CZM_zeta1e8_io_off.f",
+  "sha256": "fad999c120f0ff255e42a06698fb4a984d851809e167eb44719f6b439e63ad75",
+  "returncode": 0,
+  "tangent_perturbation": null,
+  "test": "assembled tangent",
+  "area_intervals": null,
+  "limitations": "Standalone serial full-assembly check; echo disabled; Mutex/GETRANK stubs; no Abaqus solver interface verification"
+}

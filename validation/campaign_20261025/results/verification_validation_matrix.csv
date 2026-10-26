@@ -1,0 +1,18 @@
+case,primary_run,evaluated_run,classification,solver_status,eligible_peak_N,relative_peak_difference,reason
+element,element_dt001,element_dt001,FAIL,COMPLETED,,,Fixed-basis unit energy checks pass; canonical high-penalty material tangent and elastic changing-area/changing-basis energy checks fail. See separate subchecks.
+turon2010CS_dcb,dcb_ps03,dcb_ps03,INCONCLUSIVE,COMPLETED,51.427483558654785,0.008386564082369485,"Published numerical curve agrees in this mesh; 0.075mm recovers a full unstabilized path, but intermediate mesh/increment failures and coarse peak sampling prevent a convergence claim"
+turon2010CS_enf,t2010_enf_pc,t2010_enf_pc,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2010CS_mmb20,t2010_mmb20_open,t2010_mmb20_open,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2010CS_mmb50,t2010_mmb50_open,t2010_mmb50_open,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2010CS_mmb80,t2010_mmb80_open,t2010_mmb80_open,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+krueger2012CR_mmb20,kr_mmb20_K170k_open,kr_mmb20_K170k_open,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+krueger2012CR_mmb50,kr_mmb50_K170k,kr_mmb50_K170k,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+krueger2012CR_mmb80,kr_mmb80_K170k,kr_mmb80_K170k,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2006MM_exp_dcb,as4_dcb_ps,as4_dcb_ps,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2006MM_exp_enf,as4_enf,as4_enf,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2006MM_exp_mmb20,as4_mmb20,as4_mmb20_adaptive,INCONCLUSIVE,COMPLETED,91.47087020874022,-0.1538309878932449,"Experimental table comparison only; scatter/raw histories absent, prior toughness fitting and apparatus/numerical uncertainty limit independence"
+turon2006MM_exp_mmb50,as4_mmb50,as4_mmb50,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2006MM_exp_mmb80,as4_mmb80,as4_mmb80,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak
+turon2018CS_mmb20,t2018_mmb20_lefmlever,t2018_mmb20_lefmlever,INCONCLUSIVE,COMPLETED,99.57463307380675,0.024540071186433643,Completed prediction; source apparatus equivalence and numerical convergence not established
+turon2018CS_mmb50,t2018_mmb50_lefmlever,t2018_mmb50_lefmlever_adaptive,INCONCLUSIVE,COMPLETED,273.2281383514404,0.009017063979073425,Completed prediction; source apparatus equivalence and numerical convergence not established
+turon2018CS_mmb70,t2018_mmb70_lefmlever,t2018_mmb70_lefmlever,INCONCLUSIVE,FAILED,,,Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak

@@ -1,0 +1,15 @@
+{
+  "name": "dcb_dx06",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "peak_eligible": false,
+  "assessment_status": "INCONCLUSIVE",
+  "energy_screen": "INCONCLUSIVE",
+  "stabilization_screen": "INCONCLUSIVE",
+  "reason": "No selected response frames; no load, energy or damage inference is available",
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "No response frames"
+  }
+}

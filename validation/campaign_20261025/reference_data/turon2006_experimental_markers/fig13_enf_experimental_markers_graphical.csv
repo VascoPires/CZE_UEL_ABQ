@@ -1,0 +1,8 @@
+# Turon2006MM Fig13,printedp1085,PDFpage14; black experimental square markers
+# Graphical coordinates, not raw instrument data; no origin insertion or interpolation; original marker order retained
+# Source PDF SHA256: aec1f54b7ff7dcf5efd7849d6f5dae42adb44db207164a493b057bde05f302c2; axes and pathIDs: digitization.json
+# Read-off uncertainty mm,N: [0.02, 5.0]
+displacement_mm,load_N
+3.296025212099068,664.1083112290012
+3.8640206142404203,748.564544650752
+4.432016016381775,705.0899646330681

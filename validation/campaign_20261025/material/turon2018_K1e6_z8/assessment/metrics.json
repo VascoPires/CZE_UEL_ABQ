@@ -1,0 +1,67 @@
+[
+  {
+    "label": "turon2018_B0",
+    "energy_reference": 0.969,
+    "final_dissipation": 0.9690000000000005,
+    "reaction_work": 0.9690231107325276,
+    "final_stored": 0.0,
+    "work_balance_error": 2.384951635421931e-05,
+    "fracture_energy_error": 6.661338147750939e-16,
+    "smooth_tangent_max_error": 0.0001588076239223865,
+    "smooth_tangent_screen": "PASS",
+    "minimum_damage_increment": 0.0,
+    "min_dissipation_increment": 0.0
+  },
+  {
+    "label": "turon2018_B0.2",
+    "energy_reference": 0.999,
+    "final_dissipation": 0.998999999999999,
+    "reaction_work": 0.9990238262351159,
+    "final_stored": 0.0,
+    "work_balance_error": 2.3849516389079177e-05,
+    "fracture_energy_error": -9.992007221626409e-16,
+    "smooth_tangent_max_error": 0.00020668020127146132,
+    "smooth_tangent_screen": "PASS",
+    "minimum_damage_increment": 0.0,
+    "min_dissipation_increment": 0.0
+  },
+  {
+    "label": "turon2018_B0.5",
+    "energy_reference": 1.1565,
+    "final_dissipation": 1.156500000000003,
+    "reaction_work": 1.1565275826235502,
+    "final_stored": 0.0,
+    "work_balance_error": 2.384951639857471e-05,
+    "fracture_energy_error": 2.4424906541753444e-15,
+    "smooth_tangent_max_error": 0.000244329450793308,
+    "smooth_tangent_screen": "PASS",
+    "minimum_damage_increment": 0.0,
+    "min_dissipation_increment": 0.0
+  },
+  {
+    "label": "turon2018_B0.8",
+    "energy_reference": 1.449,
+    "final_dissipation": 1.4489999999999994,
+    "reaction_work": 1.449034558773427,
+    "final_stored": 0.0,
+    "work_balance_error": 2.3849516368243674e-05,
+    "fracture_energy_error": -4.440892098500626e-16,
+    "smooth_tangent_max_error": 0.00025670997535842964,
+    "smooth_tangent_screen": "PASS",
+    "minimum_damage_increment": 0.0,
+    "min_dissipation_increment": 0.0
+  },
+  {
+    "label": "turon2018_B1",
+    "energy_reference": 1.719,
+    "final_dissipation": 1.7190000000000003,
+    "reaction_work": 1.7190409982964128,
+    "final_stored": 0.0,
+    "work_balance_error": 2.384951636004852e-05,
+    "fracture_energy_error": 2.220446049250313e-16,
+    "smooth_tangent_max_error": null,
+    "smooth_tangent_screen": "INCONCLUSIVE",
+    "minimum_damage_increment": 0.0,
+    "min_dissipation_increment": 0.0
+  }
+]

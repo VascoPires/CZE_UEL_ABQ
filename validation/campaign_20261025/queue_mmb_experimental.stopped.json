@@ -1,0 +1,8 @@
+{
+  "status": "CONTROLLER_STOPPED_AFTER_SOLVER_TERMINATION",
+  "last_solver": "as4_dcb",
+  "solver_status": "FAILED",
+  "reason": "Correct end-coupling width constraint before MMB submission",
+  "superseding_queue": "queue_corrected.json",
+  "remaining_original_tasks": "Not submitted from this queue; use superseding queue status"
+}

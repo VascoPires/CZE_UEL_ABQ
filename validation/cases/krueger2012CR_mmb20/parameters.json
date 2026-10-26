@@ -1,0 +1,186 @@
+{
+  "case": "krueger2012CR_mmb20",
+  "paper": "krueger2012CR",
+  "role": "VCCT numerical benchmark",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "length": {
+      "value": 152.4,
+      "unit": "mm",
+      "source": "Fig.1 p.24 / PDF28",
+      "status": "Directly stated"
+    },
+    "width": {
+      "value": 25.4,
+      "unit": "mm",
+      "source": "Fig.1",
+      "status": "Directly stated"
+    },
+    "total_thickness": {
+      "value": 4.5,
+      "unit": "mm",
+      "source": "Fig.1",
+      "status": "Directly stated"
+    },
+    "a0": {
+      "value": 25.4,
+      "unit": "mm",
+      "source": "Fig.1",
+      "status": "Directly stated"
+    },
+    "L": {
+      "value": 50.4,
+      "unit": "mm",
+      "source": "2L=100.8 in Fig.1",
+      "status": "Derived: divide by2"
+    },
+    "layup": {
+      "value": "[0]24",
+      "unit": "\u2014",
+      "source": "\u00a72 p.3; Fig.1",
+      "status": "Directly stated"
+    },
+    "E11": {
+      "value": 161000,
+      "unit": "MPa",
+      "source": "Table I p.19",
+      "status": "Directly stated"
+    },
+    "E22_E33": {
+      "value": 11380,
+      "unit": "MPa",
+      "source": "Table I p.19",
+      "status": "Directly stated"
+    },
+    "G12_G13": {
+      "value": 5200,
+      "unit": "MPa",
+      "source": "Table I p.19",
+      "status": "Directly stated"
+    },
+    "G23": {
+      "value": 3900,
+      "unit": "MPa",
+      "source": "Table I p.19",
+      "status": "Directly stated"
+    },
+    "nu12_nu13": {
+      "value": 0.32,
+      "unit": "1",
+      "source": "Table I",
+      "status": "Directly stated"
+    },
+    "nu23": {
+      "value": 0.45,
+      "unit": "1",
+      "source": "Table I",
+      "status": "Directly stated"
+    },
+    "GIc": {
+      "value": 0.212,
+      "unit": "N/mm",
+      "source": "Table II p.19",
+      "status": "Directly stated"
+    },
+    "GIIc_GIIIc": {
+      "value": 0.774,
+      "unit": "N/mm",
+      "source": "Table II",
+      "status": "Directly stated"
+    },
+    "eta": {
+      "value": 2.1,
+      "unit": "1",
+      "source": "Table II",
+      "status": "Directly stated"
+    },
+    "K3": {
+      "value": null,
+      "unit": "N/mm^3",
+      "source": "VCCT benchmark",
+      "status": "Missing"
+    },
+    "normal_strength": {
+      "value": null,
+      "unit": "MPa",
+      "source": "VCCT benchmark",
+      "status": "Missing"
+    },
+    "shear_strength": {
+      "value": null,
+      "unit": "MPa",
+      "source": "VCCT benchmark",
+      "status": "Missing"
+    },
+    "mesh_2D": {
+      "value": "CPE4I;6 through2h;0.5mm at crack;R2D2 lever",
+      "unit": "\u2014",
+      "source": "\u00a73.1 p.3",
+      "status": "Directly stated"
+    },
+    "mesh_3D": {
+      "value": "C3D8I;6 through2h;25 acrossb;0.5mm tip;R3D4 lever",
+      "unit": "\u2014",
+      "source": "\u00a73.1 p.4",
+      "status": "Directly stated"
+    },
+    "BC": {
+      "value": "tip u,w matched/free rotation;midspan samew/slidingu;lower supports",
+      "unit": "\u2014",
+      "source": "Fig.3b-c p.25",
+      "status": "Directly stated"
+    },
+    "solver": {
+      "value": "Standard6.10;static;NLGEOM in Appendix example;no material viscosity",
+      "unit": "\u2014",
+      "source": "\u00a73; Appendix pp.22\u201323",
+      "status": "Directly stated"
+    },
+    "outputs": {
+      "value": "lever P,w; growth a*=a-a0",
+      "unit": "N, mm",
+      "source": "Figs.10\u201321",
+      "status": "Directly stated"
+    },
+    "nominal_GII_GT": {
+      "value": 0.2,
+      "unit": "1",
+      "source": "\u00a7\u00a74.1\u20134.3",
+      "status": "Directly stated"
+    },
+    "c": {
+      "value": 92.9,
+      "unit": "mm",
+      "source": "Fig.3 p.25",
+      "status": "Directly stated"
+    },
+    "Pcrit": {
+      "value": 128.5,
+      "unit": "N",
+      "source": "Fig.10 p.30 annotation",
+      "status": "Directly stated"
+    },
+    "wcrit": {
+      "value": 1.64,
+      "unit": "mm",
+      "source": "Fig.10 p.30 annotation",
+      "status": "Directly stated"
+    },
+    "reference": {
+      "value": "critical symbols Fig.10; control-specific benchmark paths separately labelled",
+      "unit": "\u2014",
+      "source": "p.30 / PDF34",
+      "status": "Directly stated"
+    }
+  }
+}

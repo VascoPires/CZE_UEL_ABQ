@@ -1,0 +1,21 @@
+{
+  "name": "dcb_ps03_gauss",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.806697845458984,
+  "displacement_at_maximum_reached_force_mm": 2.601979970932007,
+  "last_displacement_mm": 2.601979970932007,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04709605624041763,
+  "compliance_fit_R2": 0.9999999632815877,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22714747357867182,
+  "final_solver_energy_balance_error": 3.93158925671772e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 3.93158925671772e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

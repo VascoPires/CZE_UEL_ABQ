@@ -1,0 +1,8 @@
+{
+  "source": "validation/campaign_20261025/sources/3D_CZM_reference_area_experiment.f",
+  "sha256": "0127e83042cc26e807b845ae7fd193adc8fddb49bc2b89238bb0b8437b5223ec",
+  "returncode": 0,
+  "test": "elastic basis cycle",
+  "area_intervals": 100,
+  "limitations": "Standalone serial full-assembly check; echo disabled; Mutex/GETRANK stubs; no Abaqus solver interface verification"
+}

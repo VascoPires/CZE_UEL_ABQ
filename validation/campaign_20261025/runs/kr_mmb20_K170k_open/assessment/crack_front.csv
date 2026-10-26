@@ -1,0 +1,4 @@
+step,increment,sampled_elements,damage_variable,damage_front_any_D_gt_1e6_mm,contiguous_all_IP_D_ge_0.995_mm,cohesive_zone_extent_0.995_mm,contiguous_all_IP_D_ge_0.999_mm,cohesive_zone_extent_0.999_mm,active_local_B_min,active_local_B_max
+1,10,135,D,26.9,25.4,1.5,25.4,1.5,0.1301,0.762
+1,20,135,D,27.4,25.9,1.5,25.4,2.0,0.1199,0.6525
+1,23,135,D,27.4,25.9,1.5,25.4,2.0,0.1179,0.6368

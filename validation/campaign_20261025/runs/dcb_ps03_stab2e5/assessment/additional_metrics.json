@@ -1,0 +1,87 @@
+{
+  "name": "dcb_ps03_stab2e5",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": true,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 7,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 67,
+      "sampled_elements": 114,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 44.523809523809526,
+      "contiguous_all_IP_D_ge_0.995_mm": 43.92857142857143,
+      "cohesive_zone_extent_0.995_mm": 0.5952380952380949,
+      "contiguous_all_IP_D_ge_0.999_mm": 43.63095238095238,
+      "cohesive_zone_extent_0.999_mm": 0.8928571428571459,
+      "active_local_B_min": 2.42e-12,
+      "active_local_B_max": 2.4226e-12
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.012494597172739942,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": true,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "max_abs_E": 0.004301586654037237,
+    "max_abs_E13": 1.8214460840136016e-17,
+    "max_abs_E23": 3.14707600604708e-16,
+    "max_abs_E33": 1.0797694770189553e-16,
+    "max_abs_U3_mm": 9.809195973164762e-37,
+    "max_inplane_width_pair_difference_mm": 0.0
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -0.007044613361358643,
+    "ALLSE": 4.429080009460449,
+    "ALLSD": 1.304794192314148,
+    "ALLWK": 8.031988143920898,
+    "ALLVD": 0.0,
+    "ALLPD": 2.2910687923431396,
+    "ALLIE": 6.720149040222168
+  },
+  "subset_ledger_final_relative_error": 0.0008771067957706761,
+  "final_work_balance_relative_error": 0.0008770696912308615,
+  "work_balance_relative_error": 0.0008770696912308615,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.16244971592764318,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "FAIL",
+  "numerical_reference": {
+    "kind": "published numerical curve, graphical estimate",
+    "uncertainty_mm_N": [
+      0.03,
+      0.8
+    ],
+    "path": "validation/campaign_20261025/reference_data/turon2010CS_dcb/fig04_tau30_graphical.csv",
+    "peak_graphical_N": 50.99977071338087,
+    "peak_graphical_displacement_mm": 2.661079451043755,
+    "peak_relative_error": 0.1506128616979967,
+    "maximum_reached_relative_difference": 0.1506128616979967,
+    "stable_propagation": {
+      "status": "ASSESSED",
+      "interval_mm": [
+        2.7787312617462985,
+        3.9909994414689356
+      ],
+      "NMAE": 0.18066006221426578,
+      "max_abs_error_over_reference_peak": 0.20482977952963435
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 56.22716316471089,
+    "initial_compliance_mm_per_N": 0.03837848119678203,
+    "initial_beam_GII_over_GT": 0.0,
+    "final_beam_GII_over_GT": 0.0,
+    "initial_compliance_relative_error": 0.09866826647396465
+  }
+}

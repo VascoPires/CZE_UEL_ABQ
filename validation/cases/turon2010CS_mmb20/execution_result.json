@@ -1,0 +1,13 @@
+{
+  "case": "turon2010CS_mmb20",
+  "primary_run": "t2010_mmb20_open",
+  "evaluated_run": "t2010_mmb20_open",
+  "classification": "INCONCLUSIVE",
+  "solver_status": "FAILED",
+  "eligible_peak_N": null,
+  "relative_peak_difference": null,
+  "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak",
+  "generated_utc": "2026-10-26T00:22:39.025877+00:00",
+  "primary_run_manifest": "validation/campaign_20261025/runs/t2010_mmb20_open/run.json",
+  "evaluated_assessment": "validation/campaign_20261025/runs/t2010_mmb20_open/assessment/"
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Input preparation only; no Abaqus jobs",
+  "example_decks": [
+    "examples/dcb/inputs/T300_Gaussian.inp",
+    "examples/dcb/inputs/T300_NewtonC.inp",
+    "examples/element/energy_check/coh_mixed_mode_direction_change.inp",
+    "examples/element/energy_check/uel_proportional.inp",
+    "examples/element/inputs/direction_change.inp",
+    "examples/element/inputs/mixed_mode.inp",
+    "examples/element/inputs/opening.inp",
+    "examples/element/inputs/opening_tangent.inp",
+    "examples/element/inputs/standard_direction_change.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E3_MscEq.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E4_MscEq.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E5_MscEq.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E6_MscEq.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_120.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_30.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_5_60.inp",
+    "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_90.inp",
+    "examples/mmb/inputs/standard_GIIGT_0p2.inp"
+  ],
+  "converted_layouts": [
+    {
+      "scheme": 1,
+      "zeta": null
+    },
+    {
+      "scheme": 1,
+      "zeta": 1e-06
+    },
+    {
+      "scheme": 1,
+      "zeta": 1e-08
+    },
+    {
+      "scheme": 2,
+      "zeta": null
+    },
+    {
+      "scheme": 2,
+      "zeta": 1e-06
+    },
+    {
+      "scheme": 2,
+      "zeta": 1e-08
+    }
+  ],
+  "rejected_invalid_cases": [
+    "0.0",
+    "-1.0",
+    "nan",
+    "inf",
+    "zero",
+    "negative",
+    "nan",
+    "infinity",
+    "crowded_line",
+    "missing_integer",
+    "declaration_mismatch",
+    "bad_scheme"
+  ],
+  "structured_builder": "PASS"
+}

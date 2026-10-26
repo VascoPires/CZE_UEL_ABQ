@@ -1,0 +1,7 @@
+{
+  "compliance_derivative_mm_per_N_per_mm": 0.0037544857729884668,
+  "G_compliance_N_per_mm": 0.0017022028777136193,
+  "G_VCCT_N_per_mm": 0.001702051250462161,
+  "signed_relative_difference": -8.907707385741315e-05,
+  "limitation": "Central crack-length difference of1mm; VCCT closure length0.5mm. This is an independent total-G diagnostic, not a converged crack-front study."
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "name": "dcb_ps03",
+    "started_utc": "2026-10-25T16:55:32.000531+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:57:15.753209+00:00"
+  },
+  {
+    "name": "dcb_ps015",
+    "started_utc": "2026-10-25T16:57:15.756719+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps015/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:00:28.643945+00:00"
+  },
+  {
+    "name": "dcb_ps06",
+    "started_utc": "2026-10-25T17:00:28.649689+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps06/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:01:43.168899+00:00"
+  },
+  {
+    "name": "dcb_ps03_K1e5",
+    "started_utc": "2026-10-25T17:01:43.173449+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_K1e5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:03:11.639967+00:00"
+  },
+  {
+    "name": "dcb_ps03_K1e7",
+    "started_utc": "2026-10-25T17:03:11.646532+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_K1e7/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:05:13.486421+00:00"
+  },
+  {
+    "name": "dcb_ps03_inc005",
+    "started_utc": "2026-10-25T17:05:13.488942+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_inc005/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:08:24.065505+00:00"
+  },
+  {
+    "name": "dcb_ps03_gauss",
+    "started_utc": "2026-10-25T17:08:24.068766+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_gauss/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:09:59.969618+00:00"
+  },
+  {
+    "name": "dcb_ps03_stab2e4",
+    "started_utc": "2026-10-25T17:09:59.971712+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_stab2e4/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:11:57.283484+00:00"
+  },
+  {
+    "name": "dcb_ps03_stab2e5",
+    "started_utc": "2026-10-25T17:11:57.286665+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_stab2e5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:14:10.570604+00:00"
+  },
+  {
+    "name": "dcb_ps015_stab2e5",
+    "started_utc": "2026-10-25T17:14:10.573018+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps015_stab2e5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:18:21.684280+00:00"
+  },
+  {
+    "name": "dcb_ps03_nlgeom",
+    "started_utc": "2026-10-25T17:18:21.688874+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_nlgeom/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:20:36.585323+00:00"
+  },
+  {
+    "name": "as4_dcb_ps",
+    "started_utc": "2026-10-25T17:20:36.591271+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_dcb_ps/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:22:33.540236+00:00"
+  },
+  {
+    "name": "t2010_enf",
+    "started_utc": "2026-10-25T17:22:33.542374+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_enf/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:23:39.034321+00:00"
+  },
+  {
+    "name": "t2010_mmb20",
+    "started_utc": "2026-10-25T17:23:39.036700+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb20/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:25:01.626018+00:00"
+  },
+  {
+    "name": "t2010_mmb50",
+    "started_utc": "2026-10-25T17:25:01.628857+00:00"
+  }
+]

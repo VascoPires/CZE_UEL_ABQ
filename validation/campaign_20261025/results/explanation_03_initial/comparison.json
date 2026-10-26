@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "a0_mm": 35.0,
+    "arm_thickness_mm": 1.55,
+    "width_mm": 20.0,
+    "E11_MPa": 120000,
+    "GIc_N_per_mm": 0.26
+  },
+  "elementary_beam": {
+    "compliance_mm_per_N": 0.03837848119678203,
+    "stiffness_N_per_mm": 26.056268221574342,
+    "initiation_load_N": 56.22716316471089,
+    "initiation_opening_mm": 2.1579131242652516
+  },
+  "elastic_FE_fixed_crack": {
+    "compliance_mm_per_N": 0.04696448713027778,
+    "stiffness_N_per_mm": 21.292684347346036,
+    "initiation_load_N": 52.63332201074344,
+    "initiation_opening_mm": 2.4718969384812977,
+    "scope": "Independent linear C3D8I plane-strain slice, tied crack tip, VCCT; no active UEL"
+  },
+  "UEL": {
+    "early_load_compliance_mm_per_N": 0.04707890891255448,
+    "early_load_stiffness_N_per_mm": 21.24093406364673,
+    "recorded_maximum_load_N": 51.427483558654785,
+    "opening_at_recorded_maximum_mm": 2.640000104904175
+  },
+  "scope": "Explanation of the first-campaign figure03; no fitted crack-length/root correction, new solver run, or replacement of any original curve"
+}

@@ -1,0 +1,11 @@
+{
+  "canonical_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+  "experimental_sha256": "0127e83042cc26e807b845ae7fd193adc8fddb49bc2b89238bb0b8437b5223ec",
+  "changes": [
+    "Use undeformed midsurface area for force, tangent and energy integration",
+    "Disable visualization I/O only"
+  ],
+  "hypothesis": "Interpret cohesive tractions and energies as nominal quantities per reference area",
+  "approval": "NOT promoted to canonical. Changing the intended traction/energy measure requires researcher judgment.",
+  "limitations": "Does not supply missing local-basis geometric terms or establish arbitrary finite-deformation energy consistency. Restricted area cycle and constant-area unit suite are separate tests."
+}

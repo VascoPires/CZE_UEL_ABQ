@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ps_elastic_C3D8I",
+    "started_utc": "2026-10-25T16:53:43.400930+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/ps_elastic_C3D8I/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:54:13.828218+00:00"
+  },
+  {
+    "name": "ps_elastic_C3D8",
+    "started_utc": "2026-10-25T16:54:13.830579+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/ps_elastic_C3D8/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:54:41.322850+00:00"
+  },
+  {
+    "name": "ps_elastic_C3D8R",
+    "started_utc": "2026-10-25T16:54:41.327985+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/ps_elastic_C3D8R/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:55:08.302609+00:00"
+  }
+]

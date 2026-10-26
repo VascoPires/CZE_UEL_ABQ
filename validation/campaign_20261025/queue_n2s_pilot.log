@@ -1,0 +1,50 @@
+START fixed_turon2010_mmb50_n2s
+fixed_turon2010_mmb50_n2s FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_turon2010_mmb50_n2s
+{
+  "name": "fixed_turon2010_mmb50_n2s",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 0.2,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": null,
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END fixed_turon2010_mmb50_n2s FAILED
+START elastic_turon2010_mmb50_n2s
+elastic_turon2010_mmb50_n2s FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/elastic_turon2010_mmb50_n2s
+{
+  "name": "elastic_turon2010_mmb50_n2s",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 0.2,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END elastic_turon2010_mmb50_n2s FAILED

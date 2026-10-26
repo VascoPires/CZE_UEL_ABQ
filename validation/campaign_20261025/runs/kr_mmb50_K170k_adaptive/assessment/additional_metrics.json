@@ -1,0 +1,95 @@
+{
+  "name": "kr_mmb50_K170k_adaptive",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": false,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 167,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 1666,
+      "sampled_elements": 135,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 72.10666666666667,
+      "contiguous_all_IP_D_ge_0.995_mm": 68.65333333333334,
+      "cohesive_zone_extent_0.995_mm": 3.453333333333333,
+      "contiguous_all_IP_D_ge_0.999_mm": 68.65333333333334,
+      "cohesive_zone_extent_0.999_mm": 3.453333333333333,
+      "active_local_B_min": 0.8674,
+      "active_local_B_max": 1.0
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.003477222164948324,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 24.019248962402344,
+    "lever_equation_residual_mm": 5.945718530853128e-07,
+    "lever_mid_force_magnitude_relative_error": 0.004143456271027882,
+    "lever_upper_force_magnitude_relative_error": 0.0002012394029560856,
+    "max_abs_LE": 0.006548427045345306,
+    "max_abs_LE13": 5.68226030790688e-17,
+    "max_abs_LE23": 2.369692725160929e-16,
+    "max_abs_LE33": 1.556161009830248e-06,
+    "max_abs_U3_mm": 8.854435304386622e-35,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -0.873010516166687,
+    "ALLSE": 94.7883071899414,
+    "ALLSD": 0.046207066625356674,
+    "ALLWK": 111.864501953125,
+    "ALLVD": 0.0,
+    "ALLPD": 16.156972885131836,
+    "ALLIE": 110.94528198242188
+  },
+  "subset_ledger_final_relative_error": 0.0078041996239664145,
+  "final_work_balance_relative_error": 0.007804178277506728,
+  "work_balance_relative_error": 0.007804178277506728,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.00041306281991689367,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "numerical_reference": {
+    "kind": "published critical equilibrium symbols; control-specific jump path not supplied",
+    "uncertainty_mm_N": [
+      0.01,
+      2.0
+    ],
+    "path": "validation/cases/krueger2012CR_mmb50/data/fig14_critical_graphical.csv",
+    "peak_graphical_N": 466.8804165,
+    "peak_graphical_displacement_mm": 5.929101994,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": 0.3067348770346623,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Reference branch includes duplicate displacement or snap-back; no control-specific jump interpolation"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 379.0320337912128,
+    "initial_compliance_mm_per_N": 0.0034174753873335005,
+    "initial_beam_GII_over_GT": 0.49397401369384053,
+    "final_beam_GII_over_GT": 0.5125898273192045,
+    "initial_compliance_relative_error": null,
+    "constant_nominal_Gc_initial_critical_load_N": 380.8657951768786
+  }
+}

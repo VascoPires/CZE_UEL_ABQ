@@ -1,0 +1,500 @@
+{
+  "status_counts": {
+    "COMPLETED": 1,
+    "PREPARED": 47
+  },
+  "runs": [
+    {
+      "name": "CPS4_dx0p5_a34p5",
+      "status": "COMPLETED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 34.5,
+      "compliance_mm_per_N": 0.0454369427346718,
+      "force_N": 4.401704668998718,
+      "GI_N_per_mm": 0.0017805869027970322,
+      "GII_N_per_mm": 0.0,
+      "reaction_imbalance_fraction": 0.0,
+      "tip_tie_jump_mm": 0.0,
+      "strain_energy_relative_error": 1.4901160971803055e-08,
+      "stiffness_N_per_mm": 22.008523017041043,
+      "compliance_spread_fraction": 6.997281793338549e-08,
+      "G_total_N_per_mm": 0.0017805869027970322,
+      "LEFM_initiation_N_from_VCCT": 53.18950970244098
+    },
+    {
+      "name": "CPS4_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPS4_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPS4I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPS4I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPS4I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPE4_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPE4_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPE4_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPE4I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPE4I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPE4I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "C3D8_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 34.5
+    },
+    {
+      "name": "C3D8_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 35.0
+    },
+    {
+      "name": "C3D8_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 35.5
+    },
+    {
+      "name": "C3D8I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 34.5
+    },
+    {
+      "name": "C3D8I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 35.0
+    },
+    {
+      "name": "C3D8I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 1,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPS4_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPS4_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPS4_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "CPS4",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPS4I_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPS4I_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPS4I_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "CPS4I",
+      "representation": "plane stress",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPE4_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPE4_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPE4_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "CPE4",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "CPE4I_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 34.5
+    },
+    {
+      "name": "CPE4I_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.0
+    },
+    {
+      "name": "CPE4I_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "CPE4I",
+      "representation": "plane strain",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 0,
+      "a_mm": 35.5
+    },
+    {
+      "name": "C3D8_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 34.5
+    },
+    {
+      "name": "C3D8_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 35.0
+    },
+    {
+      "name": "C3D8_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 35.5
+    },
+    {
+      "name": "C3D8I_dx0p25_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 34.5
+    },
+    {
+      "name": "C3D8I_dx0p25_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 35.0
+    },
+    {
+      "name": "C3D8I_dx0p25_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "constrained plane-strain slice",
+      "dx_mm": 0.25,
+      "ny_per_arm": 10,
+      "nz": 1,
+      "a_mm": 35.5
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 3,
+      "a_mm": 34.5
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 3,
+      "a_mm": 35.0
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 3,
+      "a_mm": 35.5
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 7,
+      "a_mm": 34.5
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 7,
+      "a_mm": 35.0
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 7,
+      "a_mm": 35.5
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 15,
+      "a_mm": 34.5
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 15,
+      "a_mm": 35.0
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 15,
+      "a_mm": 35.5
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a34p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 25,
+      "a_mm": 34.5
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a35p0",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 25,
+      "a_mm": 35.0
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a35p5",
+      "status": "PREPARED",
+      "element": "C3D8I",
+      "representation": "finite width",
+      "dx_mm": 0.5,
+      "ny_per_arm": 5,
+      "nz": 25,
+      "a_mm": 35.5
+    }
+  ],
+  "derivatives": []
+}

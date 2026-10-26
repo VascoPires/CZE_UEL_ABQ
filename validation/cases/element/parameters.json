@@ -1,0 +1,82 @@
+{
+  "case": "element",
+  "paper": "turon2018CS",
+  "role": "constitutive verification, before DCB",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "interface_area": {
+      "value": 1.0,
+      "unit": "mm^2",
+      "source": "examples/element/energy_check/uel_proportional.inp nodes",
+      "status": "Derived:1\u00d71 surface"
+    },
+    "GIc": {
+      "value": 0.187,
+      "unit": "N/mm",
+      "source": "same deck *UEL PROPERTY",
+      "status": "Repository baseline, not literature input"
+    },
+    "GIIc": {
+      "value": 0.781,
+      "unit": "N/mm",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "normal_strength": {
+      "value": 38,
+      "unit": "MPa",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "shear_strength": {
+      "value": 52,
+      "unit": "MPa",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "eta": {
+      "value": 1.22,
+      "unit": "1",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "K3": {
+      "value": 100000.0,
+      "unit": "N/mm^3",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "rho": {
+      "value": 0,
+      "unit": "time",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "integration": {
+      "value": 2,
+      "unit": "1=Gauss,2=Newton-Cotes",
+      "source": "same",
+      "status": "Repository baseline, not literature input"
+    },
+    "final_global_top_displacement": {
+      "value": [
+        0.02,
+        0.02,
+        0
+      ],
+      "unit": "mm",
+      "source": "same *BOUNDARY",
+      "status": "Repository baseline, not literature input"
+    }
+  }
+}

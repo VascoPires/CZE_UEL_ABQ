@@ -1,0 +1,7 @@
+{
+  "status": "CONTROLLER_STOPPED_AFTER_SOLVER_TERMINATION",
+  "last_solver": "t2010_mmb20_pc",
+  "solver_status": "FAILED",
+  "reason": "Surface-to-surface contact still fails near zero opening with paired width and tied-front constraints. Test independent-node contact and explicit tributary areas before further mixed-mode submission.",
+  "superseding_pilot": "queue_n2s_pilot.json"
+}

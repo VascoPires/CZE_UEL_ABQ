@@ -1,0 +1,6 @@
+{
+  "compliance_spread_fraction": 4.816278184864276e-08, 
+  "frames": [
+    {
+      "strain_stress_checks": {
+        "max_abs_S11": 

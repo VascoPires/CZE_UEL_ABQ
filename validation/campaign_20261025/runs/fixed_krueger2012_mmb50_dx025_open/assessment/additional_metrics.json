@@ -1,0 +1,91 @@
+{
+  "name": "fixed_krueger2012_mmb50_dx025_open",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Fixed-crack tied elastic control; no damage law active"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.00350997255771163,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 2.2433269023895264,
+    "lever_equation_residual_mm": 9.158005312426276e-09,
+    "lever_mid_force_magnitude_relative_error": 3.326289863395221e-08,
+    "lever_upper_force_magnitude_relative_error": 1.561160773536874e-08,
+    "max_abs_E": 0.0007905041566118598,
+    "max_abs_E13": 3.461916920042391e-18,
+    "max_abs_E23": 5.387219541787996e-17,
+    "max_abs_E33": 9.665751041469938e-18,
+    "max_abs_U3_mm": 3.944056093954892e-37,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "VCCT": {
+    "GI_N_per_mm": 0.0038145567257421927,
+    "GII_N_per_mm": 0.0035196889599778737,
+    "GT_N_per_mm": 0.007334245685720066,
+    "closure_length_mm": 0.24901960784313815,
+    "evidence": "Independent virtual crack closure using tied-front bulk NFORC and behind-front relative nodal displacements; first-order straight-front approximation",
+    "B_GII_over_GT": 0.47989788054561405,
+    "BK_Gc_N_per_mm": 0.3322676603813271,
+    "linear_critical_scale": 6.730794167070217,
+    "critical_load_N": 383.52403938765207,
+    "critical_displacement_mm": 1.346158853473373
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -3.8277714331513835e-13,
+    "ALLSE": 0.22433269023895264,
+    "ALLSD": 0.0,
+    "ALLWK": 0.22433269023895264,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 0.22433269023895264
+  },
+  "subset_ledger_final_relative_error": 0.0,
+  "final_work_balance_relative_error": 1.7062923058936052e-12,
+  "work_balance_relative_error": 1.7062923058936052e-12,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "numerical_reference": {
+    "kind": "published critical equilibrium symbols; control-specific jump path not supplied",
+    "uncertainty_mm_N": [
+      0.01,
+      2.0
+    ],
+    "path": "validation/cases/krueger2012CR_mmb50/data/fig14_critical_graphical.csv",
+    "peak_graphical_N": 466.8804165,
+    "peak_graphical_displacement_mm": 5.929101994,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": -0.877954822462137,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Reference branch includes duplicate displacement or snap-back; no control-specific jump interpolation"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 379.0320337912128,
+    "initial_compliance_mm_per_N": 0.0034174753873335005,
+    "initial_beam_GII_over_GT": 0.49397401369384053,
+    "final_beam_GII_over_GT": 0.5125898273192045,
+    "initial_compliance_relative_error": null,
+    "constant_nominal_Gc_initial_critical_load_N": 380.8657951768786
+  }
+}

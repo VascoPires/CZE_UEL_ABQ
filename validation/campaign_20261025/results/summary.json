@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-10-26T00:23:09.510238+00:00",
+  "solver_status_counts": {
+    "FAILED": 56,
+    "COMPLETED": 50
+  },
+  "case_status_counts": {
+    "FAIL": 1,
+    "INCONCLUSIVE": 16
+  },
+  "figures": 16,
+  "preservation": {
+    "checked_files": 62,
+    "changed_or_missing": [],
+    "checked_run_decks_and_sources": 106,
+    "run_hash_mismatches": [],
+    "canonical_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c"
+  },
+  "diagnostic_subcheck_status_counts": {
+    "PASS": 549,
+    "FAIL": 46,
+    "INCONCLUSIVE": 170
+  },
+  "submission_interval_overlaps": 0,
+  "unresolved_controller_errors": 0,
+  "figures_regenerated": true
+}

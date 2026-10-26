@@ -1,0 +1,13 @@
+{
+  "case": "element",
+  "primary_run": "element_dt001",
+  "evaluated_run": "element_dt001",
+  "classification": "FAIL",
+  "solver_status": "COMPLETED",
+  "eligible_peak_N": null,
+  "relative_peak_difference": null,
+  "reason": "Fixed-basis unit energy checks pass; canonical high-penalty material tangent and elastic changing-area/changing-basis energy checks fail. See separate subchecks.",
+  "generated_utc": "2026-10-26T00:22:38.984948+00:00",
+  "primary_run_manifest": "validation/campaign_20261025/runs/element_dt001/run.json",
+  "evaluated_assessment": "validation/campaign_20261025/runs/element_dt001/assessment/"
+}

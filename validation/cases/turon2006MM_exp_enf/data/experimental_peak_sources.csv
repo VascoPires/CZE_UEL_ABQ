@@ -1,0 +1,4 @@
+# direct table transcription2026-10-25; not original raw measurements; reported precision only
+source,printed_page,table,nominal_GII_GT,a0_mm,measured_Gc_N_per_mm,experimental_Pmax_N,published_model_Pmax_N
+turon2006MM,1085,3,1.0,39.2,1.719,748.4,697.1
+camanho2002TM,23,4,1.0,39.3,1.719,733.96,695.94

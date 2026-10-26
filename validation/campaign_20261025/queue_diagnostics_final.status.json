@@ -1,0 +1,226 @@
+[
+  {
+    "name": "t2018_mmb20_lefmlever",
+    "started_utc": "2026-10-25T18:22:01.724110+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:26:00.083284+00:00"
+  },
+  {
+    "name": "t2018_mmb50_lefmlever",
+    "started_utc": "2026-10-25T18:26:00.094452+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb50_lefmlever/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:29:10.444499+00:00"
+  },
+  {
+    "name": "t2018_mmb70_lefmlever",
+    "started_utc": "2026-10-25T18:29:10.448181+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb70_lefmlever/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:32:36.341986+00:00"
+  },
+  {
+    "name": "t2018_mmb20_lefmlever_dx01",
+    "started_utc": "2026-10-25T18:32:36.349336+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_dx01/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:40:09.701586+00:00"
+  },
+  {
+    "name": "t2010_mmb50_open",
+    "started_utc": "2026-10-25T18:40:09.705509+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb50_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:43:37.510927+00:00"
+  },
+  {
+    "name": "t2010_mmb80_open",
+    "started_utc": "2026-10-25T18:43:37.513808+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb80_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:49:19.528830+00:00"
+  },
+  {
+    "name": "kr_mmb20_K170k_open",
+    "started_utc": "2026-10-25T18:49:19.534724+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/kr_mmb20_K170k_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:50:58.367980+00:00"
+  },
+  {
+    "name": "dcb_adaptive_dx0p6",
+    "started_utc": "2026-10-25T18:50:58.373904+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_adaptive_dx0p6/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:52:02.635156+00:00"
+  },
+  {
+    "name": "fixed_as4_dcb",
+    "started_utc": "2026-10-25T18:52:02.648794+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_as4_dcb/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:52:32.392822+00:00"
+  },
+  {
+    "name": "dcb_adaptive_dx0p3",
+    "started_utc": "2026-10-25T18:52:32.410037+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_adaptive_dx0p3/assessment/metrics.json",
+    "ended_utc": "2026-10-25T18:54:13.217461+00:00"
+  },
+  {
+    "name": "dcb_adaptive_dx0p15",
+    "started_utc": "2026-10-25T18:54:13.220480+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_adaptive_dx0p15/assessment/metrics.json",
+    "ended_utc": "2026-10-25T19:58:31.155051+00:00"
+  },
+  {
+    "name": "element_z8_dt001",
+    "started_utc": "2026-10-25T19:58:31.160228+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/element_z8_dt001/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:00:16.023389+00:00"
+  },
+  {
+    "name": "fixed_dcb_a34p5",
+    "started_utc": "2026-10-25T20:00:16.026773+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_dcb_a34p5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:00:43.816384+00:00"
+  },
+  {
+    "name": "fixed_dcb_a35p5",
+    "started_utc": "2026-10-25T20:00:43.819022+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_dcb_a35p5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:01:14.864587+00:00"
+  },
+  {
+    "name": "fixed_turon2010_mmb20_open",
+    "started_utc": "2026-10-25T20:01:14.867175+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_turon2010_mmb20_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:01:46.799144+00:00"
+  },
+  {
+    "name": "fixed_turon2010_mmb80_open",
+    "started_utc": "2026-10-25T20:01:46.803074+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_turon2010_mmb80_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:02:19.824185+00:00"
+  },
+  {
+    "name": "fixed_krueger2012_mmb20_open",
+    "started_utc": "2026-10-25T20:02:19.828531+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_krueger2012_mmb20_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:02:47.856620+00:00"
+  },
+  {
+    "name": "fixed_krueger2012_mmb50_open",
+    "started_utc": "2026-10-25T20:02:47.859622+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_krueger2012_mmb50_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:03:15.767720+00:00"
+  },
+  {
+    "name": "fixed_krueger2012_mmb80_open",
+    "started_utc": "2026-10-25T20:03:15.770553+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_krueger2012_mmb80_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:03:44.278441+00:00"
+  },
+  {
+    "name": "fixed_krueger2012_mmb50_dx025_open",
+    "started_utc": "2026-10-25T20:03:44.286171+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_krueger2012_mmb50_dx025_open/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:04:20.214590+00:00"
+  },
+  {
+    "name": "as4_dcb_ps_adaptive",
+    "started_utc": "2026-10-25T20:04:20.221732+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_dcb_ps_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T20:11:08.219073+00:00"
+  },
+  {
+    "name": "t2010_mmb50_open_adaptive",
+    "started_utc": "2026-10-25T20:11:08.229137+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb50_open_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T21:23:15.479527+00:00"
+  },
+  {
+    "name": "kr_mmb50_K170k_adaptive",
+    "started_utc": "2026-10-25T21:23:15.482573+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/kr_mmb50_K170k_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T22:14:32.788882+00:00"
+  },
+  {
+    "name": "t2018_mmb50_adaptive",
+    "started_utc": "2026-10-25T22:14:32.792408+00:00",
+    "solver_status": "SKIPPED",
+    "reason": "Baseline t2018_mmb50 did not fail",
+    "ended_utc": "2026-10-25T22:14:32.811292+00:00"
+  },
+  {
+    "name": "as4_mmb20_adaptive",
+    "started_utc": "2026-10-25T22:14:32.820766+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_mmb20_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T22:17:53.790450+00:00"
+  },
+  {
+    "name": "as4_mmb50_adaptive",
+    "started_utc": "2026-10-25T22:17:53.793027+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_mmb50_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T22:23:47.669788+00:00"
+  },
+  {
+    "name": "as4_mmb80_adaptive",
+    "started_utc": "2026-10-25T22:23:47.676431+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_mmb80_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:03:41.860117+00:00"
+  },
+  {
+    "name": "as4_enf_adaptive",
+    "started_utc": "2026-10-25T23:03:41.866844+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_enf_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:07:21.907856+00:00"
+  },
+  {
+    "name": "t2010_enf_pc_adaptive",
+    "started_utc": "2026-10-25T23:07:21.918713+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_enf_pc_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:11:50.332882+00:00"
+  },
+  {
+    "name": "element_refarea_dt001",
+    "started_utc": "2026-10-25T23:11:50.335887+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/element_refarea_dt001/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:13:52.117739+00:00"
+  },
+  {
+    "name": "dcb_ps03_refarea",
+    "started_utc": "2026-10-25T23:13:52.125854+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_refarea/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:15:34.519621+00:00"
+  },
+  {
+    "name": "t2018_mmb20_lefmlever_refarea",
+    "started_utc": "2026-10-25T23:15:34.529533+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_refarea/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:18:24.539494+00:00"
+  }
+]

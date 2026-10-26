@@ -1,6 +1,87 @@
-*
-!*/
-!.gitignore
-!**/*.py
-!**/*.json
-!**/*.inp
+# Scratch jobs only. Research records belong in validation/<study>/, whose
+# nested runs/ folders remain eligible for Git (inputs, sources, CSV/JSON,
+# reports, figures, execution commands and small text diagnostics).
+/runs/
+
+# Abaqus solver and CAE output
+*.odb
+*.odb_*
+*.odb.*
+*.sim
+*.prt
+*.com
+*.dat
+*.msg
+*.sta
+*.lck
+*.log
+*.res
+*.mdl
+*.stt
+*.pac
+*.abq
+*.ipm
+*.rec
+*.023
+*.aif
+*.cid
+*.cae
+*.pes
+*.sel
+*.fil
+*.jnl
+*.simdir/
+abaqus.rpy*
+abaqus_acis.log*
+IPVALS_CZM_*
+UNVALS_CZM_*
+
+# Preserve validation termination/convergence evidence and controller logs.
+# Keep these exceptions scoped here; scratch outputs elsewhere stay ignored.
+!/validation/**/*.sta
+!/validation/**/*.msg
+!/validation/**/*.log
+
+# Visualization exports
+*.vtk
+*.vtu
+*.vtm
+*.pvd
+
+# Compiled artifacts and Python environments
+*.o
+*.obj
+*.mod
+*.smod
+*.so
+*.dll
+*.exe
+*.lib
+*.exp
+*.pdb
+*.idb
+*.ilk
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Local settings and operating-system files
+.env
+.env.*
+*.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials, caches and host-specific queue locks are not handoffs.
+/.codex/auth.json
+/.codex/auth.json.*
+/.codex/sessions/
+/.cache/
+/validation/**/external_queue_hold.json
+
+# Literature PDFs for validation (copyrighted, local only)
+/validation/references/*.pdf

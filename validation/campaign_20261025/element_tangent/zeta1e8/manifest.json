@@ -1,0 +1,6 @@
+{
+  "source": "validation/campaign_20261025/sources/3D_CZM_zeta1e8.f",
+  "sha256": "d2c097bcd685faf46813b3d58fae7a7e7d96482961291a6e053eae7ec9b33fbe",
+  "returncode": 0,
+  "limitations": "Standalone serial full-assembly check; echo disabled; Mutex/GETRANK stubs; no Abaqus solver interface verification"
+}

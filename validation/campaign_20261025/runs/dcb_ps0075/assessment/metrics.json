@@ -1,0 +1,21 @@
+{
+  "name": "dcb_ps0075",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.221909523010254,
+  "peak_displacement_mm": 2.559999942779541,
+  "maximum_reached_force_N": 51.221909523010254,
+  "displacement_at_maximum_reached_force_mm": 2.559999942779541,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04739444389501987,
+  "compliance_fit_R2": 0.9999984893668916,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23492234234099452,
+  "final_solver_energy_balance_error": 0.0001841908858811712,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.00018418923583592603,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

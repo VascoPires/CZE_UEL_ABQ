@@ -1,0 +1,92 @@
+{
+  "name": "fixed_turon2010_mmb20_open",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Fixed-crack tied elastic control; no damage law active"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.19494348257272814,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 0.05129691958427429,
+    "lever_equation_residual_mm": 4.570931202985129e-09,
+    "lever_mid_force_magnitude_relative_error": 2.1522462752711495e-08,
+    "lever_upper_force_magnitude_relative_error": 1.4081038806163933e-08,
+    "max_abs_E": 0.00014796163304708898,
+    "max_abs_E13": 6.531928383759075e-19,
+    "max_abs_E23": 2.1705571652332394e-17,
+    "max_abs_E33": 5.6333125569035446e-18,
+    "max_abs_U3_mm": 5.129639121097055e-38,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "VCCT": {
+    "GI_N_per_mm": 0.00015201531343927988,
+    "GII_N_per_mm": 3.742768697530263e-05,
+    "GT_N_per_mm": 0.0001894430004145825,
+    "closure_length_mm": 0.5,
+    "evidence": "Independent virtual crack closure using tied-front bulk NFORC and behind-front relative nodal displacements; first-order straight-front approximation",
+    "B_GII_over_GT": 0.1975670090391031,
+    "BK_Gc_N_per_mm": 0.28896228051100753,
+    "linear_critical_scale": 39.055418540650116,
+    "critical_load_N": 40.068453284198085,
+    "critical_displacement_mm": 7.811083824524241
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": 2.1791336096699254e-13,
+    "ALLSE": 0.005129692144691944,
+    "ALLSD": 0.0,
+    "ALLWK": 0.005129692144691944,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 0.005129692144691944
+  },
+  "subset_ledger_final_relative_error": 0.0,
+  "final_work_balance_relative_error": 4.2480787310498334e-11,
+  "work_balance_relative_error": 4.2493722428451714e-11,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "numerical_reference": {
+    "kind": "published adjusted-strength numerical curve; lower graphical envelope estimate",
+    "uncertainty_mm_N": [
+      0.05,
+      3.0
+    ],
+    "limitation": "Shared analytical/numerical colours; peak/jump neighbourhood ambiguous",
+    "path": "validation/campaign_20261025/reference_data/turon2010CS_mmb_v2/fig12_B20_tau30_58p9_graphical.csv",
+    "peak_graphical_N": 39.11844926662656,
+    "peak_graphical_displacement_mm": 7.733317280505415,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": -0.9737735413617034,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Insufficient common stable postpeak interval"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 39.766568587782,
+    "initial_compliance_mm_per_N": 0.19654863051850316,
+    "initial_beam_GII_over_GT": 0.20000056045944098,
+    "final_beam_GII_over_GT": 0.20584631851565288,
+    "initial_compliance_relative_error": null,
+    "constant_nominal_Gc_initial_critical_load_N": 39.7665571700954
+  }
+}

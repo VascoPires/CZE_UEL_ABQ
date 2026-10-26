@@ -1,0 +1,21 @@
+{
+  "name": "as4_dcb_ps_adaptive",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 139.3272029876709,
+  "displacement_at_maximum_reached_force_mm": 4.571491241455078,
+  "last_displacement_mm": 4.870461463928223,
+  "target_displacement_mm": 6.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.030033768763660422,
+  "compliance_fit_R2": 0.9999999885694331,
+  "source_beam_compliance_mm_per_N": 0.024078288093916888,
+  "relative_beam_compliance_error": 0.24733820969806075,
+  "final_solver_energy_balance_error": 0.0008756370424185032,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0010638575668186253,
+  "stabilization_over_peak_work": 0.0019394946092371286,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

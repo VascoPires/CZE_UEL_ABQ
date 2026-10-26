@@ -1,0 +1,13 @@
+{
+  "case": "turon2006MM_exp_mmb50",
+  "primary_run": "as4_mmb50",
+  "evaluated_run": "as4_mmb50",
+  "classification": "INCONCLUSIVE",
+  "solver_status": "FAILED",
+  "eligible_peak_N": null,
+  "relative_peak_difference": null,
+  "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak",
+  "generated_utc": "2026-10-26T00:22:39.104718+00:00",
+  "primary_run_manifest": "validation/campaign_20261025/runs/as4_mmb50/run.json",
+  "evaluated_assessment": "validation/campaign_20261025/runs/as4_mmb50/assessment/"
+}

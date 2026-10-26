@@ -1,0 +1,16 @@
+{
+  "family": "input_rejection",
+  "expected_status": "FAILED",
+  "invalid_zeta": 0.0,
+  "reason": "Deliberately bypass Python validation to exercise the Fortran guard",
+  "uel_sha256": "b93cadaf39fe8ad34d97e1819d77ef53c9803673a3655ca4358f87522bc36ab8",
+  "name": "invalid_zero",
+  "created_utc": "2026-10-26T10:28:41.010017+00:00",
+  "status": "FAILED",
+  "input_sha256": "a05a1d1e9d685b2b3e88a030dda1a0fb386e81cc5abf2645302a8538e617fb8a",
+  "command": "call \"C:\\SIMULIA\\Commands\\abaqus.bat\" job=invalid_zero input=invalid_zero.inp cpus=1 interactive user=3D_CZM.f",
+  "start_utc": "2026-10-26T10:28:41.075808+00:00",
+  "datacheck": false,
+  "returncode": 1,
+  "end_utc": "2026-10-26T10:29:02.734386+00:00"
+}

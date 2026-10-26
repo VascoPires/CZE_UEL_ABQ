@@ -1,0 +1,6 @@
+# Versions used for the 2026-10-25 reference extraction, not Abaqus Python.
+pypdf==6.4.1
+numpy==2.4.1
+matplotlib==3.10.8
+Pillow==12.1.0
+scipy==1.17.0

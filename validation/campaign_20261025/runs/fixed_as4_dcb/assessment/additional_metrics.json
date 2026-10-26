@@ -1,0 +1,96 @@
+{
+  "name": "fixed_as4_dcb",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Fixed-crack tied elastic control; no damage law active"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.029975251315377233,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "max_abs_E": 0.0003881539450958371,
+    "max_abs_E13": 1.607802433750319e-18,
+    "max_abs_E23": 2.133549435499862e-17,
+    "max_abs_E33": 8.467751977754288e-18,
+    "max_abs_U3_mm": 1.8575694278920092e-37,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "VCCT": {
+    "GI_N_per_mm": 0.0022154418153634858,
+    "GII_N_per_mm": 0.0,
+    "GT_N_per_mm": 0.0022154418153634858,
+    "closure_length_mm": 0.49848484848484986,
+    "evidence": "Independent virtual crack closure using tied-front bulk NFORC and behind-front relative nodal displacements; first-order straight-front approximation",
+    "B_GII_over_GT": 0.0,
+    "BK_Gc_N_per_mm": 0.969,
+    "linear_critical_scale": 20.913740466776034,
+    "critical_load_N": 139.540052948189,
+    "critical_displacement_mm": 4.182748155683011
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -4.1043557441611256e-14,
+    "ALLSE": 0.02626838907599449,
+    "ALLSD": 0.0,
+    "ALLWK": 0.02626838907599449,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 0.02626838907599449
+  },
+  "subset_ledger_final_relative_error": 0.0,
+  "final_work_balance_relative_error": 1.5624695265047347e-12,
+  "work_balance_relative_error": 1.5624695265047347e-12,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "experimental_comparisons": [
+    {
+      "source": "turon2006MM",
+      "experimental_peak_N": 147.5,
+      "predicted_peak_N": null,
+      "peak_relative_error": null,
+      "observation_initial_crack_mm": 32.9,
+      "model_initial_crack_mm": 32.9,
+      "same_initial_crack": true,
+      "maximum_reached_force_N": 6.672171014547348,
+      "status": "INCONCLUSIVE",
+      "reason": "Baseline prediction only; apparatus reconstruction, numerical convergence, prior toughness calibration and missing experimental scatter limit independent validation"
+    },
+    {
+      "source": "camanho2002TM",
+      "experimental_peak_N": 147.11,
+      "predicted_peak_N": null,
+      "peak_relative_error": null,
+      "observation_initial_crack_mm": 32.9,
+      "model_initial_crack_mm": 32.9,
+      "same_initial_crack": true,
+      "maximum_reached_force_N": 6.672171014547348,
+      "status": "INCONCLUSIVE",
+      "reason": "Baseline prediction only; apparatus reconstruction, numerical convergence, prior toughness calibration and missing experimental scatter limit independent validation"
+    }
+  ],
+  "experimental_marker_comparison": {
+    "source": "validation/campaign_20261025/reference_data/turon2006_experimental_markers/fig09_dcb_experimental_markers_graphical.csv",
+    "available_markers": 12,
+    "common_markers": 0,
+    "scope": "Prediction at published marker coordinates only; no experimental curve interpolation or extrapolation; observations are not held-out calibration data"
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 149.73325410330418,
+    "initial_compliance_mm_per_N": 0.024078288093916888,
+    "initial_beam_GII_over_GT": 0.0,
+    "final_beam_GII_over_GT": 0.0,
+    "initial_compliance_relative_error": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "name": "t2018_mmb20",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": true,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 5,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 50,
+      "sampled_elements": 167,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 40.043225806451616,
+      "contiguous_all_IP_D_ge_0.995_mm": 37.97032258064516,
+      "cohesive_zone_extent_0.995_mm": 2.0729032258064564,
+      "contiguous_all_IP_D_ge_0.999_mm": 37.37806451612903,
+      "cohesive_zone_extent_0.999_mm": 2.6651612903225868,
+      "active_local_B_min": 0.1949,
+      "active_local_B_max": 0.6317
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.09529597940286226,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": true,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 3.5607423782348633,
+    "lever_equation_residual_mm": 7.71102044438976e-07,
+    "lever_mid_force_magnitude_relative_error": 7.413203184284742e-08,
+    "lever_upper_force_magnitude_relative_error": 5.620408142327933e-05,
+    "max_abs_LE": 0.007303902413696051,
+    "max_abs_LE13": 3.2533450243074006e-17,
+    "max_abs_LE23": 1.8469438271338752e-16,
+    "max_abs_LE33": 1.856423921253736e-07,
+    "max_abs_U3_mm": 1.657797336854731e-36,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -0.057177234441041946,
+    "ALLSE": 17.378267288208008,
+    "ALLSD": 0.0,
+    "ALLWK": 22.95781898498535,
+    "ALLVD": 0.0,
+    "ALLPD": 5.522374629974365,
+    "ALLIE": 22.90064239501953
+  },
+  "subset_ledger_final_relative_error": 0.002490506175835535,
+  "final_work_balance_relative_error": 0.002490534247980457,
+  "work_balance_relative_error": 0.002490534247980457,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "numerical_reference": {
+    "kind": "published new-law numerical curve, graphical estimate",
+    "uncertainty_mm_N": [
+      0.01,
+      1.0
+    ],
+    "path": "validation/cases/turon2018CS_mmb20/data/fig02_tau30_80_graphical.csv",
+    "peak_graphical_N": 97.18959353,
+    "peak_graphical_displacement_mm": 8.925022515,
+    "peak_relative_error": -0.06941830784333847,
+    "maximum_reached_relative_difference": -0.06941830784333847,
+    "stable_propagation": {
+      "status": "ASSESSED",
+      "interval_mm": [
+        9.536503374739624,
+        10.99006677
+      ],
+      "NMAE": 0.02200624310569163,
+      "max_abs_error_over_reference_peak": 0.02395278750193764
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 93.37772287888575,
+    "initial_compliance_mm_per_N": 0.09555865614308108,
+    "initial_beam_GII_over_GT": 0.18605177543434437,
+    "final_beam_GII_over_GT": 0.1908072257414093,
+    "initial_compliance_relative_error": 0.002331626177487056,
+    "constant_nominal_Gc_initial_critical_load_N": 93.56704124474042
+  }
+}

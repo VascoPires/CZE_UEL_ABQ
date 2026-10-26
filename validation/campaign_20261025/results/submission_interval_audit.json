@@ -1,0 +1,26 @@
+{
+  "checked_ended_execution_intervals": 106,
+  "overlaps": [],
+  "controller_errors": [
+    {
+      "queue": "queue_open_mmb",
+      "run": "t2010_mmb50",
+      "original_error": "Another live execution owns t2010_mmb50",
+      "orchestration_resolved": true,
+      "recovery_record": "Controller was terminated after advancing beyond the intended job boundary. Solver independently terminated; status recovered from terminal STA without a live lock. Original manifest retained.",
+      "replacement_run": "t2010_mmb50_open",
+      "scope": "Resolution concerns stale execution ownership only; original and replacement solver failures remain failed"
+    },
+    {
+      "queue": "queue_open_mmb",
+      "run": "kr_mmb20_K170k",
+      "original_error": "Another live execution owns kr_mmb20_K170k",
+      "orchestration_resolved": true,
+      "recovery_record": "Controller was terminated after advancing beyond the intended job boundary. Solver independently terminated; status recovered from terminal STA without a live lock. Original manifest retained.",
+      "replacement_run": "kr_mmb20_K170k_open",
+      "scope": "Resolution concerns stale execution ownership only; original and replacement solver failures remain failed"
+    }
+  ],
+  "unfinished_manifests": [],
+  "scope": "Manifest submission-to-return intervals, including compilation; recovered manifests disclose end-time provenance"
+}

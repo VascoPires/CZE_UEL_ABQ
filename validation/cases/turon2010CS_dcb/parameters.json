@@ -1,0 +1,166 @@
+{
+  "case": "turon2010CS_dcb",
+  "paper": "turon2010CS",
+  "role": "numerical/analytical verification",
+  "units": {
+    "length": "mm",
+    "force": "N",
+    "stress": "MPa",
+    "fracture_energy": "N/mm",
+    "penalty": "N/mm^3",
+    "energy": "N mm",
+    "rho": "analysis time units"
+  },
+  "ready_for_modeling": false,
+  "status": "CHECKPOINT1_PENDING",
+  "inputs": {
+    "length": {
+      "value": 150,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "width": {
+      "value": 20,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "arm_thickness": {
+      "value": 1.55,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "a0": {
+      "value": 35,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "E11": {
+      "value": 120000,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "E22_E33": {
+      "value": 10500,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "G12_G13": {
+      "value": 5250,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "G23": {
+      "value": 3480,
+      "unit": "MPa",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "nu12_nu13": {
+      "value": 0.3,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "nu23": {
+      "value": 0.5,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "GIc": {
+      "value": 0.26,
+      "unit": "N/mm",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "GIIc": {
+      "value": 1.002,
+      "unit": "N/mm",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "eta": {
+      "value": 2.0,
+      "unit": "1",
+      "source": "Table1 p.1860",
+      "status": "Directly stated"
+    },
+    "original_equal_penalty": {
+      "value": 1000000.0,
+      "unit": "N/mm^3",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "cohesive_length": {
+      "value": 0.15,
+      "unit": "mm",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "bulk_state": {
+      "value": "CPE4 named; text plane stress",
+      "unit": "\u2014",
+      "source": "\u00a73 p.1859",
+      "status": "Contradictory"
+    },
+    "thickness_mesh": {
+      "value": "10 elements; allocation per arm/full thickness unclear",
+      "unit": "count",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "solver_controls": {
+      "value": null,
+      "unit": "\u2014",
+      "source": "\u00a73; Appendix A",
+      "status": "Missing"
+    },
+    "rho": {
+      "value": null,
+      "unit": "time",
+      "source": "not specified",
+      "status": "Missing"
+    },
+    "normal_strengths": {
+      "value": [
+        15,
+        30,
+        60
+      ],
+      "unit": "MPa",
+      "source": "Fig.4 p.1860",
+      "status": "Directly stated"
+    },
+    "shear_strength_for_UEL": {
+      "value": null,
+      "unit": "MPa",
+      "source": "pure-I benchmark does not fix the required UEL shear input",
+      "status": "Missing"
+    },
+    "crack_initialization": {
+      "value": "remove initial cohesive elements",
+      "unit": "\u2014",
+      "source": "\u00a73 p.1859",
+      "status": "Directly stated"
+    },
+    "outputs": {
+      "value": "one-arm force vs full relative opening",
+      "unit": "N, mm",
+      "source": "Fig.3; Appendix A1-A2",
+      "status": "Directly stated"
+    },
+    "reference": {
+      "value": "Fig.4 analytical and numerical curves; A1-A2",
+      "unit": "\u2014",
+      "source": "pp.1860,1863",
+      "status": "Directly stated"
+    }
+  }
+}

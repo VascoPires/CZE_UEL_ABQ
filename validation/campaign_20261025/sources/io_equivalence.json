@@ -1,0 +1,6 @@
+{
+  "canonical_run": "validation/campaign_20261025/runs/element_dt005",
+  "io_off_run": "validation/campaign_20261025/runs/element_io_off",
+  "nodal_and_state_csvs_byte_identical": true,
+  "physics_changed": false
+}

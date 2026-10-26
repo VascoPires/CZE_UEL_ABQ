@@ -1,0 +1,45 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Analysis initiated from SIMULIA established products
+Abaqus JOB dcb_local015
+Abaqus 2023
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server licsrv.unileoben.ac.at.
+<232 out of 425 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+10/25/2026 5:20:52 PM
+Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.8.0 Build 20221119_000000
+Copyright (C) 1985-2022 Intel Corporation.  All rights reserved.
+
+C:\SIMULIA\EstProducts\2023\win_b64\code\include\SMAAspUserSubroutines.hdr(1): warning #5117: Bad # preprocessor line
+#include "SMAUsubs\PublicInterfaces\SMAAspUserSubroutines.hdr"
+-^
+C:\SIMULIA\EstProducts\2023\win_b64\code\include\SMAAspUserSubroutines.hdr(1): warning #5117: Bad # preprocessor line
+#include "SMAUsubs\PublicInterfaces\SMAAspUserSubroutines.hdr"
+-^
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+   Creating library standardU.lib and object standardU.exp
+libirc.lib(fast_mem_ops.obj) : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
+End Linking Abaqus/Standard User Subroutines
+10/25/2026 5:20:55 PM
+Begin Analysis Input File Processor
+10/25/2026 5:20:55 PM
+Run pre.exe
+10/25/2026 5:20:57 PM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+10/25/2026 5:20:57 PM
+Run standard.exe
+10/25/2026 5:23:23 PM
+Abaqus Error: Abaqus/Standard Analysis exited with an error - Please see the 
+message file for possible error messages if the file exists.
+Begin SIM Wrap-up
+10/25/2026 5:23:25 PM
+Run SMASimUtility.exe
+10/25/2026 5:23:25 PM
+End SIM Wrap-up
+Abaqus/Analysis exited with errors

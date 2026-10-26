@@ -1,0 +1,16 @@
+{
+  "status": "DEFERRED_EXTERNAL_SOLVER",
+  "checked_utc": "2026-10-26T12:40:35.387974+00:00",
+  "next_job": "CPS4_dx0p5_a35p0",
+  "active": [
+    {
+      "ProcessId": 26868,
+      "ParentProcessId": 29432,
+      "CommandLine": "C:\\SIMULIA\\EstProducts\\2023\\win_b64\\code\\bin\\standard.exe -standard -messaging_mechanism DIRECT -job t0241 -input t0241 -indir E:\\Transverse_Cracking_0p5mm\\study_2410\\L4_L70_noscale_s201 -outdir E:\\Transverse_Cracking_0p5mm\\study_2410\\L4_L70_noscale_s201 -tmpdir C:\\Users\\p2321038\\AppData\\Local\\Temp\\p2321038_t0241_29432 -inputFormat inp -resultsFormat odb -sim E:\\Transverse_Cracking_0p5mm\\study_2410\\L4_L70_noscale_s201\\t0241.sim -simwrk E:\\Transverse_Cracking_0p5mm\\study_2410\\L4_L70_noscale_s201\\t0241 -preDecomp -restart t0237 -resdir E:\\Transverse_Cracking_0p5mm\\study_2410\\L4_L70_noscale_s201 -fil t0237 -memory 80 -memory_parameter AUTOMATIC -lmsuspend -umbrella_port 58135 -umbrella_host kkv-pc-51 -cpus 6 -std_parallel -dmp_solver -order_parallel -auto_calc_analysis -timeout 3600"
+    }
+  ],
+  "external_queue_hold": {
+    "reason": "Known external transverse-cracking controller continued t0229 through t0233. A gap between jobs is not campaign completion.",
+    "release": "Remove hold only after verifying external campaign has ended or receiving user authorization for concurrent elastic jobs."
+  }
+}

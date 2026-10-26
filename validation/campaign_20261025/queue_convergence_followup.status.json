@@ -1,0 +1,51 @@
+[
+  {
+    "name": "dcb_ps0075",
+    "started_utc": "2026-10-25T23:34:51.008746+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps0075/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:41:09.261719+00:00"
+  },
+  {
+    "name": "as4_mmb80_dx01",
+    "started_utc": "2026-10-25T23:41:09.265192+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_mmb80_dx01/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:48:20.109266+00:00"
+  },
+  {
+    "name": "t2018_mmb20_lefmlever_K1e6",
+    "started_utc": "2026-10-25T23:48:20.112869+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:51:59.441886+00:00"
+  },
+  {
+    "name": "t2018_mmb20_lefmlever_K1e6_z8",
+    "started_utc": "2026-10-25T23:51:59.450833+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6_z8/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:56:44.634123+00:00"
+  },
+  {
+    "name": "dcb_ps03_rho1e4_dt02",
+    "started_utc": "2026-10-25T23:56:44.646653+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt02/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:58:22.709246+00:00"
+  },
+  {
+    "name": "dcb_ps03_rho1e4_dt001",
+    "started_utc": "2026-10-25T23:58:22.713333+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt001/assessment/metrics.json",
+    "ended_utc": "2026-10-26T00:19:23.784120+00:00"
+  },
+  {
+    "name": "dcb_ps03_rho1e4_dt001_adaptive",
+    "started_utc": "2026-10-26T00:19:23.795197+00:00",
+    "solver_status": "SKIPPED",
+    "reason": "Baseline dcb_ps03_rho1e4_dt001 did not fail",
+    "ended_utc": "2026-10-26T00:19:23.819028+00:00"
+  }
+]

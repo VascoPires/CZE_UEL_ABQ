@@ -1,0 +1,21 @@
+{
+  "name": "fixed_krueger2012_mmb20_open",
+  "termination": "COMPLETED",
+  "peak_force_N": 15.657996833324432,
+  "peak_displacement_mm": 0.20000000298023224,
+  "maximum_reached_force_N": 15.657996833324432,
+  "displacement_at_maximum_reached_force_mm": 0.20000000298023224,
+  "last_displacement_mm": 0.20000000298023224,
+  "target_displacement_mm": 0.2,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": null,
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

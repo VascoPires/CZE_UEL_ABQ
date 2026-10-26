@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-25",
+  "baseline_files_checked": 200,
+  "preexisting_files_missing": [],
+  "preexisting_files_changed": [
+    "validation/HANDOFF.md"
+  ],
+  "handoff_original_prefix_preserved": true,
+  "source_unchanged": true,
+  "examples_and_historical_results_unchanged": true,
+  "decisions_unchanged": true,
+  "local_markdown_links": "PASS",
+  "json_and_python_parse": "PASS",
+  "case_cards": 17,
+  "data_csvs": [
+    {
+      "path": "validation/cases/krueger2012CR_mmb20/data/fig10_critical_graphical.csv",
+      "rows": 32
+    },
+    {
+      "path": "validation/cases/krueger2012CR_mmb50/data/fig14_critical_graphical.csv",
+      "rows": 23
+    },
+    {
+      "path": "validation/cases/krueger2012CR_mmb80/data/fig19_critical_graphical.csv",
+      "rows": 30
+    },
+    {
+      "path": "validation/cases/turon2006MM_exp_dcb/data/experimental_peak_sources.csv",
+      "rows": 2
+    },
+    {
+      "path": "validation/cases/turon2006MM_exp_enf/data/experimental_peak_sources.csv",
+      "rows": 2
+    },
+    {
+      "path": "validation/cases/turon2006MM_exp_mmb20/data/experimental_peak_sources.csv",
+      "rows": 2
+    },
+    {
+      "path": "validation/cases/turon2006MM_exp_mmb50/data/experimental_peak_sources.csv",
+      "rows": 2
+    },
+    {
+      "path": "validation/cases/turon2006MM_exp_mmb80/data/experimental_peak_sources.csv",
+      "rows": 2
+    },
+    {
+      "path": "validation/cases/turon2010CS_dcb/data/fig04_lefm_graphical.csv",
+      "rows": 41
+    },
+    {
+      "path": "validation/cases/turon2018CS_mmb20/data/fig02_tau30_80_graphical.csv",
+      "rows": 155
+    },
+    {
+      "path": "validation/cases/turon2018CS_mmb50/data/fig03_tau30_80_graphical.csv",
+      "rows": 174
+    },
+    {
+      "path": "validation/cases/turon2018CS_mmb70/data/fig04_tau30_80_graphical.csv",
+      "rows": 167
+    }
+  ],
+  "reference_pdf_pages": [
+    {
+      "path": "validation/references/camanho2002TM211737.pdf",
+      "pages": 42,
+      "sha256": "d150df624a844ce2b2d23a832fdf81d901f60c0b59f6a39b4f3d0faeb0cca978"
+    },
+    {
+      "path": "validation/references/krueger2008TM215123.pdf",
+      "pages": 71,
+      "sha256": "9373521302f43ec02650243f7c2300a44e168f1bbf8ae2b479c5f76f2e8dd36f"
+    },
+    {
+      "path": "validation/references/krueger2012CR217562.pdf",
+      "pages": 62,
+      "sha256": "dc18f18d44f862916af1b21e67a303dd03e9c335dc162e9316a6803a97ad6d27"
+    },
+    {
+      "path": "validation/references/krueger2012MMB_conf.pdf",
+      "pages": 19,
+      "sha256": "3647fef6aec71eadd1cdfdf50ab2c9e7578c2ab69db09316fb6d44eb0d92ff5c"
+    },
+    {
+      "path": "validation/references/turon2006MM.pdf",
+      "pages": 18,
+      "sha256": "aec1f54b7ff7dcf5efd7849d6f5dae42adb44db207164a493b057bde05f302c2"
+    },
+    {
+      "path": "validation/references/turon2010CS.pdf",
+      "pages": 8,
+      "sha256": "8850fa7532e7975f48b3a6a19acea7a6f8a6158517336a46dce3855c9c82b86f"
+    },
+    {
+      "path": "validation/references/turon2018CS.pdf",
+      "pages": 6,
+      "sha256": "cee2ec0960929e3ab7bec0b5ae82023c0a36dc56c2421e8189d211dcbb1f4ed7"
+    }
+  ],
+  "abaqus_executed": false,
+  "model_builder_executed": false,
+  "digitization": "PARTIAL",
+  "checkpoint": "1_PENDING",
+  "graphical_csv_reproduction": {
+    "status": "PASS",
+    "count": 7,
+    "comparison": "byte-identical fresh extraction using registered source PDF hashes"
+  },
+  "dcb_analytical_reproduction": "PASS: metrics and numeric CSV identical"
+}

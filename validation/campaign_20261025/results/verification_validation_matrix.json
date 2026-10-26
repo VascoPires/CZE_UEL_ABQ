@@ -1,0 +1,172 @@
+[
+  {
+    "case": "element",
+    "primary_run": "element_dt001",
+    "evaluated_run": "element_dt001",
+    "classification": "FAIL",
+    "solver_status": "COMPLETED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Fixed-basis unit energy checks pass; canonical high-penalty material tangent and elastic changing-area/changing-basis energy checks fail. See separate subchecks."
+  },
+  {
+    "case": "turon2010CS_dcb",
+    "primary_run": "dcb_ps03",
+    "evaluated_run": "dcb_ps03",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "COMPLETED",
+    "eligible_peak_N": 51.427483558654785,
+    "relative_peak_difference": 0.008386564082369485,
+    "reason": "Published numerical curve agrees in this mesh; 0.075mm recovers a full unstabilized path, but intermediate mesh/increment failures and coarse peak sampling prevent a convergence claim"
+  },
+  {
+    "case": "turon2010CS_enf",
+    "primary_run": "t2010_enf_pc",
+    "evaluated_run": "t2010_enf_pc",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2010CS_mmb20",
+    "primary_run": "t2010_mmb20_open",
+    "evaluated_run": "t2010_mmb20_open",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2010CS_mmb50",
+    "primary_run": "t2010_mmb50_open",
+    "evaluated_run": "t2010_mmb50_open",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2010CS_mmb80",
+    "primary_run": "t2010_mmb80_open",
+    "evaluated_run": "t2010_mmb80_open",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "krueger2012CR_mmb20",
+    "primary_run": "kr_mmb20_K170k_open",
+    "evaluated_run": "kr_mmb20_K170k_open",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "krueger2012CR_mmb50",
+    "primary_run": "kr_mmb50_K170k",
+    "evaluated_run": "kr_mmb50_K170k",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "krueger2012CR_mmb80",
+    "primary_run": "kr_mmb80_K170k",
+    "evaluated_run": "kr_mmb80_K170k",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2006MM_exp_dcb",
+    "primary_run": "as4_dcb_ps",
+    "evaluated_run": "as4_dcb_ps",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2006MM_exp_enf",
+    "primary_run": "as4_enf",
+    "evaluated_run": "as4_enf",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2006MM_exp_mmb20",
+    "primary_run": "as4_mmb20",
+    "evaluated_run": "as4_mmb20_adaptive",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "COMPLETED",
+    "eligible_peak_N": 91.47087020874022,
+    "relative_peak_difference": -0.1538309878932449,
+    "reason": "Experimental table comparison only; scatter/raw histories absent, prior toughness fitting and apparatus/numerical uncertainty limit independence"
+  },
+  {
+    "case": "turon2006MM_exp_mmb50",
+    "primary_run": "as4_mmb50",
+    "evaluated_run": "as4_mmb50",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2006MM_exp_mmb80",
+    "primary_run": "as4_mmb80",
+    "evaluated_run": "as4_mmb80",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  },
+  {
+    "case": "turon2018CS_mmb20",
+    "primary_run": "t2018_mmb20_lefmlever",
+    "evaluated_run": "t2018_mmb20_lefmlever",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "COMPLETED",
+    "eligible_peak_N": 99.57463307380675,
+    "relative_peak_difference": 0.024540071186433643,
+    "reason": "Completed prediction; source apparatus equivalence and numerical convergence not established"
+  },
+  {
+    "case": "turon2018CS_mmb50",
+    "primary_run": "t2018_mmb50_lefmlever",
+    "evaluated_run": "t2018_mmb50_lefmlever_adaptive",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "COMPLETED",
+    "eligible_peak_N": 273.2281383514404,
+    "relative_peak_difference": 0.009017063979073425,
+    "reason": "Completed prediction; source apparatus equivalence and numerical convergence not established"
+  },
+  {
+    "case": "turon2018CS_mmb70",
+    "primary_run": "t2018_mmb70_lefmlever",
+    "evaluated_run": "t2018_mmb70_lefmlever",
+    "classification": "INCONCLUSIVE",
+    "solver_status": "FAILED",
+    "eligible_peak_N": null,
+    "relative_peak_difference": null,
+    "reason": "Loading path incomplete or no resolved postpeak; maximum reached force is not substituted for a verified peak"
+  }
+]

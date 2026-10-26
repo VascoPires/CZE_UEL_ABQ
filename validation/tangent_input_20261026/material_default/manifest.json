@@ -1,0 +1,10 @@
+{
+  "canonical_sha256": "b93cadaf39fe8ad34d97e1819d77ef53c9803673a3655ca4358f87522bc36ab8",
+  "kernels_sha256": "38153444328c7e0105e2d28bd3e984121231f518d813e42d52716ebf6dcfee6b",
+  "zeta": 1e-06,
+  "returncode": 0,
+  "reference_materials": false,
+  "selected_material": "turon2018",
+  "penalty_override": 1000000.0,
+  "statement": "Constitutive routines extracted from canonical source; ABA_PARAM implicit-double stub; not a full UEL assembly test."
+}

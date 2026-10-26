@@ -1,0 +1,24 @@
+[
+  {
+    "name": "basis_cycle_canonical",
+    "samples": 101,
+    "final_work_Nmm": 0.0001379091724864132,
+    "final_stored_Nmm": 0.0,
+    "final_dissipation_Nmm": 0.0,
+    "maximum_relative_energy_balance_error": 0.2758183449733741,
+    "maximum_resultant_internal_moment_Nmm": 0.00027581834497247826,
+    "classification": "FAIL",
+    "scope": "Actual full Fortran UEL with runtime stubs; constant-area midsurface rotation0\u219245degrees at fixed small global gap, closure and restoration. Not a rigid-body rotation of the entire separated configuration."
+  },
+  {
+    "name": "basis_cycle_reference",
+    "samples": 101,
+    "final_work_Nmm": 0.0001379091724864132,
+    "final_stored_Nmm": 0.0,
+    "final_dissipation_Nmm": 0.0,
+    "maximum_relative_energy_balance_error": 0.2758183449733741,
+    "maximum_resultant_internal_moment_Nmm": 0.00027581834497247826,
+    "classification": "FAIL",
+    "scope": "Actual full Fortran UEL with runtime stubs; constant-area midsurface rotation0\u219245degrees at fixed small global gap, closure and restoration. Not a rigid-body rotation of the entire separated configuration."
+  }
+]

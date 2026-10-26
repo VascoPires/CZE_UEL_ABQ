@@ -1,0 +1,95 @@
+{
+  "name": "kr_mmb80_K170k",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 2,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 16,
+      "sampled_elements": 135,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 29.4,
+      "contiguous_all_IP_D_ge_0.995_mm": 25.9,
+      "cohesive_zone_extent_0.995_mm": 3.5,
+      "contiguous_all_IP_D_ge_0.999_mm": 25.4,
+      "cohesive_zone_extent_0.999_mm": 4.0,
+      "active_local_B_min": 0.7598,
+      "active_local_B_max": 1.0
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.0022148553214852568,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 27.015357971191406,
+    "lever_equation_residual_mm": 9.43740208481092e-08,
+    "lever_mid_force_magnitude_relative_error": 2.2541163544729357e-07,
+    "lever_upper_force_magnitude_relative_error": 1.2014610152920002e-05,
+    "max_abs_LE": 0.005301101598888636,
+    "max_abs_LE13": 3.012205001263697e-17,
+    "max_abs_LE23": 2.6222713325872607e-16,
+    "max_abs_LE33": 2.8758387315974687e-07,
+    "max_abs_U3_mm": 6.284351072233859e-36,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -0.01483224704861641,
+    "ALLSE": 21.547605514526367,
+    "ALLSD": 0.0,
+    "ALLWK": 22.243995666503906,
+    "ALLVD": 0.0,
+    "ALLPD": 0.6815579533576965,
+    "ALLIE": 22.229164123535156
+  },
+  "subset_ledger_final_relative_error": 0.0006667661328078777,
+  "final_work_balance_relative_error": 0.0006667977853885096,
+  "work_balance_relative_error": 0.0006688927172992198,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "numerical_reference": {
+    "kind": "published critical equilibrium symbols; control-specific jump path not supplied",
+    "uncertainty_mm_N": [
+      0.01,
+      2.0
+    ],
+    "path": "validation/cases/krueger2012CR_mmb80/data/fig19_critical_graphical.csv",
+    "peak_graphical_N": 899.0658953,
+    "peak_graphical_displacement_mm": 6.022682015,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": -0.23677441658567855,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Incomplete loading path"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 725.1699975202271,
+    "initial_compliance_mm_per_N": 0.0021309932761217646,
+    "initial_beam_GII_over_GT": 0.7923511716797387,
+    "final_beam_GII_over_GT": 0.8043380842164066,
+    "initial_compliance_relative_error": null,
+    "constant_nominal_Gc_initial_critical_load_N": 729.7311191406541
+  }
+}

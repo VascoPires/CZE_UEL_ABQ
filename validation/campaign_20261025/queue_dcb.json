@@ -1,0 +1,142 @@
+[
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.15,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "dcb_local015"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.6,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "dcb_local06"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "K": 100000.0,
+    "name": "dcb_K1e5"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "K": 10000000.0,
+    "name": "dcb_K1e7"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_zeta1e8_io_off.f",
+    "K": 10000000.0,
+    "name": "dcb_K1e7_z8"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "scheme": 1,
+    "name": "dcb_gauss"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.01,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "name": "dcb_inc01"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "nlgeom": true,
+    "name": "dcb_nlgeom"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "native": true,
+    "name": "dcb_native_local03"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "rho": 0.0001,
+    "name": "dcb_rho1e4"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "rho": 0.001,
+    "name": "dcb_rho1e3"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.3,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "strength": 15.0,
+    "name": "dcb_strength15"
+  },
+  {
+    "material": "turon2010",
+    "kind": "dcb",
+    "dx": 0.15,
+    "refine_to": 60.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "strength": 60.0,
+    "name": "dcb_strength60"
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "unit_histories": [
+    {
+      "history": "B0.0",
+      "baseline_dissipation_Nmm": 0.187,
+      "test_dissipation_Nmm": 0.187,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0003320950771430578,
+      "test_work_error": 0.0003320950771430578
+    },
+    {
+      "history": "B0.2",
+      "baseline_dissipation_Nmm": 0.270376,
+      "test_dissipation_Nmm": 0.270376,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.00022598823896191766,
+      "test_work_error": 0.00022598823896191766
+    },
+    {
+      "history": "B0.5",
+      "baseline_dissipation_Nmm": 0.442,
+      "test_dissipation_Nmm": 0.442,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.00010368136668431496,
+      "test_work_error": 0.00010368136668431496
+    },
+    {
+      "history": "B0.8",
+      "baseline_dissipation_Nmm": 0.6396,
+      "test_dissipation_Nmm": 0.6396,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0003168301886385525,
+      "test_work_error": 0.0003168301886385525
+    },
+    {
+      "history": "B1.0",
+      "baseline_dissipation_Nmm": 0.7808,
+      "test_dissipation_Nmm": 0.7808,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.000210163706232524,
+      "test_work_error": 0.000210163706232524
+    },
+    {
+      "history": "modeIII",
+      "baseline_dissipation_Nmm": 0.7812,
+      "test_dissipation_Nmm": 0.7812,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.00030202370990152174,
+      "test_work_error": 0.00030202370990152174
+    },
+    {
+      "history": "unload_reload_s1",
+      "baseline_dissipation_Nmm": 0.187,
+      "test_dissipation_Nmm": 0.187,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 6.958646177249663e-06,
+      "test_work_error": 6.958646177249663e-06
+    },
+    {
+      "history": "unload_reload_s2",
+      "baseline_dissipation_Nmm": 0.187,
+      "test_dissipation_Nmm": 0.187,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 6.958646177249663e-06,
+      "test_work_error": 6.958646177249663e-06
+    },
+    {
+      "history": "closure",
+      "baseline_dissipation_Nmm": 0.187,
+      "test_dissipation_Nmm": 0.187,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0006015290079169186,
+      "test_work_error": 0.0006015290079169186
+    },
+    {
+      "history": "mode_change_s1",
+      "baseline_dissipation_Nmm": 0.4688,
+      "test_dissipation_Nmm": 0.4688,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0007206692836063544,
+      "test_work_error": 0.0007206692836063544
+    },
+    {
+      "history": "mode_change_s2",
+      "baseline_dissipation_Nmm": 0.4688,
+      "test_dissipation_Nmm": 0.4688,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0007206692836063544,
+      "test_work_error": 0.0007206692836063544
+    },
+    {
+      "history": "K10000.0",
+      "baseline_dissipation_Nmm": 0.442,
+      "test_dissipation_Nmm": 0.442,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 1.838502655430774e-05,
+      "test_work_error": 1.838502655430774e-05
+    },
+    {
+      "history": "K1000000.0",
+      "baseline_dissipation_Nmm": 0.442,
+      "test_dissipation_Nmm": 0.442,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0003100501036122166,
+      "test_work_error": 0.0003100501036122166
+    },
+    {
+      "history": "K10000000.0",
+      "baseline_dissipation_Nmm": 0.442,
+      "test_dissipation_Nmm": 0.442,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.0037994678867512427,
+      "test_work_error": 0.0037994678867512427
+    },
+    {
+      "history": "rho0.0001",
+      "baseline_dissipation_Nmm": 0.4432,
+      "test_dissipation_Nmm": 0.4432,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 5.120371494002939e-05,
+      "test_work_error": 5.120371494002939e-05
+    },
+    {
+      "history": "rho0.001",
+      "baseline_dissipation_Nmm": 0.4552,
+      "test_dissipation_Nmm": 0.4552,
+      "dissipation_difference_Nmm": 0.0,
+      "baseline_work_error": 0.00044845489080638134,
+      "test_work_error": 0.00044845489080638134
+    }
+  ],
+  "structural_comparisons": [
+    {
+      "baseline": "dcb_ps03",
+      "test": "dcb_ps03_refarea",
+      "baseline_status": "COMPLETED",
+      "test_status": "COMPLETED",
+      "baseline_peak_N": 51.427483558654785,
+      "test_peak_N": 51.3944673538208,
+      "relative_peak_difference": -0.0006419953408050016,
+      "baseline_energy_error": 0.0018027177119984558,
+      "test_energy_error": 0.0017980114955505164
+    },
+    {
+      "baseline": "t2018_mmb20_lefmlever",
+      "test": "t2018_mmb20_lefmlever_refarea",
+      "baseline_status": "COMPLETED",
+      "test_status": "COMPLETED",
+      "baseline_peak_N": 99.57463307380675,
+      "test_peak_N": 99.38616347312927,
+      "relative_peak_difference": -0.0018927471270496765,
+      "baseline_energy_error": 0.003841462476287693,
+      "test_energy_error": 0.00381494763788013
+    }
+  ],
+  "scope": "Restricted matched tests of a different area measure; both variants fail the independent constant-area basis cycle. No canonical replacement or general geometric-energy fix is established."
+}

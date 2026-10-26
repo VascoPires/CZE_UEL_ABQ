@@ -1,0 +1,294 @@
+{
+  "status": "PASS",
+  "checked": [
+    {
+      "name": "CPS4_dx0p5_a34p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 464
+    },
+    {
+      "name": "CPS4_dx0p5_a35p0",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 462
+    },
+    {
+      "name": "CPS4_dx0p5_a35p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 460
+    },
+    {
+      "name": "CPS4I_dx0p5_a34p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 464
+    },
+    {
+      "name": "CPS4I_dx0p5_a35p0",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 462
+    },
+    {
+      "name": "CPS4I_dx0p5_a35p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 460
+    },
+    {
+      "name": "CPE4_dx0p5_a34p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 464
+    },
+    {
+      "name": "CPE4_dx0p5_a35p0",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 462
+    },
+    {
+      "name": "CPE4_dx0p5_a35p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 460
+    },
+    {
+      "name": "CPE4I_dx0p5_a34p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 464
+    },
+    {
+      "name": "CPE4I_dx0p5_a35p0",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 462
+    },
+    {
+      "name": "CPE4I_dx0p5_a35p5",
+      "nodes": 3614,
+      "elements": 3000,
+      "equations": 460
+    },
+    {
+      "name": "C3D8_dx0p5_a34p5",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7688
+    },
+    {
+      "name": "C3D8_dx0p5_a35p0",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7686
+    },
+    {
+      "name": "C3D8_dx0p5_a35p5",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7684
+    },
+    {
+      "name": "C3D8I_dx0p5_a34p5",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7688
+    },
+    {
+      "name": "C3D8I_dx0p5_a35p0",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7686
+    },
+    {
+      "name": "C3D8I_dx0p5_a35p5",
+      "nodes": 7226,
+      "elements": 3000,
+      "equations": 7684
+    },
+    {
+      "name": "CPS4_dx0p25_a34p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 926
+    },
+    {
+      "name": "CPS4_dx0p25_a35p0",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 922
+    },
+    {
+      "name": "CPS4_dx0p25_a35p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 918
+    },
+    {
+      "name": "CPS4I_dx0p25_a34p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 926
+    },
+    {
+      "name": "CPS4I_dx0p25_a35p0",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 922
+    },
+    {
+      "name": "CPS4I_dx0p25_a35p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 918
+    },
+    {
+      "name": "CPE4_dx0p25_a34p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 926
+    },
+    {
+      "name": "CPE4_dx0p25_a35p0",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 922
+    },
+    {
+      "name": "CPE4_dx0p25_a35p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 918
+    },
+    {
+      "name": "CPE4I_dx0p25_a34p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 926
+    },
+    {
+      "name": "CPE4I_dx0p25_a35p0",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 922
+    },
+    {
+      "name": "CPE4I_dx0p25_a35p5",
+      "nodes": 13224,
+      "elements": 12000,
+      "equations": 918
+    },
+    {
+      "name": "C3D8_dx0p25_a34p5",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27370
+    },
+    {
+      "name": "C3D8_dx0p25_a35p0",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27366
+    },
+    {
+      "name": "C3D8_dx0p25_a35p5",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27362
+    },
+    {
+      "name": "C3D8I_dx0p25_a34p5",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27370
+    },
+    {
+      "name": "C3D8I_dx0p25_a35p0",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27366
+    },
+    {
+      "name": "C3D8I_dx0p25_a35p5",
+      "nodes": 26446,
+      "elements": 12000,
+      "equations": 27362
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a34p5",
+      "nodes": 14450,
+      "elements": 9000,
+      "equations": 2784
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a35p0",
+      "nodes": 14450,
+      "elements": 9000,
+      "equations": 2772
+    },
+    {
+      "name": "fw3_C3D8I_dx0p5_a35p5",
+      "nodes": 14450,
+      "elements": 9000,
+      "equations": 2760
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a34p5",
+      "nodes": 28898,
+      "elements": 21000,
+      "equations": 5568
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a35p0",
+      "nodes": 28898,
+      "elements": 21000,
+      "equations": 5544
+    },
+    {
+      "name": "fw7_C3D8I_dx0p5_a35p5",
+      "nodes": 28898,
+      "elements": 21000,
+      "equations": 5520
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a34p5",
+      "nodes": 57794,
+      "elements": 45000,
+      "equations": 11136
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a35p0",
+      "nodes": 57794,
+      "elements": 45000,
+      "equations": 11088
+    },
+    {
+      "name": "fw15_C3D8I_dx0p5_a35p5",
+      "nodes": 57794,
+      "elements": 45000,
+      "equations": 11040
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a34p5",
+      "nodes": 93914,
+      "elements": 75000,
+      "equations": 18096
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a35p0",
+      "nodes": 93914,
+      "elements": 75000,
+      "equations": 18018
+    },
+    {
+      "name": "fw25_C3D8I_dx0p5_a35p5",
+      "nodes": 93914,
+      "elements": 75000,
+      "equations": 17940
+    }
+  ],
+  "scope": "Connectivity, positive rectangular geometry, crack stations, unique dependent equation DOFs and matched grids; not solver acceptance"
+}

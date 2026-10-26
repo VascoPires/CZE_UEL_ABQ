@@ -1,0 +1,93 @@
+[
+  {
+    "name": "dcb_local015",
+    "started_utc": "2026-10-25T16:20:41.039650+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_local015/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:23:34.518610+00:00"
+  },
+  {
+    "name": "dcb_local06",
+    "started_utc": "2026-10-25T16:23:34.522288+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_local06/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:24:40.201173+00:00"
+  },
+  {
+    "name": "dcb_K1e5",
+    "started_utc": "2026-10-25T16:24:40.203585+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_K1e5/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:25:57.358141+00:00"
+  },
+  {
+    "name": "dcb_K1e7",
+    "started_utc": "2026-10-25T16:25:57.360867+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_K1e7/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:27:31.893586+00:00"
+  },
+  {
+    "name": "dcb_K1e7_z8",
+    "started_utc": "2026-10-25T16:27:31.899528+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_K1e7_z8/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:28:58.426969+00:00"
+  },
+  {
+    "name": "dcb_gauss",
+    "started_utc": "2026-10-25T16:28:58.444241+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_gauss/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:30:38.502313+00:00"
+  },
+  {
+    "name": "dcb_inc01",
+    "started_utc": "2026-10-25T16:30:38.504824+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_inc01/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:32:26.812679+00:00"
+  },
+  {
+    "name": "dcb_nlgeom",
+    "started_utc": "2026-10-25T16:32:26.816006+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_nlgeom/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:34:32.806269+00:00"
+  },
+  {
+    "name": "dcb_native_local03",
+    "started_utc": "2026-10-25T16:34:32.812308+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_native_local03/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:36:10.062135+00:00"
+  },
+  {
+    "name": "dcb_rho1e4",
+    "started_utc": "2026-10-25T16:36:10.079866+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_rho1e4/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:37:40.405140+00:00"
+  },
+  {
+    "name": "dcb_rho1e3",
+    "started_utc": "2026-10-25T16:37:40.411496+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_rho1e3/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:38:44.570079+00:00"
+  },
+  {
+    "name": "dcb_strength15",
+    "started_utc": "2026-10-25T16:38:44.572341+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_strength15/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:40:17.611499+00:00"
+  },
+  {
+    "name": "dcb_strength60",
+    "started_utc": "2026-10-25T16:40:17.621865+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_strength60/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:42:58.025533+00:00"
+  }
+]

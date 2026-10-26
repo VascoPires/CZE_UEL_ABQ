@@ -1,0 +1,16 @@
+{
+  "name": "dcb_dx06_z8",
+  "termination": "FAILED",
+  "peak_force_N": 52.933268547058105,
+  "peak_displacement_mm": 2.681894540786743,
+  "last_displacement_mm": 2.681894540786743,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04693584916072412,
+  "compliance_fit_R2": 0.9999999999999891,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22297307493918272,
+  "final_solver_energy_balance_error": 1.134618120741032e-05,
+  "source_hash": "d2c097bcd685faf46813b3d58fae7a7e7d96482961291a6e053eae7ec9b33fbe",
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

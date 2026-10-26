@@ -1,0 +1,27 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Traceback (most recent call last):
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\elastic_dimensions_20261026\scripts\extract.py", line 89, in <module>
+    if __name__=='__main__': main()
+  File "C:\Users\p2321038\Documents\GitHub\CZE_UEL_ABQ\validation\elastic_dimensions_20261026\scripts\extract.py", line 84, in main
+    json.dump(result,open('response.json','w'),indent=2)
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 332, in _iterencode_list
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "C:\SIMULIA\EstProducts\2023\win_b64\tools\SMApy\python2.7\lib\json\encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: 4.844954 is not JSON serializable

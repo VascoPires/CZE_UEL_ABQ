@@ -1,0 +1,66 @@
+[
+  {
+    "name": "01_element_response",
+    "caption": "Actual Abaqus unit-area patches, maximum step increment0.001. Proportional energies are compared with the independently calculated BK reference. Unit patch areas are1mm\u00b2. This does not establish specimen validation."
+  },
+  {
+    "name": "02_material_tangent",
+    "caption": "Actual extracted Fortran constitutive Jacobian against independent central differences on smooth proportional B=.5 branches. The smaller perturbation is an isolated tested copy; the canonical source is unchanged."
+  },
+  {
+    "name": "03_dcb_reference",
+    "caption": "Turon2010 DCB, local mesh0.3mm and K=1e6N/mm\u00b3. The published30MPa series is a graphical estimate (\u00b10.03mm,\u00b10.8N). Printed Appendix A1\u2013A2 give a different initial compliance; the formal propagation branch and its elastic extension are shown without fitting crack length."
+  },
+  {
+    "name": "04_dcb_mesh_stabilization",
+    "caption": "Corrected plane-strain slice sensitivity. Dashed curves and crosses end at failed jobs; those endpoints are not substituted for peak or propagation results. The constant-damping trace uses about16% stabilization/work and is rejected as a converged prediction. Explicit-adaptive controls use ALLSDTOL=.005; their actual energy fractions are reported separately in the run inventory."
+  },
+  {
+    "name": "05_dcb_numerical_sensitivity",
+    "caption": "One-factor DCB penalty, increment, integration and bulk-kinematics studies. Normal and shear penalty vary together through the UEL stiffness relation. Failed traces are dashed and end with crosses; comparisons do not imply converged propagation."
+  },
+  {
+    "name": "06_turon2010_mmb",
+    "caption": "Turon2010 adjusted-strength MMB comparisons. Graphical targets are conservative lower-envelope estimates with\u00b10.05mm/\u00b13N read-off uncertainty. Printed LEFM uses evolving analytical energy partition. The linear weight-free lever is a documented reconstruction. Dashed/crossed traces are incomplete. Named adaptive controls are separate numerical sensitivities and require their own energy checks."
+  },
+  {
+    "name": "07_krueger_mmb",
+    "caption": "Krueger critical equilibrium symbols, not prescribed-displacement jump trajectories. The diagnostic UEL uses assumed strengths32/61MPa and penalty170000N/mm\u00b3, which the VCCT source does not supply. The narrow slice cannot reproduce finite-width fronts. Dashed/crossed traces are incomplete. Named adaptive controls are separate numerical sensitivities and require their own energy checks."
+  },
+  {
+    "name": "08_turon2018_mmb",
+    "caption": "Turon2018 new-law30/80MPa graphical series versus executed UEL traces. The corrected-beam reconstruction enforces the nominal initial analytical mode fraction; the original ideal-lever reconstruction is retained as a separate sensitivity. Neither apparatus is an established author-model reproduction. Material parameters are unchanged. Dashed/crossed traces are incomplete. Named adaptive controls are separate numerical sensitivities and require their own energy checks."
+  },
+  {
+    "name": "09_experimental_peak_tables",
+    "caption": "Separate experimental peak transcriptions are retained. Turon2006 is the primary approved observation table; Camanho2002 is not merged with it. UEL markers use the mechanically screened case-matrix selection. Open triangles denote maximum accepted force from an incomplete prediction, not an eligible peak; energy-failing completed adaptive controls remain visible in figure12. Missing scatter, raw histories and previously fitted toughness prevent an independent validation claim."
+  },
+  {
+    "name": "12_experimental_marker_comparisons",
+    "caption": "Turon2006 Figs9\u201313 experimental square-marker coordinates, directly digitized from vector paths. No origin or missing measurement is inserted. DCB displacement is full relative opening; MMB displacement is at the load coordinate; ENF is midspan displacement. Dashed/crossed prediction traces are incomplete. Sparse propagation observations, previously fitted toughness/eta and missing raw records/scatter prevent independent validation."
+  },
+  {
+    "name": "10_energy_consistency",
+    "caption": "Left: endpoint-quadrature energy error from the actual canonical material routines under proportional viscous loading decreases with refinement. Right: actual structural energy errors can remain unacceptable despite successful termination. The viscous structural cases predate the corrected end constraints and are diagnostics; do not compare them as source-equivalent predictions."
+  },
+  {
+    "name": "11_dcb_front_definition",
+    "caption": "Completed unstabilized DCB0.3mm and0.075mm controls. Damage-based fronts use undeformed mesh coordinates and require every UEL sampling point across each contiguous mesh interval to exceed the stated threshold. DAT output is rounded and sampled every ten increments plus final output; these sparse histories do not establish temporal crack-front convergence. These fronts are not measured crack lengths."
+  },
+  {
+    "name": "13_fixed_crack_vcct",
+    "caption": "Independent tied fixed-crack elastic FE controls: no cohesive law is active. Critical loads are obtained by scaling the measured VCCT energy release to the source BK toughness, using the achieved partition. These checks address elastic loading/energy-release definitions, not UEL propagation or experimental validation. Closure-length sensitivity and apparatus limitations remain separate."
+  },
+  {
+    "name": "14_elastic_geometry_cycles",
+    "caption": "Actual full Fortran UEL with serial runtime stubs, rho=0, elastic0.0001mm maximum gap and restored initial geometry. Left: area1\u21921.2 at fixed gap; canonical100/1000-interval tests leave -1e-4Nmm net work, whereas the reference-area hypothesis closes this restricted cycle. Right: constant-area midsurface rotation0\u219245degrees at fixed global gap direction, closure and orientation restoration; both variants leave about+1.3791e-4Nmm net work with zero final stored/dissipated energy. This is not a rigid-body rotation of the entire separated configuration. The reference-area variant is therefore not a complete geometric-energy correction."
+  },
+  {
+    "name": "15_dcb_viscosity_increment",
+    "caption": "Matched corrected-constraint DCB controls at local0.3mm spacing: fixed material/K, rho varied explicitly, then the maximum normalized step increment reduced at fixed rho. Step duration is1; rho is a numerical regularization time scale in the same units. An adaptive control is executed only if the fine-increment viscous baseline fails. Failed traces remain dashed/crossed. The energy screen uses maximum ETOTAL drift divided by peak external work; exact zero drift is omitted on the logarithmic scale and ALLSD is assessed separately. A smaller time increment resolves viscous evolution and does not establish a rate-independent result."
+  },
+  {
+    "name": "16_mmb_penalty_tangent",
+    "caption": "2018 MMB20 corrected-lever reconstruction, fixed geometry/material/strengths and local0.3mm mesh. The source K3=1e5 remains the baseline; the higher-K control preserves the normal/shear stiffness ratio. Its smaller-perturbation structural retry is conditional on failure of the same-K canonical-perturbation case. Dashed/crossed traces are incomplete and their maxima are not verified peaks. Right: exact property-set standalone material checks isolate tangent accuracy at fixed inputs; all non-tangent responses match between perturbation copies in these histories. These numerical controls do not approve a physical reformulation or a canonical-source replacement."
+  }
+]

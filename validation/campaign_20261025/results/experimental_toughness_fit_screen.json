@@ -1,0 +1,52 @@
+[
+  {
+    "case": "dcb",
+    "nominal_B": 0.0,
+    "measured_Gc_N_per_mm": 0.969,
+    "BK_Gc_N_per_mm": 0.969,
+    "relative_energy_difference": 0.0,
+    "formal_same_geometry_LEFM_force_scaling_difference": 0.0,
+    "source": "validation/cases/turon2006MM_exp_dcb/data/experimental_peak_sources.csv",
+    "scope": "Explanatory nominal-fraction energy screen; not a corrected load prediction or calibration. Actual global/local fractions and finite process zones differ."
+  },
+  {
+    "case": "mmb20",
+    "nominal_B": 0.2,
+    "measured_Gc_N_per_mm": 1.103,
+    "BK_Gc_N_per_mm": 0.9879938836566001,
+    "relative_energy_difference": -0.10426665126328183,
+    "formal_same_geometry_LEFM_force_scaling_difference": -0.053568096091050954,
+    "source": "validation/cases/turon2006MM_exp_mmb20/data/experimental_peak_sources.csv",
+    "scope": "Explanatory nominal-fraction energy screen; not a corrected load prediction or calibration. Actual global/local fractions and finite process zones differ."
+  },
+  {
+    "case": "mmb50",
+    "nominal_B": 0.5,
+    "measured_Gc_N_per_mm": 1.131,
+    "BK_Gc_N_per_mm": 1.1229957563910125,
+    "relative_energy_difference": -0.007077138469484989,
+    "formal_same_geometry_LEFM_force_scaling_difference": -0.0035448522233852975,
+    "source": "validation/cases/turon2006MM_exp_mmb50/data/experimental_peak_sources.csv",
+    "scope": "Explanatory nominal-fraction energy screen; not a corrected load prediction or calibration. Actual global/local fractions and finite process zones differ."
+  },
+  {
+    "case": "mmb80",
+    "nominal_B": 0.8,
+    "measured_Gc_N_per_mm": 1.376,
+    "BK_Gc_N_per_mm": 1.4195248945430876,
+    "relative_energy_difference": 0.03163146405747663,
+    "formal_same_geometry_LEFM_force_scaling_difference": 0.015692603132205774,
+    "source": "validation/cases/turon2006MM_exp_mmb80/data/experimental_peak_sources.csv",
+    "scope": "Explanatory nominal-fraction energy screen; not a corrected load prediction or calibration. Actual global/local fractions and finite process zones differ."
+  },
+  {
+    "case": "enf",
+    "nominal_B": 1.0,
+    "measured_Gc_N_per_mm": 1.719,
+    "BK_Gc_N_per_mm": 1.719,
+    "relative_energy_difference": 0.0,
+    "formal_same_geometry_LEFM_force_scaling_difference": 0.0,
+    "source": "validation/cases/turon2006MM_exp_enf/data/experimental_peak_sources.csv",
+    "scope": "Explanatory nominal-fraction energy screen; not a corrected load prediction or calibration. Actual global/local fractions and finite process zones differ."
+  }
+]

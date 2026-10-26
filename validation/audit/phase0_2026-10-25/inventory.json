@@ -1,0 +1,847 @@
+{
+  "timestamp_utc": "2026-10-25T14:45:43.469628+00:00",
+  "root": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ",
+  "git_head": "041926c63dc68f2cf44775b1d989a1feb61e9328",
+  "git_status": [
+    " M .gitignore",
+    " D 0_src/prepare_run_from_inp.py",
+    " D 1_Examples/DCB/dcb_config.json",
+    " D 1_Examples/DCB/dcb_script.py",
+    " D 1_Examples/DCB/main_script.py",
+    " D 1_Examples/DCB/prepare_run_from_inp.py",
+    " D 1_Examples/Element_Test/3D_element_verification_linear.inp",
+    " D 1_Examples/Element_Test/3D_element_verification_linear_mixed_mode.inp",
+    " D 1_Examples/Element_Test/3D_element_verification_linear_mixed_mode_change_dir.inp",
+    " D 1_Examples/Element_Test/parse_elprint_sdv_by_increment.py",
+    " D 1_Examples/Element_Test/plot_abaqus_std_cohesive_curves_3d.py",
+    " D 1_Examples/Element_Test/plot_sdv_curves.py",
+    " D 1_Examples/Element_Test/plot_sdv_curves_3d.py",
+    " D 2_Visualization/build_model_uel_vtk.py",
+    " D 2_Visualization/run_full_vis.py",
+    " D 2_Visualization/run_full_vis_cmd.py",
+    " D 2_Visualization/run_uel_vis.py",
+    " M LICENSE",
+    " M README.md",
+    "?? .gitattributes",
+    "?? .github/",
+    "?? CONTRIBUTING.md",
+    "?? Prompt0.md",
+    "?? docs/",
+    "?? examples/",
+    "?? requirements-visualization.txt",
+    "?? requirements.txt",
+    "?? scripts/",
+    "?? src/",
+    "?? validation/",
+    "?? visualization/"
+  ],
+  "source": {
+    "path": "src/3D_CZM.f",
+    "sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+    "bytes": 35305
+  },
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:16:10) [GCC 11.2.0]",
+  "python_executable": "/home/vasco/miniconda3/bin/python",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "commands": {
+    "abaqus": null,
+    "abaqus2023": null,
+    "ifort": null,
+    "ifx": null,
+    "gfortran": null,
+    "cmd.exe": "/mnt/c/WINDOWS/system32/cmd.exe",
+    "pdftotext": "/home/vasco/miniconda3/bin/pdftotext",
+    "pdfinfo": "/home/vasco/miniconda3/bin/pdfinfo",
+    "pdftoppm": "/home/vasco/miniconda3/bin/pdftoppm"
+  },
+  "installed_windows_files": {
+    "/mnt/c/SIMULIA/Commands/abaqus.bat": true,
+    "/mnt/c/SIMULIA/Commands/abq2023.bat": true,
+    "/mnt/c/SIMULIA/EstProducts/2023/win_b64/code/bin/SMALauncher.exe": true,
+    "/mnt/c/Program Files (x86)/Intel/oneAPI/compiler/2023.0.0/windows/bin/intel64/ifort.exe": true,
+    "/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvars64.bat": true
+  },
+  "references": [
+    {
+      "path": "validation/references/camanho2002TM211737.pdf",
+      "sha256": "d150df624a844ce2b2d23a832fdf81d901f60c0b59f6a39b4f3d0faeb0cca978",
+      "bytes": 1097052
+    },
+    {
+      "path": "validation/references/krueger2008TM215123.pdf",
+      "sha256": "9373521302f43ec02650243f7c2300a44e168f1bbf8ae2b479c5f76f2e8dd36f",
+      "bytes": 8445553
+    },
+    {
+      "path": "validation/references/krueger2012CR217562.pdf",
+      "sha256": "dc18f18d44f862916af1b21e67a303dd03e9c335dc162e9316a6803a97ad6d27",
+      "bytes": 2193269
+    },
+    {
+      "path": "validation/references/krueger2012MMB_conf.pdf",
+      "sha256": "3647fef6aec71eadd1cdfdf50ab2c9e7578c2ab69db09316fb6d44eb0d92ff5c",
+      "bytes": 4945485
+    },
+    {
+      "path": "validation/references/turon2006MM.pdf",
+      "sha256": "aec1f54b7ff7dcf5efd7849d6f5dae42adb44db207164a493b057bde05f302c2",
+      "bytes": 677458
+    },
+    {
+      "path": "validation/references/turon2010CS.pdf",
+      "sha256": "8850fa7532e7975f48b3a6a19acea7a6f8a6158517336a46dce3855c9c82b86f",
+      "bytes": 2599846
+    },
+    {
+      "path": "validation/references/turon2018CS.pdf",
+      "sha256": "cee2ec0960929e3ab7bec0b5ae82023c0a36dc56c2421e8189d211dcbb1f4ed7",
+      "bytes": 1119902
+    }
+  ],
+  "decks": [
+    {
+      "path": "examples/dcb/inputs/T300_Gaussian.inp",
+      "sha256": "241acf4cd208d241820f2ba109b7a80791321e87eecf7deaf31d9ab08b01fa45",
+      "bytes": 1118617,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.352, 0.786, 60, 60, 1.23, 100000, 1e-06, 1"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/dcb/inputs/T300_NewtonC.inp",
+      "sha256": "80931dd173b4bc01a0f0ac9230fa3d6010067c9bd78bfa9774787e3561e952f6",
+      "bytes": 1118615,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.352, 0.786, 60, 60, 1.23, 100000, 1e-06, 1"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/element/energy_check/coh_mixed_mode_direction_change.inp",
+      "sha256": "32a6f6cb8df211a44571d9c14aef280e0525dfce7db7054a1ee17011d820ed8f",
+      "bytes": 1305,
+      "uses_uel": false,
+      "interface_parse": "PASS",
+      "uel_properties": [],
+      "step_headers": [
+        "*STEP, INC=100, NLGEOM",
+        "*STEP, INC=100, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/element/energy_check/uel_proportional.inp",
+      "sha256": "e16fff22c1a5b5f22cf5ee17dfc5f6e0f015cce14adc4f24472e8e71025dc74a",
+      "bytes": 1234,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.187, 0.781, 38.0, 52.0, 1.22, 1E5, 0.0, 2"
+      ],
+      "step_headers": [
+        "*STEP, NAME=Loading, INC=10000, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/element/inputs/direction_change.inp",
+      "sha256": "1a161ad67a9eb10da0d7a89f6c0846ee92970656b16d38f94ee9860d1b0485e2",
+      "bytes": 1925,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.187, 0.781, 38.0, 52.0, 1.22, 1E5, 0.0, 2"
+      ],
+      "step_headers": [
+        "*STEP, INC=100, NLGEOM",
+        "*STEP, INC=100, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/element/inputs/mixed_mode.inp",
+      "sha256": "3a0c5ab36c7576f4a26000254581cfb7df0acccb2bd12798c985baca5a7670e5",
+      "bytes": 1600,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.187, 0.781, 38.0, 52.0, 1.22, 1E5, 0.0, 2"
+      ],
+      "step_headers": [
+        "*STEP, INC=100, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/element/inputs/opening.inp",
+      "sha256": "9be1646d046a7a407fca1e702f7dfadce7f06b871be24ee6013ba8a355e4a2f9",
+      "bytes": 1432,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.352, 0.700, 60.0, 60.0, 1.22, 1E5, 0.0, 2"
+      ],
+      "step_headers": [
+        "*STEP, INC=100, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/element/inputs/standard_direction_change.inp",
+      "sha256": "19de0b297ba60d1586ae2c4a6e120e1e6e35fdc6274a52c5fb2802512c3d64a9",
+      "bytes": 1612,
+      "uses_uel": false,
+      "interface_parse": "PASS",
+      "uel_properties": [],
+      "step_headers": [
+        "*STEP, INC=100, NLGEOM",
+        "*STEP, INC=100, NLGEOM"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E3_MscEq.inp",
+      "sha256": "0c100526d56c241358a2d01e3e7ab0cabbc1788f4a6620db0f59b1a4b9cc6af9",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 61.0, 2.1, 1.7E5, 1E-3, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E4_MscEq.inp",
+      "sha256": "10436832ae1eae9e082a6050177b64603086edaf0605c1efa4b0c31a9829abda",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 61.0, 2.1, 1.7E5, 1E-4, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E5_MscEq.inp",
+      "sha256": "567426149e384d762f4c4fe147c8ce6a3f863654484114d6a425019d9f9730e5",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 61.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_Visc1E6_MscEq.inp",
+      "sha256": "567426149e384d762f4c4fe147c8ce6a3f863654484114d6a425019d9f9730e5",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 61.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_120.inp",
+      "sha256": "87130fbb370d1c6410785a743ed81804970cb1672ee032f60e0351c993e95eeb",
+      "bytes": 3996355,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 120.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_30.inp",
+      "sha256": "0cdd7c987398161feabcda34fbfed033c22416214f546fe716680d0984b766aa",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 30.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_5_60.inp",
+      "sha256": "f55c939654ce1b655aa79a324e8df86f5271470db7f2907edab3c083baa54efe",
+      "bytes": 3996353,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 5.0, 80.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/MMB_Thesis_visc_SDEG_1_tau_90.inp",
+      "sha256": "c59d7bf6d770f29b539a91e8736b97590dc7bbe16b9c47608a67f7645679eaff",
+      "bytes": 3996354,
+      "uses_uel": true,
+      "interface_parse": "PASS",
+      "uel_properties": [
+        "0.212, 0.774, 32.0, 90.0, 2.1, 1.7E5, 1E-5, 2"
+      ],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    },
+    {
+      "path": "examples/mmb/inputs/standard_GIIGT_0p2.inp",
+      "sha256": "50dcd9ee5984158537073e5a4fc7426dc37053d36eb4ffba928c23553f1a2b20",
+      "bytes": 4039007,
+      "uses_uel": false,
+      "interface_parse": "PASS",
+      "uel_properties": [],
+      "step_headers": [
+        "*Step, name=\"Load Step\", nlgeom=YES, inc=100000"
+      ]
+    }
+  ],
+  "python_syntax": [
+    {
+      "path": "scripts/build_model.py",
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/convert_input.py",
+      "status": "PASS"
+    },
+    {
+      "path": "scripts/run_case.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/dcb/dcb_script.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/dcb/main_script.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/dcb/plots/plot_cfrp_dcb_mul_light.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/energy_check/check_odb_energy.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/energy_check/compute_incremental_energy.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/parse_elprint_sdv_by_increment.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/plot_abaqus_std_cohesive_curves_3d.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/plot_sdv_curves.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/element/plot_sdv_curves_3d.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/mmb/main_script.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/mmb/mmb_script.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/mmb/plots/plot_mmb_lefm.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/mmb/plots/plot_mmb_tau_compare.py",
+      "status": "PASS"
+    },
+    {
+      "path": "examples/mmb/plots/plot_mmb_viscosity_compare.py",
+      "status": "PASS"
+    },
+    {
+      "path": "visualization/build_model_uel_vtk.py",
+      "status": "PASS"
+    },
+    {
+      "path": "visualization/run_full_vis.py",
+      "status": "PASS"
+    },
+    {
+      "path": "visualization/run_full_vis_cmd.py",
+      "status": "PASS"
+    },
+    {
+      "path": "visualization/run_uel_vis.py",
+      "status": "PASS"
+    }
+  ],
+  "historical_runs": [
+    {
+      "folder": "runs/dcb_generation_check",
+      "sources": [
+        {
+          "path": "runs/dcb_generation_check/3D_CZM.f",
+          "sha256": "74c7b6207a1e4a79940613f7aa22e234f778b8219b99dab092455b056f314f7b",
+          "bytes": 33588,
+          "matches_current": false
+        }
+      ],
+      "status_files": [],
+      "odb_files": [
+        {
+          "path": "runs/dcb_generation_check/dcb_uel_datacheck.odb",
+          "sha256": "521a4fde838ecbf9e6f39c8aea2f967a5e22942d2936bd908c3351e49c756221",
+          "bytes": 3545104
+        }
+      ]
+    },
+    {
+      "folder": "runs/fix_closure_energy",
+      "sources": [
+        {
+          "path": "runs/fix_closure_energy/3D_CZM.f",
+          "sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+          "bytes": 35305,
+          "matches_current": true
+        }
+      ],
+      "status_files": [
+        {
+          "path": "runs/fix_closure_energy/closure_energy.sta",
+          "sha256": "28e69c5069a8bb877b2e8831be960e8e1d3822ce1a7a9b14378df99500ff35b9",
+          "bytes": 14655,
+          "completed": true
+        }
+      ],
+      "odb_files": [
+        {
+          "path": "runs/fix_closure_energy/closure_energy.odb",
+          "sha256": "9380355480910b5d17a57cf44b44619f323c6effcd877c17f46d097b8d7050c9",
+          "bytes": 1655692
+        }
+      ],
+      "manifest": {
+        "input": "/tmp/cze_closure_energy.inp",
+        "input_sha256": "7a3c7e6fdea867c11158683f6fa7d8e84d8b2fd8fbf14d331a1b4a9e69b4f924",
+        "uel_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+        "command": [
+          "abaqus",
+          "job=closure_energy",
+          "input=closure_energy.inp",
+          "cpus=1",
+          "interactive",
+          "user=3D_CZM.f"
+        ],
+        "submitted": false
+      }
+    },
+    {
+      "folder": "runs/fix_dcb_generator",
+      "sources": [
+        {
+          "path": "runs/fix_dcb_generator/3D_CZM.f",
+          "sha256": "98dec97c4b87ae9036db61bfe2b23e1b24fc87f80d744f6e3a4caa5054d994c9",
+          "bytes": 35191,
+          "matches_current": false
+        }
+      ],
+      "status_files": [],
+      "odb_files": []
+    },
+    {
+      "folder": "runs/fix_mixed_energy",
+      "sources": [
+        {
+          "path": "runs/fix_mixed_energy/3D_CZM.f",
+          "sha256": "c6cff590bf5039f9191aec0d87334483a6c163b4e335b00d375cfd7efdbe8893",
+          "bytes": 35207,
+          "matches_current": false
+        }
+      ],
+      "status_files": [
+        {
+          "path": "runs/fix_mixed_energy/mixed_energy.sta",
+          "sha256": "dce2f934beefcd19d486a9284090bb9ae68ff11c73cc0018710280aea1a97674",
+          "bytes": 7515,
+          "completed": true
+        }
+      ],
+      "odb_files": [
+        {
+          "path": "runs/fix_mixed_energy/mixed_energy.odb",
+          "sha256": "e945685d113c70a70607d47819f529322bbab3806dd4cdc7c13a3b27908778f9",
+          "bytes": 1108428
+        }
+      ],
+      "manifest": {
+        "input": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/1_Examples/Element_Test/energy_check/uel_proportional.inp",
+        "input_sha256": "e16fff22c1a5b5f22cf5ee17dfc5f6e0f015cce14adc4f24472e8e71025dc74a",
+        "uel_sha256": "c6cff590bf5039f9191aec0d87334483a6c163b4e335b00d375cfd7efdbe8893",
+        "command": [
+          "abaqus",
+          "job=mixed_energy",
+          "input=mixed_energy.inp",
+          "cpus=1",
+          "interactive",
+          "user=3D_CZM.f"
+        ],
+        "submitted": false
+      }
+    },
+    {
+      "folder": "runs/fix_opening_energy",
+      "sources": [
+        {
+          "path": "runs/fix_opening_energy/3D_CZM.f",
+          "sha256": "c6cff590bf5039f9191aec0d87334483a6c163b4e335b00d375cfd7efdbe8893",
+          "bytes": 35207,
+          "matches_current": false
+        }
+      ],
+      "status_files": [
+        {
+          "path": "runs/fix_opening_energy/opening_energy.sta",
+          "sha256": "dce2f934beefcd19d486a9284090bb9ae68ff11c73cc0018710280aea1a97674",
+          "bytes": 7515,
+          "completed": true
+        }
+      ],
+      "odb_files": [
+        {
+          "path": "runs/fix_opening_energy/opening_energy.odb",
+          "sha256": "3f70daa08da7a89bbcf8672c38ee8e8bb8c0cd9f79ef3637b8cab181772e0c1d",
+          "bytes": 1108428
+        }
+      ],
+      "manifest": {
+        "input": "/tmp/cze_opening_energy.inp",
+        "input_sha256": "a6fbbb33157cab49d2e924701221ea2bd42e3627bcfc5d014993405e04e3cbf7",
+        "uel_sha256": "c6cff590bf5039f9191aec0d87334483a6c163b4e335b00d375cfd7efdbe8893",
+        "command": [
+          "abaqus",
+          "job=opening_energy",
+          "input=opening_energy.inp",
+          "cpus=1",
+          "interactive",
+          "user=3D_CZM.f"
+        ],
+        "submitted": false
+      }
+    },
+    {
+      "folder": "runs/fix_regularized_energy",
+      "sources": [
+        {
+          "path": "runs/fix_regularized_energy/3D_CZM.f",
+          "sha256": "98dec97c4b87ae9036db61bfe2b23e1b24fc87f80d744f6e3a4caa5054d994c9",
+          "bytes": 35191,
+          "matches_current": false
+        }
+      ],
+      "status_files": [
+        {
+          "path": "runs/fix_regularized_energy/regularized_energy.sta",
+          "sha256": "600dd5a4e185639b80ed82292cb5019ba537ab0c2bb5ccc0cc4136fbcdd08cbe",
+          "bytes": 7515,
+          "completed": true
+        }
+      ],
+      "odb_files": [
+        {
+          "path": "runs/fix_regularized_energy/regularized_energy.odb",
+          "sha256": "d77ef4db430986fe886cb010e70f8aec1ae51fc04ace356b30303ad0651f01bc",
+          "bytes": 1108428
+        }
+      ],
+      "manifest": {
+        "input": "/tmp/cze_regularized_energy.inp",
+        "input_sha256": "70609f11e2bb5418070a6f2d96c5a4c9878cf5dea718160fe40224d7c7751183",
+        "uel_sha256": "98dec97c4b87ae9036db61bfe2b23e1b24fc87f80d744f6e3a4caa5054d994c9",
+        "command": [
+          "abaqus",
+          "job=regularized_energy",
+          "input=regularized_energy.inp",
+          "cpus=1",
+          "interactive",
+          "user=3D_CZM.f"
+        ],
+        "submitted": false
+      }
+    },
+    {
+      "folder": "runs/fix_regularized_energy_final",
+      "sources": [
+        {
+          "path": "runs/fix_regularized_energy_final/3D_CZM.f",
+          "sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+          "bytes": 35305,
+          "matches_current": true
+        }
+      ],
+      "status_files": [
+        {
+          "path": "runs/fix_regularized_energy_final/regularized_energy.sta",
+          "sha256": "6b064a6b6fad13ee159608a851ac7b988f103dd000d342b5cfba9ce8abe0faa9",
+          "bytes": 7515,
+          "completed": true
+        }
+      ],
+      "odb_files": [
+        {
+          "path": "runs/fix_regularized_energy_final/regularized_energy.odb",
+          "sha256": "9372cdcd5a13a38c49bb0ead808ab1f4f3f0005b90daef0f0e895d051a0231a1",
+          "bytes": 1108428
+        }
+      ],
+      "manifest": {
+        "input": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/runs/fix_regularized_energy/regularized_energy.inp",
+        "input_sha256": "70609f11e2bb5418070a6f2d96c5a4c9878cf5dea718160fe40224d7c7751183",
+        "uel_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+        "command": [
+          "abaqus",
+          "job=regularized_energy",
+          "input=regularized_energy.inp",
+          "cpus=1",
+          "interactive",
+          "user=3D_CZM.f"
+        ],
+        "submitted": false
+      }
+    },
+    {
+      "folder": "runs/mmb_generation_check",
+      "sources": [
+        {
+          "path": "runs/mmb_generation_check/3D_CZM.f",
+          "sha256": "74c7b6207a1e4a79940613f7aa22e234f778b8219b99dab092455b056f314f7b",
+          "bytes": 33588,
+          "matches_current": false
+        }
+      ],
+      "status_files": [],
+      "odb_files": [
+        {
+          "path": "runs/mmb_generation_check/mmb_uel_datacheck.odb",
+          "sha256": "002ec2395ce7da8932e7b9f045a3c895fc87ef2184c18735b13769008de901fd",
+          "bytes": 12346664
+        }
+      ]
+    },
+    {
+      "folder": "runs/mmb_generator",
+      "sources": [
+        {
+          "path": "runs/mmb_generator/3D_CZM.f",
+          "sha256": "74c7b6207a1e4a79940613f7aa22e234f778b8219b99dab092455b056f314f7b",
+          "bytes": 33588,
+          "matches_current": false
+        }
+      ],
+      "status_files": [],
+      "odb_files": []
+    }
+  ],
+  "historical_curves": [
+    {
+      "path": "examples/dcb/data/ABQ_T300_3D_Pseudo2D.csv",
+      "sha256": "75622b42078d6f33dfd51c939a2cff27225d72b45ce417baef35f58559b78954",
+      "bytes": 38196,
+      "numeric_rows": 2280
+    },
+    {
+      "path": "examples/dcb/data/ABQ_UEL.csv",
+      "sha256": "879ff54d1255bea4bfe46de637d28324c9a54a605c197bfc6a029864b8df569f",
+      "bytes": 11003,
+      "numeric_rows": 663
+    },
+    {
+      "path": "examples/dcb/data/dcb_lefm_p_delta_T300.csv",
+      "sha256": "a5dd0e9ea150c6a74369fe63278ca9226fa2afcbf6c5828253d77746433a08d9",
+      "bytes": 781,
+      "numeric_rows": 22
+    },
+    {
+      "path": "examples/mmb/data/LEFM_GIIGT_0p2.csv",
+      "sha256": "e3373382271bc5ecf57355449412986c46676120395e4296050bb4ecc7c39fc7",
+      "bytes": 7571,
+      "numeric_rows": 200
+    },
+    {
+      "path": "examples/mmb/data/LEFM_GIIGT_0p5.csv",
+      "sha256": "111feeb4d891452c676ff213e1b2b8d190738013acae0294276db4b8053c0186",
+      "bytes": 7398,
+      "numeric_rows": 200
+    },
+    {
+      "path": "examples/mmb/data/benchmark_turon.csv",
+      "sha256": "22a87e3128e058b16ac69953d53530e1987384fd230b3fe5b55379e17ef357cf",
+      "bytes": 345,
+      "numeric_rows": 15
+    },
+    {
+      "path": "examples/mmb/data/benchmark_turon_backup_original.csv",
+      "sha256": "24b173bcdfece49b1f88dce9a619c829c649f0762a92e6a4a710f1fa0593f6ca",
+      "bytes": 530,
+      "numeric_rows": 15
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61.csv",
+      "sha256": "51602e0bd9502a333486f642ab83902288d1bd59ee91b76afd660c3b715277bf",
+      "bytes": 12460,
+      "numeric_rows": 743
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61_tau_30.csv",
+      "sha256": "e1a4c48a06202931b5eab2ba2e897bfc606df633c5e30f68abec37d85593394e",
+      "bytes": 26851,
+      "numeric_rows": 1572
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61_tau_90.csv",
+      "sha256": "238a6dec864d66ae4482c9d26a4a106698dad4a501c1226a9c0829b718c4df55",
+      "bytes": 149243,
+      "numeric_rows": 8894
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61_vics_1E3.csv",
+      "sha256": "60ab2ffe14dbdb0decef626e86a07ffa6e9a3ded29f87cb03b9a082ba89b90d8",
+      "bytes": 7584,
+      "numeric_rows": 453
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61_vics_1E4.csv",
+      "sha256": "22a418b52a59f17d683f23fd644beb819276301271e0a1f2e20294489b78eba7",
+      "bytes": 6860,
+      "numeric_rows": 410
+    },
+    {
+      "path": "examples/mmb/data/mmb_UEL_32_61_vics_1E6.csv",
+      "sha256": "c1f38107573e5a55e49064cfd6cfb92d4f7b158627d04216e6e88a1f162993ae",
+      "bytes": 17663,
+      "numeric_rows": 1052
+    },
+    {
+      "path": "examples/mmb/data/mmb_abaqus_standard_32_61.csv",
+      "sha256": "ea01d61e878aa353a67753f75f9eb3b23f3cc33399662042e8e21711133890c0",
+      "bytes": 1200,
+      "numeric_rows": 49
+    }
+  ],
+  "benchmark_copy_comparison": {
+    "row_counts": [
+      15,
+      15
+    ],
+    "row_differences": [
+      {
+        "row": 1,
+        "dx_mm": 0.0,
+        "dy_N": 0.0
+      },
+      {
+        "row": 2,
+        "dx_mm": -0.09999999996503495,
+        "dy_N": -2.613057858980028e-08
+      },
+      {
+        "row": 3,
+        "dx_mm": -0.09999999962937034,
+        "dy_N": 1.0050314358522883e-08
+      },
+      {
+        "row": 4,
+        "dx_mm": -0.10000000019580413,
+        "dy_N": -1.7085369563574204e-08
+      },
+      {
+        "row": 5,
+        "dx_mm": -0.10000000038461532,
+        "dy_N": -7.035140470179613e-09
+      },
+      {
+        "row": 6,
+        "dx_mm": -0.10000000000000009,
+        "dy_N": 3.366838541296602e-08
+      },
+      {
+        "row": 7,
+        "dx_mm": -0.09999999978321705,
+        "dy_N": -3.8190933082660194e-08
+      },
+      {
+        "row": 8,
+        "dx_mm": -0.10000000000000009,
+        "dy_N": 1.3065346138319e-08
+      },
+      {
+        "row": 9,
+        "dx_mm": -0.10000000020279698,
+        "dy_N": 3.115579261248058e-08
+      },
+      {
+        "row": 10,
+        "dx_mm": -0.10000000022377575,
+        "dy_N": 2.8643256655414007e-08
+      },
+      {
+        "row": 11,
+        "dx_mm": -0.09999999953146865,
+        "dy_N": -2.763817974482663e-08
+      },
+      {
+        "row": 12,
+        "dx_mm": -0.09999999979020968,
+        "dy_N": -3.266328008066921e-08
+      },
+      {
+        "row": 13,
+        "dx_mm": -0.09999999959440586,
+        "dy_N": 1.1055306003981968e-08
+      },
+      {
+        "row": 14,
+        "dx_mm": -0.10000000003496501,
+        "dy_N": 2.1608116185234394e-08
+      },
+      {
+        "row": 15,
+        "dx_mm": -0.09999999976923046,
+        "dy_N": 4.221112703817198e-08
+      }
+    ]
+  },
+  "abaqus_executed": false,
+  "compiler_executed": false,
+  "license": "NOT TESTED",
+  "constitutive_verification": "NOT RUN",
+  "specimen_verification": "NOT RUN"
+}

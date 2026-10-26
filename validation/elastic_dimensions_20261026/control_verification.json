@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "extractor_errors": {
+    "compliance_relative": 0.0,
+    "force_relative": 0.0,
+    "GI_relative": 0.0
+  },
+  "baseline_compliance_mm_per_N": 0.04696448645169571,
+  "baseline_stiffness_N_per_mm": 21.2926846550005,
+  "baseline_GI_N_per_mm": 0.001702051250462161,
+  "baseline_max_coordinate_difference_mm": 5.551115123125783e-17,
+  "baseline_bulk_connectivity_identical": true,
+  "baseline_equations_identical": true,
+  "scope": "Existing completed C3D8I ODB extraction and mesh/equation compatibility; not a newly solved 3D job or native 2D equivalence proof"
+}

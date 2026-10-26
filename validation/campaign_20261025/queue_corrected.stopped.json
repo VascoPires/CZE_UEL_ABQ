@@ -1,0 +1,7 @@
+{
+  "status": "CONTROLLER_STOPPED_AFTER_SOLVER_TERMINATION",
+  "last_solver": "t2010_mmb20",
+  "solver_status": "FAILED",
+  "reason": "Initial ENF/MMB hard-contact Lagrange constraints overconstrain paired-width equations; switch to explicitly specified penalty enforcement and measure penetration",
+  "superseding_queue": "queue_contact_corrected.json"
+}

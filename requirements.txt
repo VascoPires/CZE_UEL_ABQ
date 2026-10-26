@@ -1,0 +1,4 @@
+# Optional plotting and numerical post-processing (ordinary Python >= 3.10).
+# Job preparation, conversion, and model launchers use the standard library.
+numpy>=1.24
+matplotlib>=3.7

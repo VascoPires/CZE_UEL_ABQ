@@ -1,0 +1,14 @@
+{
+  "name": "dcb_dx06",
+  "termination": "FAILED",
+  "target_reached": false,
+  "target_displacement_mm": 4.0,
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": null,
+  "displacement_at_maximum_reached_force_mm": null,
+  "last_displacement_mm": null,
+  "source_hash": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+  "assessment_status": "INCONCLUSIVE",
+  "evidence_limit": "ODB has no selected response frames; inspect retained input-processor/solver errors. No zero load or energy result is inferred."
+}

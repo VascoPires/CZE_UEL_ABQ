@@ -1,0 +1,5 @@
+{
+  "run": "invalid_zero",
+  "expected_failure_observed": true,
+  "fortran_diagnostic_observed": true
+}

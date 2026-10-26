@@ -1,0 +1,21 @@
+{
+  "name": "t2018_mmb20_lefmlever_refarea",
+  "termination": "COMPLETED",
+  "peak_force_N": 99.38616347312927,
+  "peak_displacement_mm": 8.800000190734863,
+  "maximum_reached_force_N": 99.38616347312927,
+  "displacement_at_maximum_reached_force_mm": 8.800000190734863,
+  "last_displacement_mm": 11.0,
+  "target_displacement_mm": 11.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.08115531212695366,
+  "compliance_fit_R2": 0.9999854069009039,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.00381494478005521,
+  "source_hash": "0127e83042cc26e807b845ae7fd193adc8fddb49bc2b89238bb0b8437b5223ec",
+  "raw_work_minus_internal_energy_relative_error": 0.00381494478005521,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

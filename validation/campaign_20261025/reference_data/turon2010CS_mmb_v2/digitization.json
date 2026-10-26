@@ -1,0 +1,60 @@
+{
+  "source_pdf_sha256": "8850fa7532e7975f48b3a6a19acea7a6f8a6158517336a46dce3855c9c82b86f",
+  "pdf_page": 6,
+  "printed_page": 1862,
+  "figure": 12,
+  "normal_shear_strengths_MPa": [
+    30,
+    58.9
+  ],
+  "axis_pdf_points": [
+    340.654,
+    86.98,
+    530.7555,
+    236.29
+  ],
+  "axis_values": [
+    0,
+    0,
+    9,
+    240
+  ],
+  "uncertainty_mm_N": [
+    0.05,
+    3.0
+  ],
+  "method": "4000px Poppler colour selection with white-antialias projection; retain 8-connected components of at least100pixels; lowest cluster separated by >4N, median per9.5/400mm bin",
+  "limitation": "Analytical and numerical colours overlap. This is a lower drawn-curve envelope estimate; peak/jump neighbourhood ambiguous. No raw solver or experimental points.",
+  "series": [
+    {
+      "mixity_percent": 20,
+      "filename": "fig12_B20_tau30_58p9_graphical.csv",
+      "samples": 390,
+      "rgb_target": [
+        1.0,
+        0.012,
+        0.012
+      ]
+    },
+    {
+      "mixity_percent": 50,
+      "filename": "fig12_B50_tau30_58p9_graphical.csv",
+      "samples": 398,
+      "rgb_target": [
+        0.012,
+        0.012,
+        1.0
+      ]
+    },
+    {
+      "mixity_percent": 80,
+      "filename": "fig12_B80_tau30_58p9_graphical.csv",
+      "samples": 400,
+      "rgb_target": [
+        0.012,
+        0.506,
+        0.012
+      ]
+    }
+  ]
+}

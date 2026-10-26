@@ -1,0 +1,31 @@
+{
+  "source_pdf_sha256": "8850fa7532e7975f48b3a6a19acea7a6f8a6158517336a46dce3855c9c82b86f",
+  "pdf_page": 4,
+  "printed_page": 1860,
+  "figure": 5,
+  "shear_strength_MPa": 60,
+  "axis_pdf_points": [
+    69.927,
+    228.46,
+    271.108,
+    378.12
+  ],
+  "axis_max": [
+    9,
+    600
+  ],
+  "rgb_target": [
+    0.69,
+    0.129,
+    0.051
+  ],
+  "rgb_distance_max": 25,
+  "bin_width_mm": 0.0225,
+  "legend_exclusion": "pdfx<155 and pdfy>330",
+  "uncertainty_mm_N": [
+    0.04,
+    5.0
+  ],
+  "samples": 400,
+  "limitation": "Drawn curve; finite displacement jump is not a stable equilibrium interpolation domain"
+}

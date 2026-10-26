@@ -1,0 +1,11 @@
+--- src/3D_CZM.f
++++ validation/campaign_20261025/sources/3D_CZM_zeta1e8.f
+@@ -537,7 +537,7 @@
+       DOUBLE PRECISION GIc,GSH,tau3c,tau_sh,eta,K3,KSH
+       DOUBLE PRECISION DMG_OLD,DMGv_OLD,DMG,DMGv,delta,delta0,deltaF
+       DOUBLE PRECISION B_VAR,DTIME,rho,dp,dvp,lp,l0p,lfp,bp,zeta
+-      PARAMETER (zeta=1.0d-6)
++      PARAMETER (zeta=1.0d-8)
+ 
+ ! Turon 2018 Eqs. 33-35. All perturbations use the same committed history.
+ ! zeta has displacement units; the distributed examples use mm.

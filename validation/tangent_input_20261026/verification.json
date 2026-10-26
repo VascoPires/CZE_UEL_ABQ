@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "scope": "Optional-input compatibility and tested tangent selection; not full specimen validation or geometric-energy correction",
+  "source_sha256": "b93cadaf39fe8ad34d97e1819d77ef53c9803673a3655ca4358f87522bc36ab8",
+  "baseline_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+  "assembly": [
+    {
+      "baseline": "baseline_v13",
+      "test": "default_v14",
+      "rows": 7272,
+      "exact_match": true
+    },
+    {
+      "baseline": "default_v14",
+      "test": "explicit_default_v14",
+      "rows": 7272,
+      "exact_match": true
+    },
+    {
+      "baseline": "fixed_small_v13",
+      "test": "explicit_small_v14",
+      "rows": 7272,
+      "exact_match": true
+    }
+  ],
+  "material": [
+    {
+      "test": "material_default",
+      "reference": "turon2018_K1e6_canonical",
+      "exact_match": true
+    },
+    {
+      "test": "material_small",
+      "reference": "turon2018_K1e6_z8",
+      "exact_match": true
+    }
+  ],
+  "abaqus": [
+    {
+      "test": "legacy_default",
+      "reference": "element_dt001",
+      "patch_histories": 16,
+      "exact_response_and_state_match": true
+    },
+    {
+      "test": "explicit_default",
+      "reference": "element_dt001",
+      "patch_histories": 16,
+      "exact_response_and_state_match": true
+    },
+    {
+      "test": "explicit_small",
+      "reference": "element_z8_dt001",
+      "patch_histories": 16,
+      "exact_response_and_state_match": true
+    }
+  ],
+  "invalid_input_rejected_by_fortran": true,
+  "preparation_example_decks": 18,
+  "invalid_workflow_cases": 12,
+  "original_example_files_unchanged": true,
+  "first_campaign_run_decks_and_sources_preserved": 106
+}

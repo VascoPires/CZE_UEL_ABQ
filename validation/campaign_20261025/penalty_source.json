@@ -1,0 +1,9 @@
+{
+  "file": "validation/references/turon2007EFM.pdf",
+  "sha256": "389b80063475f9dd86fd1425c82fc53c04b663f9ff84e28244b9e9f52e646d3f",
+  "pages": 18,
+  "url": "https://userweb.fct.unl.pt/~pgc/tame/Turon_Davila_Camanho_Costa__2007.pdf",
+  "doi": "10.1016/j.engfracmech.2006.08.025",
+  "equations": "4-7,pp1667-1668",
+  "screening_thickness": "adjacent beam arm, not a ply"
+}

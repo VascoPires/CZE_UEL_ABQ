@@ -1,0 +1,111 @@
+{
+  "name": "as4_mmb50_adaptive",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 10,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 100,
+      "sampled_elements": 162,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 36.47192982456141,
+      "contiguous_all_IP_D_ge_0.995_mm": 34.98947368421053,
+      "cohesive_zone_extent_0.995_mm": 1.4824561403508767,
+      "contiguous_all_IP_D_ge_0.999_mm": 34.69298245614035,
+      "cohesive_zone_extent_0.999_mm": 1.7789473684210577,
+      "active_local_B_min": 0.8424,
+      "active_local_B_max": 0.9994
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.019959868958805277,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_RF2_N": 10.18310832977295,
+    "lever_equation_residual_mm": 3.562254060618386e-07,
+    "lever_mid_force_magnitude_relative_error": 2.684573786073688e-06,
+    "lever_upper_force_magnitude_relative_error": 0.0003596770043155371,
+    "max_abs_LE": 0.010656719096004963,
+    "max_abs_LE13": 2.397485232736547e-17,
+    "max_abs_LE23": 1.3456611262704097e-16,
+    "max_abs_LE33": 3.501271805816941e-07,
+    "max_abs_U3_mm": 2.8888141372174754e-36,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": -0.010346970520913601,
+    "ALLSE": 27.08175277709961,
+    "ALLSD": 0.0037117048632353544,
+    "ALLWK": 28.214702606201172,
+    "ALLVD": 0.0,
+    "ALLPD": 1.1188907623291016,
+    "ALLIE": 28.20064353942871
+  },
+  "subset_ledger_final_relative_error": 0.00036673652221843326,
+  "final_work_balance_relative_error": 0.0003667226504325972,
+  "work_balance_relative_error": 0.00036704415238154067,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0001315521526149128,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "inactive_contact_check": {
+    "maximum_projected_penetration_mm": 0.0,
+    "status": "PASS",
+    "tolerance_mm": 1e-05,
+    "limitation": "Projection of upper nodes onto lower piecewise linear x-y traces at each original width station; finite-width3D is diagnostic"
+  },
+  "experimental_comparisons": [
+    {
+      "source": "turon2006MM",
+      "experimental_peak_N": 275.3,
+      "predicted_peak_N": null,
+      "peak_relative_error": null,
+      "observation_initial_crack_mm": 34.1,
+      "model_initial_crack_mm": 34.1,
+      "same_initial_crack": true,
+      "maximum_reached_force_N": 258.6509515762329,
+      "status": "INCONCLUSIVE",
+      "reason": "Baseline prediction only; apparatus reconstruction, numerical convergence, prior toughness calibration and missing experimental scatter limit independent validation"
+    },
+    {
+      "source": "camanho2002TM",
+      "experimental_peak_N": 275.35,
+      "predicted_peak_N": null,
+      "peak_relative_error": null,
+      "observation_initial_crack_mm": 34.1,
+      "model_initial_crack_mm": 34.1,
+      "same_initial_crack": true,
+      "maximum_reached_force_N": 258.6509515762329,
+      "status": "INCONCLUSIVE",
+      "reason": "Baseline prediction only; apparatus reconstruction, numerical convergence, prior toughness calibration and missing experimental scatter limit independent validation"
+    }
+  ],
+  "experimental_marker_comparison": {
+    "source": "validation/campaign_20261025/reference_data/turon2006_experimental_markers/fig11_mmb50_experimental_markers_graphical.csv",
+    "available_markers": 8,
+    "common_markers": 3,
+    "scope": "Prediction at published marker coordinates only; no experimental curve interpolation or extrapolation; observations are not held-out calibration data"
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 256.3769516134914,
+    "initial_compliance_mm_per_N": 0.02010840231635976,
+    "initial_beam_GII_over_GT": 0.4810645068726141,
+    "final_beam_GII_over_GT": 0.4879236727533468,
+    "initial_compliance_relative_error": -0.0014123471551884537,
+    "constant_nominal_Gc_initial_critical_load_N": 257.873607218802
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "t2018_mmb50_lefmlever_adaptive",
+    "started_utc": "2026-10-25T23:18:24.625957+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb50_lefmlever_adaptive/assessment/metrics.json",
+    "ended_utc": "2026-10-25T23:34:50.783105+00:00"
+  }
+]

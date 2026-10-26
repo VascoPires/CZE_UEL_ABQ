@@ -1,0 +1,351 @@
+START dcb_ps03
+dcb_ps03 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03
+{
+  "name": "dcb_ps03",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.427483558654785,
+  "peak_displacement_mm": 2.640000104904175,
+  "maximum_reached_force_N": 51.427483558654785,
+  "displacement_at_maximum_reached_force_mm": 2.640000104904175,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04707890891255448,
+  "compliance_fit_R2": 0.9999999999999963,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.2267006782045864,
+  "final_solver_energy_balance_error": 0.0016801414622720637,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0016801414622720637,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03 COMPLETED
+START dcb_ps015
+dcb_ps015 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps015
+{
+  "name": "dcb_ps015",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.550278663635254,
+  "displacement_at_maximum_reached_force_mm": 2.607813835144043,
+  "last_displacement_mm": 2.6078970432281494,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04731939737623229,
+  "compliance_fit_R2": 0.9999937259994142,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23296691011836979,
+  "final_solver_energy_balance_error": 5.0035642757731084e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 5.0035642757731084e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps015 FAILED
+START dcb_ps06
+dcb_ps06 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps06
+{
+  "name": "dcb_ps06",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.337337493896484,
+  "displacement_at_maximum_reached_force_mm": 2.7200000286102295,
+  "last_displacement_mm": 2.740000009536743,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04693581189995775,
+  "compliance_fit_R2": 0.9999999999999926,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22297210406266,
+  "final_solver_energy_balance_error": 0.00017738825300119023,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.00017738825300119023,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps06 FAILED
+START dcb_ps03_K1e5
+dcb_ps03_K1e5 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_K1e5
+{
+  "name": "dcb_ps03_K1e5",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.01539611816406,
+  "peak_displacement_mm": 2.559999942779541,
+  "maximum_reached_force_N": 51.01539611816406,
+  "displacement_at_maximum_reached_force_mm": 2.559999942779541,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04725499111568304,
+  "compliance_fit_R2": 0.9999999999999355,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23128872331835004,
+  "final_solver_energy_balance_error": 0.00012372110955482894,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.00012372110955482894,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_K1e5 COMPLETED
+START dcb_ps03_K1e7
+dcb_ps03_K1e7 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_K1e7
+{
+  "name": "dcb_ps03_K1e7",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.45362854003906,
+  "peak_displacement_mm": 2.640000104904175,
+  "maximum_reached_force_N": 51.45362854003906,
+  "displacement_at_maximum_reached_force_mm": 2.640000104904175,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04705931702598571,
+  "compliance_fit_R2": 0.9999999999999927,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22619018675318392,
+  "final_solver_energy_balance_error": 0.001630293197087774,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.001630293197087774,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_K1e7 COMPLETED
+START dcb_ps03_inc005
+dcb_ps03_inc005 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_inc005
+{
+  "name": "dcb_ps03_inc005",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.47439002990723,
+  "displacement_at_maximum_reached_force_mm": 2.5848827362060547,
+  "last_displacement_mm": 2.5848827362060547,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04707890965549241,
+  "compliance_fit_R2": 0.9999999999999893,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22670069756277655,
+  "final_solver_energy_balance_error": 1.3951966280998403e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 1.3951966280998403e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_inc005 FAILED
+START dcb_ps03_gauss
+dcb_ps03_gauss FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_gauss
+{
+  "name": "dcb_ps03_gauss",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.806697845458984,
+  "displacement_at_maximum_reached_force_mm": 2.601979970932007,
+  "last_displacement_mm": 2.601979970932007,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.04709605624041763,
+  "compliance_fit_R2": 0.9999999632815877,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22714747357867182,
+  "final_solver_energy_balance_error": 3.93158925671772e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 3.93158925671772e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_gauss FAILED
+START dcb_ps03_stab2e4
+dcb_ps03_stab2e4 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_stab2e4
+{
+  "name": "dcb_ps03_stab2e4",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.44294261932373,
+  "peak_displacement_mm": 2.640000104904175,
+  "maximum_reached_force_N": 51.44294261932373,
+  "displacement_at_maximum_reached_force_mm": 2.640000104904175,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04708849197343149,
+  "compliance_fit_R2": 0.9999999977654135,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22695037700918141,
+  "final_solver_energy_balance_error": 0.0016424305948809976,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0021472349522828,
+  "stabilization_over_peak_work": 0.0005048043574018024,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_stab2e4 COMPLETED
+START dcb_ps03_stab2e5
+dcb_ps03_stab2e5 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_stab2e5
+{
+  "name": "dcb_ps03_stab2e5",
+  "termination": "COMPLETED",
+  "peak_force_N": 58.680992126464844,
+  "peak_displacement_mm": 2.7149276733398438,
+  "maximum_reached_force_N": 58.680992126464844,
+  "displacement_at_maximum_reached_force_mm": 2.7149276733398438,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04216521940637216,
+  "compliance_fit_R2": 0.9979844406218258,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.09866826647396465,
+  "final_solver_energy_balance_error": 0.0008771067957706761,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.16332682272341387,
+  "stabilization_over_peak_work": 0.16244971592764318,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_stab2e5 COMPLETED
+START dcb_ps015_stab2e5
+dcb_ps015_stab2e5 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps015_stab2e5
+{
+  "name": "dcb_ps015_stab2e5",
+  "termination": "COMPLETED",
+  "peak_force_N": 57.8237247467041,
+  "peak_displacement_mm": 2.7200000286102295,
+  "maximum_reached_force_N": 57.8237247467041,
+  "displacement_at_maximum_reached_force_mm": 2.7200000286102295,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.044256136810392054,
+  "compliance_fit_R2": 0.9984705852890612,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.15314977118226492,
+  "final_solver_energy_balance_error": 3.0632748245839696e-06,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.15379910046634454,
+  "stabilization_over_peak_work": 0.15379603719151996,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps015_stab2e5 COMPLETED
+START dcb_ps03_nlgeom
+dcb_ps03_nlgeom FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_nlgeom
+{
+  "name": "dcb_ps03_nlgeom",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 51.51756286621094,
+  "displacement_at_maximum_reached_force_mm": 2.640000104904175,
+  "last_displacement_mm": 3.151731014251709,
+  "target_displacement_mm": 4.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.047064906084181304,
+  "compliance_fit_R2": 0.9999999974011521,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22633581675263437,
+  "final_solver_energy_balance_error": 0.0014137792631624972,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0014137792631624972,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_nlgeom FAILED
+START as4_dcb_ps
+as4_dcb_ps FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_dcb_ps
+{
+  "name": "as4_dcb_ps",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 137.79259462356566,
+  "displacement_at_maximum_reached_force_mm": 4.571367263793945,
+  "last_displacement_mm": 4.571367263793945,
+  "target_displacement_mm": 6.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.030033335753336058,
+  "compliance_fit_R2": 0.9999999886479447,
+  "source_beam_compliance_mm_per_N": 0.024078288093916888,
+  "relative_beam_compliance_error": 0.247320226263247,
+  "final_solver_energy_balance_error": 0.0009791729051990125,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0009791729051990125,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END as4_dcb_ps FAILED
+START t2010_enf
+t2010_enf FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_enf
+{
+  "name": "t2010_enf",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 9.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2010_enf FAILED
+START t2010_mmb20
+t2010_mmb20 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb20
+{
+  "name": "t2010_mmb20",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 9.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2010_mmb20 FAILED
+START t2010_mmb50

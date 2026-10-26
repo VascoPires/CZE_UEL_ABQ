@@ -1,0 +1,38 @@
+[
+  {
+    "name": "area_cycle_canonical",
+    "samples": 101,
+    "final_work_Nmm": -0.00010000000000000018,
+    "final_stored_Nmm": 0.0,
+    "final_dissipation_Nmm": 0.0,
+    "peak_absolute_work_Nmm": 0.0004999999999999999,
+    "maximum_relative_energy_balance_error": 0.20000000000000057,
+    "classification": "FAIL",
+    "maximum_inplane_force_norm_N": 0.0,
+    "scope": "Actual full Fortran UEL with serial runtime stubs; elastic constant-gap area change and closed geometry cycle; not an Abaqus solver interface test"
+  },
+  {
+    "name": "area_cycle_canonical_fine",
+    "samples": 1001,
+    "final_work_Nmm": -0.00010000000000000018,
+    "final_stored_Nmm": 0.0,
+    "final_dissipation_Nmm": 0.0,
+    "peak_absolute_work_Nmm": 0.0004999999999999999,
+    "maximum_relative_energy_balance_error": 0.20000000000000068,
+    "classification": "FAIL",
+    "maximum_inplane_force_norm_N": 0.0,
+    "scope": "Actual full Fortran UEL with serial runtime stubs; elastic constant-gap area change and closed geometry cycle; not an Abaqus solver interface test"
+  },
+  {
+    "name": "area_cycle_reference",
+    "samples": 101,
+    "final_work_Nmm": -1.2620790914089075e-19,
+    "final_stored_Nmm": 0.0,
+    "final_dissipation_Nmm": 0.0,
+    "peak_absolute_work_Nmm": 0.0004999999999999999,
+    "maximum_relative_energy_balance_error": 4.3368086899420187e-16,
+    "classification": "PASS",
+    "maximum_inplane_force_norm_N": 0.0,
+    "scope": "Actual full Fortran UEL with serial runtime stubs; elastic constant-gap area change and closed geometry cycle; not an Abaqus solver interface test"
+  }
+]

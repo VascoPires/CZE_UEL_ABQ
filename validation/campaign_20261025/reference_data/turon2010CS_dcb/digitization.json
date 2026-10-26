@@ -1,0 +1,31 @@
+{
+  "pdf": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/references/turon2010CS.pdf",
+  "sha256": "8850fa7532e7975f48b3a6a19acea7a6f8a6158517336a46dce3855c9c82b86f",
+  "pdf_page": 4,
+  "printed_page": 1860,
+  "figure": 4,
+  "normal_strength_MPa": 30,
+  "axis_pdf_points": [
+    68.593,
+    462.412,
+    269.119,
+    611.603
+  ],
+  "axis_max": [
+    4,
+    60
+  ],
+  "rgb_target": [
+    176.97,
+    33.915,
+    13.004999999999999
+  ],
+  "rgb_distance_max": 22,
+  "legend_mask": "pdfx>200 and pdfy<535",
+  "rows": 228,
+  "uncertainty_mm_N": [
+    0.03,
+    0.8
+  ],
+  "limitation": "Drawn-curve graphical estimates; markers/overlap affect resolution; not raw samples"
+}

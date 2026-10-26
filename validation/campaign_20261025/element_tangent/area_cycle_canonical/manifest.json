@@ -1,0 +1,7 @@
+{
+  "source": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/src/3D_CZM.f",
+  "sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c",
+  "returncode": 0,
+  "test": "elastic area cycle",
+  "limitations": "Standalone serial full-assembly check; echo disabled; Mutex/GETRANK stubs; no Abaqus solver interface verification"
+}

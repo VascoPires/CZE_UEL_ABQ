@@ -1,0 +1,27 @@
+[
+  {
+    "name": "dcb_local015_z8",
+    "started_utc": "2026-10-25T16:42:58.855942+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_local015_z8/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:45:26.410999+00:00"
+  },
+  {
+    "name": "dcb_local015_rho1e5",
+    "started_utc": "2026-10-25T16:45:26.415696+00:00",
+    "solver_status": "COMPLETED",
+    "error": "**********************************************************************\n** Visual Studio 2022 Developer Command Prompt v17.14.13\n** Copyright (c) 2025 Microsoft Corporation\n**********************************************************************\n[vcvarsall.bat] Environment initialized for: 'x64'\nTraceback (most recent call last):\n  File \"C:\\Users\\p2321038\\Documents\\GitHub\\CZE_UEL_ABQ\\validation\\scripts\\extract_odb.py\", line 85, in <module>\n    if __name__=='__main__':main()\n  File \"C:\\Users\\p2321038\\Documents\\GitHub\\CZE_UEL_ABQ\\validation\\scripts\\extract_odb.py\", line 80, in main\n    if checks:json.dump(checks,open('kinematic_checks.json','w'),indent=2)\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\__init__.py\", line 189, in dump\n    for chunk in iterable:\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\encoder.py\", line 431, in _iterencode\n    for chunk in _iterencode_list(o, _current_indent_level):\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\encoder.py\", line 332, in _iterencode_list\n    for chunk in chunks:\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\encoder.py\", line 408, in _iterencode_dict\n    for chunk in chunks:\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\encoder.py\", line 442, in _iterencode\n    o = _default(o)\n  File \"C:\\SIMULIA\\EstProducts\\2023\\win_b64\\tools\\SMApy\\python2.7\\lib\\json\\encoder.py\", line 184, in default\n    raise TypeError(repr(o) + \" is not JSON serializable\")\nTypeError: 0.0 is not JSON serializable\n",
+    "ended_utc": "2026-10-25T16:48:28.119397+00:00"
+  },
+  {
+    "name": "dcb_native_local015",
+    "started_utc": "2026-10-25T16:48:28.130939+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_native_local015/assessment/metrics.json",
+    "ended_utc": "2026-10-25T16:51:11.117035+00:00"
+  },
+  {
+    "name": "as4_dcb",
+    "started_utc": "2026-10-25T16:51:11.132031+00:00"
+  }
+]

@@ -1,0 +1,850 @@
+[
+  {
+    "run": "as4_dcb",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:51:11.351773+00:00",
+    "end_utc": "2026-10-25T16:52:42.829274+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_dcb/as4_dcb.sta"
+  },
+  {
+    "run": "as4_dcb_ps",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:20:36.836304+00:00",
+    "end_utc": "2026-10-25T17:22:07.836833+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_dcb_ps/as4_dcb_ps.sta"
+  },
+  {
+    "run": "as4_dcb_ps_adaptive",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T20:04:20.431259+00:00",
+    "end_utc": "2026-10-25T20:09:56.519857+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_dcb_ps_adaptive/as4_dcb_ps_adaptive.sta"
+  },
+  {
+    "run": "as4_enf",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:17:00.736068+00:00",
+    "end_utc": "2026-10-25T18:21:12.009121+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_enf/as4_enf.sta"
+  },
+  {
+    "run": "as4_enf_adaptive",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T23:03:42.061760+00:00",
+    "end_utc": "2026-10-25T23:06:48.508165+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_enf_adaptive/as4_enf_adaptive.sta"
+  },
+  {
+    "run": "as4_mmb20",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:06:21.260832+00:00",
+    "end_utc": "2026-10-25T18:08:51.361627+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb20/as4_mmb20.sta"
+  },
+  {
+    "run": "as4_mmb20_adaptive",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T22:14:32.966931+00:00",
+    "end_utc": "2026-10-25T22:17:09.970775+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb20_adaptive/as4_mmb20_adaptive.sta"
+  },
+  {
+    "run": "as4_mmb50",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:09:30.016486+00:00",
+    "end_utc": "2026-10-25T18:11:44.349603+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb50/as4_mmb50.sta"
+  },
+  {
+    "run": "as4_mmb50_adaptive",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T22:17:53.998346+00:00",
+    "end_utc": "2026-10-25T22:22:39.256070+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb50_adaptive/as4_mmb50_adaptive.sta"
+  },
+  {
+    "run": "as4_mmb80",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:12:21.803285+00:00",
+    "end_utc": "2026-10-25T18:16:02.981702+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb80/as4_mmb80.sta"
+  },
+  {
+    "run": "as4_mmb80_adaptive",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T22:23:47.903565+00:00",
+    "end_utc": "2026-10-25T22:57:26.543210+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb80_adaptive/as4_mmb80_adaptive.sta"
+  },
+  {
+    "run": "as4_mmb80_dx01",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T23:41:09.296835+00:00",
+    "end_utc": "2026-10-25T23:46:57.870120+00:00",
+    "evidence": "validation/campaign_20261025/runs/as4_mmb80_dx01/as4_mmb80_dx01.sta"
+  },
+  {
+    "run": "contact_enf_elastic",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:26:18.493401+00:00",
+    "end_utc": "2026-10-25T17:26:41.447610+00:00",
+    "evidence": "validation/campaign_20261025/runs/contact_enf_elastic/contact_enf_elastic.sta"
+  },
+  {
+    "run": "contact_enf_elastic_K1e7",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:26:51.396855+00:00",
+    "end_utc": "2026-10-25T17:27:14.180591+00:00",
+    "evidence": "validation/campaign_20261025/runs/contact_enf_elastic_K1e7/contact_enf_elastic_K1e7.sta"
+  },
+  {
+    "run": "dcb_K1e5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:24:40.284195+00:00",
+    "end_utc": "2026-10-25T16:25:51.741470+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_K1e5/dcb_K1e5.sta"
+  },
+  {
+    "run": "dcb_K1e7",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:25:57.450141+00:00",
+    "end_utc": "2026-10-25T16:27:24.159357+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_K1e7/dcb_K1e7.sta"
+  },
+  {
+    "run": "dcb_K1e7_z8",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:27:32.111085+00:00",
+    "end_utc": "2026-10-25T16:28:50.595058+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_K1e7_z8/dcb_K1e7_z8.sta"
+  },
+  {
+    "run": "dcb_adaptive_dx0p15",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T18:54:13.322434+00:00",
+    "end_utc": "2026-10-25T19:45:40.812698+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_adaptive_dx0p15/dcb_adaptive_dx0p15.sta"
+  },
+  {
+    "run": "dcb_adaptive_dx0p3",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T18:52:32.636268+00:00",
+    "end_utc": "2026-10-25T18:53:40.696357+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_adaptive_dx0p3/dcb_adaptive_dx0p3.sta"
+  },
+  {
+    "run": "dcb_adaptive_dx0p6",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:50:58.504510+00:00",
+    "end_utc": "2026-10-25T18:51:44.899259+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_adaptive_dx0p6/dcb_adaptive_dx0p6.sta"
+  },
+  {
+    "run": "dcb_dx06",
+    "status": "FAILED",
+    "error_messages": "***ERROR: A BOUNDARY CONDITION HAS BEEN SPECIFIED ON NODE 6051 BUT THIS NODE IS NOT ACTIVE IN THE MODEL ***NOTE: DUE TO AN INPUT ERROR THE ANALYSIS PRE-PROCESSOR HAS BEEN UNABLE TO | ***ERROR: A BOUNDARY CONDITION HAS BEEN SPECIFIED ON NODE 6051 BUT THIS NODE IS NOT ACTIVE IN THE MODEL | ***ERROR: A BOUNDARY CONDITION HAS BEEN SPECIFIED ON NODE 6051 BUT THIS NODE IS NOT ACTIVE IN THE MODEL *STEP,NAME=LOAD,INC=100000,UNSYMM=YES,NLGEOM=NO | ***ERROR: Boundary conditions are specified on 1 nodes that are not active in this. model. The nodes may have been deleted because they were not connected to any elements.",
+    "start_utc": "2026-10-25T15:43:36.577529+00:00",
+    "end_utc": "2026-10-25T15:43:57.907555+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_dx06/dcb_dx06.dat"
+  },
+  {
+    "run": "dcb_dx06_ls5",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:01:26.097251+00:00",
+    "end_utc": "2026-10-25T16:06:07.060776+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_dx06_ls5/dcb_dx06_ls5.sta"
+  },
+  {
+    "run": "dcb_dx06_v2",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T15:45:22.363697+00:00",
+    "end_utc": "2026-10-25T15:50:12.390153+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_dx06_v2/dcb_dx06_v2.sta"
+  },
+  {
+    "run": "dcb_dx06_z8",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T15:54:21.372595+00:00",
+    "end_utc": "2026-10-25T15:59:23.456689+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_dx06_z8/dcb_dx06_z8.sta"
+  },
+  {
+    "run": "dcb_gauss",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:28:58.686367+00:00",
+    "end_utc": "2026-10-25T16:30:29.749824+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_gauss/dcb_gauss.sta"
+  },
+  {
+    "run": "dcb_inc01",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:30:38.591897+00:00",
+    "end_utc": "2026-10-25T16:32:20.681506+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_inc01/dcb_inc01.sta"
+  },
+  {
+    "run": "dcb_local015",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:20:41.299777+00:00",
+    "end_utc": "2026-10-25T16:23:25.921126+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_local015/dcb_local015.sta"
+  },
+  {
+    "run": "dcb_local015_rho1e5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:45:26.555465+00:00",
+    "end_utc": "2026-10-25T16:48:01.098651+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_local015_rho1e5/dcb_local015_rho1e5.sta"
+  },
+  {
+    "run": "dcb_local015_z8",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:42:58.982999+00:00",
+    "end_utc": "2026-10-25T16:45:17.391855+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_local015_z8/dcb_local015_z8.sta"
+  },
+  {
+    "run": "dcb_local03",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:14:18.283937+00:00",
+    "end_utc": "2026-10-25T16:15:38.078997+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_local03/dcb_local03.sta"
+  },
+  {
+    "run": "dcb_local06",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:23:34.645418+00:00",
+    "end_utc": "2026-10-25T16:24:32.109831+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_local06/dcb_local06.sta"
+  },
+  {
+    "run": "dcb_native_dx06",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:11:06.605592+00:00",
+    "end_utc": "2026-10-25T16:13:32.974066+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_native_dx06/dcb_native_dx06.sta"
+  },
+  {
+    "run": "dcb_native_local015",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:48:28.263665+00:00",
+    "end_utc": "2026-10-25T16:50:46.844943+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_native_local015/dcb_native_local015.sta"
+  },
+  {
+    "run": "dcb_native_local03",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:34:32.950202+00:00",
+    "end_utc": "2026-10-25T16:36:01.802901+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_native_local03/dcb_native_local03.sta"
+  },
+  {
+    "run": "dcb_nlgeom",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:32:26.903639+00:00",
+    "end_utc": "2026-10-25T16:34:24.914866+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_nlgeom/dcb_nlgeom.sta"
+  },
+  {
+    "run": "dcb_ps0075",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:34:51.036092+00:00",
+    "end_utc": "2026-10-25T23:39:54.937965+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps0075/dcb_ps0075.sta"
+  },
+  {
+    "run": "dcb_ps015",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:57:15.878176+00:00",
+    "end_utc": "2026-10-25T16:59:49.515727+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps015/dcb_ps015.sta"
+  },
+  {
+    "run": "dcb_ps015_stab2e5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:14:10.715139+00:00",
+    "end_utc": "2026-10-25T17:17:34.769760+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps015_stab2e5/dcb_ps015_stab2e5.sta"
+  },
+  {
+    "run": "dcb_ps03",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:55:32.076900+00:00",
+    "end_utc": "2026-10-25T16:56:41.991343+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03/dcb_ps03.sta"
+  },
+  {
+    "run": "dcb_ps03_K1e5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:01:43.356900+00:00",
+    "end_utc": "2026-10-25T17:02:40.586347+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_K1e5/dcb_ps03_K1e5.sta"
+  },
+  {
+    "run": "dcb_ps03_K1e7",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:03:11.805249+00:00",
+    "end_utc": "2026-10-25T17:04:38.399114+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_K1e7/dcb_ps03_K1e7.sta"
+  },
+  {
+    "run": "dcb_ps03_gauss",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:08:24.171895+00:00",
+    "end_utc": "2026-10-25T17:09:32.193217+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_gauss/dcb_ps03_gauss.sta"
+  },
+  {
+    "run": "dcb_ps03_inc005",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:05:13.580376+00:00",
+    "end_utc": "2026-10-25T17:07:14.884756+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_inc005/dcb_ps03_inc005.sta"
+  },
+  {
+    "run": "dcb_ps03_nlgeom",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:18:21.796924+00:00",
+    "end_utc": "2026-10-25T17:20:06.469187+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_nlgeom/dcb_ps03_nlgeom.sta"
+  },
+  {
+    "run": "dcb_ps03_refarea",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:13:52.181327+00:00",
+    "end_utc": "2026-10-25T23:15:02.104087+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_refarea/dcb_ps03_refarea.sta"
+  },
+  {
+    "run": "dcb_ps03_rho1e4_dt001",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:58:22.786554+00:00",
+    "end_utc": "2026-10-26T00:11:55.533766+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt001/dcb_ps03_rho1e4_dt001.sta"
+  },
+  {
+    "run": "dcb_ps03_rho1e4_dt02",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:56:44.740065+00:00",
+    "end_utc": "2026-10-25T23:57:52.731846+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt02/dcb_ps03_rho1e4_dt02.sta"
+  },
+  {
+    "run": "dcb_ps03_stab2e4",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:10:00.122674+00:00",
+    "end_utc": "2026-10-25T17:11:27.197858+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_stab2e4/dcb_ps03_stab2e4.sta"
+  },
+  {
+    "run": "dcb_ps03_stab2e5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:11:57.370307+00:00",
+    "end_utc": "2026-10-25T17:13:31.551579+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps03_stab2e5/dcb_ps03_stab2e5.sta"
+  },
+  {
+    "run": "dcb_ps06",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:00:28.740230+00:00",
+    "end_utc": "2026-10-25T17:01:23.198762+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_ps06/dcb_ps06.sta"
+  },
+  {
+    "run": "dcb_rho1e3",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:37:40.550287+00:00",
+    "end_utc": "2026-10-25T16:38:38.363135+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_rho1e3/dcb_rho1e3.sta"
+  },
+  {
+    "run": "dcb_rho1e4",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:36:10.259074+00:00",
+    "end_utc": "2026-10-25T16:37:31.860409+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_rho1e4/dcb_rho1e4.sta"
+  },
+  {
+    "run": "dcb_strength15",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:38:44.656744+00:00",
+    "end_utc": "2026-10-25T16:40:09.790600+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_strength15/dcb_strength15.sta"
+  },
+  {
+    "run": "dcb_strength60",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TIME INCREMENT REQUIRED IS LESS THAN THE MINIMUM SPECIFIED | ***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T16:40:17.884996+00:00",
+    "end_utc": "2026-10-25T16:42:49.080413+00:00",
+    "evidence": "validation/campaign_20261025/runs/dcb_strength60/dcb_strength60.sta"
+  },
+  {
+    "run": "elastic_turon2010_mmb50_n2s",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:37:57.387162+00:00",
+    "end_utc": "2026-10-25T17:38:41.367534+00:00",
+    "evidence": "validation/campaign_20261025/runs/elastic_turon2010_mmb50_n2s/elastic_turon2010_mmb50_n2s.sta"
+  },
+  {
+    "run": "element_dt001",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T15:39:14.678580+00:00",
+    "end_utc": "2026-10-25T15:41:37.381661+00:00",
+    "evidence": "validation/campaign_20261025/runs/element_dt001/element_dt001.sta"
+  },
+  {
+    "run": "element_dt005",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T15:36:26.912966+00:00",
+    "end_utc": "2026-10-25T15:36:57.476593+00:00",
+    "evidence": "validation/campaign_20261025/runs/element_dt005/element_dt005.sta"
+  },
+  {
+    "run": "element_io_off",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:08:15.587013+00:00",
+    "end_utc": "2026-10-25T16:08:43.514342+00:00",
+    "evidence": "validation/campaign_20261025/runs/element_io_off/element_io_off.sta"
+  },
+  {
+    "run": "element_refarea_dt001",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:11:50.369782+00:00",
+    "end_utc": "2026-10-25T23:13:06.055743+00:00",
+    "evidence": "validation/campaign_20261025/runs/element_refarea_dt001/element_refarea_dt001.sta"
+  },
+  {
+    "run": "element_z8_dt001",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T19:58:31.385522+00:00",
+    "end_utc": "2026-10-25T19:59:37.217206+00:00",
+    "evidence": "validation/campaign_20261025/runs/element_z8_dt001/element_z8_dt001.sta"
+  },
+  {
+    "run": "fixed_as4_dcb",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T18:52:02.746515+00:00",
+    "end_utc": "2026-10-25T18:52:21.791418+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_as4_dcb/fixed_as4_dcb.sta"
+  },
+  {
+    "run": "fixed_dcb_a34p5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:00:16.131927+00:00",
+    "end_utc": "2026-10-25T20:00:32.311073+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_dcb_a34p5/fixed_dcb_a34p5.sta"
+  },
+  {
+    "run": "fixed_dcb_a35p0",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:27:23.597355+00:00",
+    "end_utc": "2026-10-25T17:27:45.443823+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_dcb_a35p0/fixed_dcb_a35p0.sta"
+  },
+  {
+    "run": "fixed_dcb_a35p5",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:00:43.929089+00:00",
+    "end_utc": "2026-10-25T20:01:04.205191+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_dcb_a35p5/fixed_dcb_a35p5.sta"
+  },
+  {
+    "run": "fixed_krueger2012_mmb20_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:02:19.966090+00:00",
+    "end_utc": "2026-10-25T20:02:38.061803+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_krueger2012_mmb20_open/fixed_krueger2012_mmb20_open.sta"
+  },
+  {
+    "run": "fixed_krueger2012_mmb50_dx025_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:03:44.467024+00:00",
+    "end_utc": "2026-10-25T20:04:07.701256+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_krueger2012_mmb50_dx025_open/fixed_krueger2012_mmb50_dx025_open.sta"
+  },
+  {
+    "run": "fixed_krueger2012_mmb50_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:02:47.953149+00:00",
+    "end_utc": "2026-10-25T20:03:06.204860+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_krueger2012_mmb50_open/fixed_krueger2012_mmb50_open.sta"
+  },
+  {
+    "run": "fixed_krueger2012_mmb80_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:03:15.876989+00:00",
+    "end_utc": "2026-10-25T20:03:34.346863+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_krueger2012_mmb80_open/fixed_krueger2012_mmb80_open.sta"
+  },
+  {
+    "run": "fixed_turon2010_mmb20_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:01:14.944254+00:00",
+    "end_utc": "2026-10-25T20:01:35.072858+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_turon2010_mmb20_open/fixed_turon2010_mmb20_open.sta"
+  },
+  {
+    "run": "fixed_turon2010_mmb50",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:27:57.512729+00:00",
+    "end_utc": "2026-10-25T17:28:30.245309+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_turon2010_mmb50/fixed_turon2010_mmb50.sta"
+  },
+  {
+    "run": "fixed_turon2010_mmb50_n2s",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:37:09.014289+00:00",
+    "end_utc": "2026-10-25T17:37:51.842439+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_turon2010_mmb50_n2s/fixed_turon2010_mmb50_n2s.sta"
+  },
+  {
+    "run": "fixed_turon2010_mmb50_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:38:54.684343+00:00",
+    "end_utc": "2026-10-25T17:39:13.330258+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_turon2010_mmb50_open/fixed_turon2010_mmb50_open.sta"
+  },
+  {
+    "run": "fixed_turon2010_mmb80_open",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T20:01:46.917232+00:00",
+    "end_utc": "2026-10-25T20:02:08.085155+00:00",
+    "evidence": "validation/campaign_20261025/runs/fixed_turon2010_mmb80_open/fixed_turon2010_mmb80_open.sta"
+  },
+  {
+    "run": "kr_mmb20_K170k",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:35:45.536550+00:00",
+    "end_utc": "2026-10-25T17:36:09.549046+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb20_K170k/kr_mmb20_K170k.sta"
+  },
+  {
+    "run": "kr_mmb20_K170k_open",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:49:19.764172+00:00",
+    "end_utc": "2026-10-25T18:50:42.633985+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb20_K170k_open/kr_mmb20_K170k_open.sta"
+  },
+  {
+    "run": "kr_mmb50_3d_w3",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:52:20.848312+00:00",
+    "end_utc": "2026-10-25T17:55:02.519460+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb50_3d_w3/kr_mmb50_3d_w3.sta"
+  },
+  {
+    "run": "kr_mmb50_K170k",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:46:27.615505+00:00",
+    "end_utc": "2026-10-25T17:47:27.411445+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb50_K170k/kr_mmb50_K170k.sta"
+  },
+  {
+    "run": "kr_mmb50_K170k_adaptive",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T21:23:15.564666+00:00",
+    "end_utc": "2026-10-25T22:06:02.605898+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb50_K170k_adaptive/kr_mmb50_K170k_adaptive.sta"
+  },
+  {
+    "run": "kr_mmb50_K1m",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:48:53.161026+00:00",
+    "end_utc": "2026-10-25T17:50:30.000804+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb50_K1m/kr_mmb50_K1m.sta"
+  },
+  {
+    "run": "kr_mmb50_dx025",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:50:40.335844+00:00",
+    "end_utc": "2026-10-25T17:52:04.570507+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb50_dx025/kr_mmb50_dx025.sta"
+  },
+  {
+    "run": "kr_mmb80_K170k",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:47:39.987765+00:00",
+    "end_utc": "2026-10-25T17:48:40.072801+00:00",
+    "evidence": "validation/campaign_20261025/runs/kr_mmb80_K170k/kr_mmb80_K170k.sta"
+  },
+  {
+    "run": "ps_elastic_C3D8",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:54:14.016631+00:00",
+    "end_utc": "2026-10-25T16:54:32.276608+00:00",
+    "evidence": "validation/campaign_20261025/runs/ps_elastic_C3D8/ps_elastic_C3D8.sta"
+  },
+  {
+    "run": "ps_elastic_C3D8I",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:53:43.566260+00:00",
+    "end_utc": "2026-10-25T16:54:04.383174+00:00",
+    "evidence": "validation/campaign_20261025/runs/ps_elastic_C3D8I/ps_elastic_C3D8I.sta"
+  },
+  {
+    "run": "ps_elastic_C3D8R",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T16:54:41.502318+00:00",
+    "end_utc": "2026-10-25T16:54:59.914869+00:00",
+    "evidence": "validation/campaign_20261025/runs/ps_elastic_C3D8R/ps_elastic_C3D8R.sta"
+  },
+  {
+    "run": "t2010_enf",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:22:33.645030+00:00",
+    "end_utc": "2026-10-25T17:23:30.728135+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_enf/t2010_enf.sta"
+  },
+  {
+    "run": "t2010_enf_pc",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:28:36.371847+00:00",
+    "end_utc": "2026-10-25T17:33:17.591351+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_enf_pc/t2010_enf_pc.sta"
+  },
+  {
+    "run": "t2010_enf_pc_adaptive",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T23:07:22.124767+00:00",
+    "end_utc": "2026-10-25T23:11:21.416414+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_enf_pc_adaptive/t2010_enf_pc_adaptive.sta"
+  },
+  {
+    "run": "t2010_mmb20",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:23:39.238817+00:00",
+    "end_utc": "2026-10-25T17:24:56.195447+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb20/t2010_mmb20.sta"
+  },
+  {
+    "run": "t2010_mmb20_open",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T17:41:45.990773+00:00",
+    "end_utc": "2026-10-25T17:45:43.107846+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb20_open/t2010_mmb20_open.sta"
+  },
+  {
+    "run": "t2010_mmb20_pc",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:34:01.916736+00:00",
+    "end_utc": "2026-10-25T17:34:47.192852+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb20_pc/t2010_mmb20_pc.sta"
+  },
+  {
+    "run": "t2010_mmb50",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:25:01.718432+00:00",
+    "end_utc": "2026-10-25T17:25:23.205831+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb50/t2010_mmb50.sta"
+  },
+  {
+    "run": "t2010_mmb50_open",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:40:09.865782+00:00",
+    "end_utc": "2026-10-25T18:43:08.068011+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb50_open/t2010_mmb50_open.sta"
+  },
+  {
+    "run": "t2010_mmb50_open_adaptive",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T20:11:08.435232+00:00",
+    "end_utc": "2026-10-25T21:11:43.245991+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb50_open_adaptive/t2010_mmb50_open_adaptive.sta"
+  },
+  {
+    "run": "t2010_mmb80",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT",
+    "start_utc": "2026-10-25T17:34:52.781781+00:00",
+    "end_utc": "2026-10-25T17:35:36.987414+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb80/t2010_mmb80.sta"
+  },
+  {
+    "run": "t2010_mmb80_open",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:43:37.606929+00:00",
+    "end_utc": "2026-10-25T18:48:22.593828+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2010_mmb80_open/t2010_mmb80_open.sta"
+  },
+  {
+    "run": "t2018_mmb20",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:55:22.800121+00:00",
+    "end_utc": "2026-10-25T17:57:29.697768+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20/t2018_mmb20.sta"
+  },
+  {
+    "run": "t2018_mmb20_lefmlever",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T18:22:01.756048+00:00",
+    "end_utc": "2026-10-25T18:25:13.488626+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever/t2018_mmb20_lefmlever.sta"
+  },
+  {
+    "run": "t2018_mmb20_lefmlever_K1e6",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T23:48:20.144193+00:00",
+    "end_utc": "2026-10-25T23:51:18.343512+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6/t2018_mmb20_lefmlever_K1e6.sta"
+  },
+  {
+    "run": "t2018_mmb20_lefmlever_K1e6_z8",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:51:59.657237+00:00",
+    "end_utc": "2026-10-25T23:55:54.709149+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6_z8/t2018_mmb20_lefmlever_K1e6_z8.sta"
+  },
+  {
+    "run": "t2018_mmb20_lefmlever_dx01",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T18:32:36.434006+00:00",
+    "end_utc": "2026-10-25T18:38:50.349459+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever_dx01/t2018_mmb20_lefmlever_dx01.sta"
+  },
+  {
+    "run": "t2018_mmb20_lefmlever_refarea",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:15:34.604836+00:00",
+    "end_utc": "2026-10-25T23:17:46.950501+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever_refarea/t2018_mmb20_lefmlever_refarea.sta"
+  },
+  {
+    "run": "t2018_mmb50",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T17:58:06.582521+00:00",
+    "end_utc": "2026-10-25T18:01:46.809779+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb50/t2018_mmb50.sta"
+  },
+  {
+    "run": "t2018_mmb50_lefmlever",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:26:00.160554+00:00",
+    "end_utc": "2026-10-25T18:28:26.552324+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb50_lefmlever/t2018_mmb50_lefmlever.sta"
+  },
+  {
+    "run": "t2018_mmb50_lefmlever_adaptive",
+    "status": "COMPLETED",
+    "error_messages": "",
+    "start_utc": "2026-10-25T23:18:24.801666+00:00",
+    "end_utc": "2026-10-25T23:32:00.152757+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb50_lefmlever_adaptive/t2018_mmb50_lefmlever_adaptive.sta"
+  },
+  {
+    "run": "t2018_mmb70",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:02:34.230902+00:00",
+    "end_utc": "2026-10-25T18:05:48.365028+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb70/t2018_mmb70.sta"
+  },
+  {
+    "run": "t2018_mmb70_lefmlever",
+    "status": "FAILED",
+    "error_messages": "***ERROR: TOO MANY ATTEMPTS MADE FOR THIS INCREMENT ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT | ***ERROR: THE ANALYSIS HAS BEEN TERMINATED DUE TO PREVIOUS ERRORS. ALL OUTPUT REQUESTS HAVE BEEN WRITTEN FOR THE LAST CONVERGED INCREMENT.",
+    "start_utc": "2026-10-25T18:29:10.499708+00:00",
+    "end_utc": "2026-10-25T18:31:54.261924+00:00",
+    "evidence": "validation/campaign_20261025/runs/t2018_mmb70_lefmlever/t2018_mmb70_lefmlever.sta"
+  }
+]

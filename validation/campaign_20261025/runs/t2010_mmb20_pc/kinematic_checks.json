@@ -1,0 +1,16 @@
+[
+  {
+    "max_abs_LE23": 0.0, 
+    "max_abs_LE": 0.0, 
+    "max_abs_U3_mm": 0.0, 
+    "time": 0.0, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "lever_equation_residual_mm": 0.0, 
+    "increment": 0, 
+    "max_precrack_global_Y_penetration_mm": 0.0, 
+    "max_contact_penetration_mm": 0.0, 
+    "max_abs_LE33": 0.0, 
+    "max_abs_LE13": 0.0
+  }
+]

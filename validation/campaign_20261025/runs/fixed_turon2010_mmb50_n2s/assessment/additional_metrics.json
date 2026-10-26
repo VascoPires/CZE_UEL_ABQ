@@ -1,0 +1,78 @@
+{
+  "name": "fixed_turon2010_mmb50_n2s",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Fixed-crack tied elastic control; no damage law active"
+  },
+  "first_accepted_secant_compliance_mm_per_N": null,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "lever_equation_residual_mm": 0.0,
+    "max_abs_E": 0.0,
+    "max_abs_E13": 0.0,
+    "max_abs_E23": 0.0,
+    "max_abs_E33": 0.0,
+    "max_abs_U3_mm": 0.0,
+    "max_contact_penetration_mm": 0.0,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0
+  },
+  "VCCT": {
+    "GI_N_per_mm": 0.0,
+    "GII_N_per_mm": 0.0,
+    "GT_N_per_mm": 0.0,
+    "closure_length_mm": 0.5,
+    "evidence": "Independent virtual crack closure using tied-front bulk NFORC and behind-front relative nodal displacements; first-order straight-front approximation"
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": 0.0,
+    "ALLSE": 0.0,
+    "ALLSD": 0.0,
+    "ALLWK": 0.0,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 0.0
+  },
+  "subset_ledger_final_relative_error": 0.0,
+  "final_work_balance_relative_error": 0.0,
+  "work_balance_relative_error": 0.0,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "INCONCLUSIVE",
+  "stabilization_screen": "INCONCLUSIVE",
+  "numerical_reference": {
+    "kind": "published adjusted-strength numerical curve; lower graphical envelope estimate",
+    "uncertainty_mm_N": [
+      0.05,
+      3.0
+    ],
+    "limitation": "Shared analytical/numerical colours; peak/jump neighbourhood ambiguous",
+    "path": "validation/campaign_20261025/reference_data/turon2010CS_mmb_v2/fig12_B50_tau30_58p9_graphical.csv",
+    "peak_graphical_N": 117.57954872413109,
+    "peak_graphical_displacement_mm": 6.418147147707935,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": -1.0,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Incomplete loading path"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 126.65248024717695,
+    "initial_compliance_mm_per_N": 0.053739748235046556,
+    "initial_beam_GII_over_GT": 0.5009577011001402,
+    "final_beam_GII_over_GT": 0.5099923031898604,
+    "initial_compliance_relative_error": null,
+    "constant_nominal_Gc_initial_critical_load_N": 126.55149313828595
+  }
+}

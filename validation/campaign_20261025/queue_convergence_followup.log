@@ -1,0 +1,152 @@
+START dcb_ps0075
+dcb_ps0075 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps0075
+{
+  "name": "dcb_ps0075",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.221909523010254,
+  "peak_displacement_mm": 2.559999942779541,
+  "maximum_reached_force_N": 51.221909523010254,
+  "displacement_at_maximum_reached_force_mm": 2.559999942779541,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04739444389501987,
+  "compliance_fit_R2": 0.9999984893668916,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.23492234234099452,
+  "final_solver_energy_balance_error": 0.0001841908858811712,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.00018418923583592603,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps0075 COMPLETED
+START as4_mmb80_dx01
+as4_mmb80_dx01 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/as4_mmb80_dx01
+{
+  "name": "as4_mmb80_dx01",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 471.0655296325683,
+  "displacement_at_maximum_reached_force_mm": 4.994999885559082,
+  "last_displacement_mm": 4.996318340301514,
+  "target_displacement_mm": 6.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.010263175754401934,
+  "compliance_fit_R2": 0.9999996670174727,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.00018314471248707178,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.000183164958442085,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END as4_mmb80_dx01 FAILED
+START t2018_mmb20_lefmlever_K1e6
+t2018_mmb20_lefmlever_K1e6 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6
+{
+  "name": "t2018_mmb20_lefmlever_K1e6",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 99.48726558685303,
+  "displacement_at_maximum_reached_force_mm": 8.800000190734863,
+  "last_displacement_mm": 9.662718772888184,
+  "target_displacement_mm": 11.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.08116609179418485,
+  "compliance_fit_R2": 0.9999828069443273,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0012659618218349002,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0012659893225513553,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2018_mmb20_lefmlever_K1e6 FAILED
+START t2018_mmb20_lefmlever_K1e6_z8
+t2018_mmb20_lefmlever_K1e6_z8 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2018_mmb20_lefmlever_K1e6_z8
+{
+  "name": "t2018_mmb20_lefmlever_K1e6_z8",
+  "termination": "COMPLETED",
+  "peak_force_N": 99.48729586601257,
+  "peak_displacement_mm": 8.800000190734863,
+  "maximum_reached_force_N": 99.48729586601257,
+  "displacement_at_maximum_reached_force_mm": 8.800000190734863,
+  "last_displacement_mm": 11.0,
+  "target_displacement_mm": 11.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.08116609179418485,
+  "compliance_fit_R2": 0.9999828069443273,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0018939640469040838,
+  "source_hash": "fad999c120f0ff255e42a06698fb4a984d851809e167eb44719f6b439e63ad75",
+  "raw_work_minus_internal_energy_relative_error": 0.0018939587669058579,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2018_mmb20_lefmlever_K1e6_z8 COMPLETED
+START dcb_ps03_rho1e4_dt02
+dcb_ps03_rho1e4_dt02 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt02
+{
+  "name": "dcb_ps03_rho1e4_dt02",
+  "termination": "COMPLETED",
+  "peak_force_N": 52.94669151306152,
+  "peak_displacement_mm": 3.119999885559082,
+  "maximum_reached_force_N": 52.94669151306152,
+  "displacement_at_maximum_reached_force_mm": 3.119999885559082,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.04707890891255448,
+  "compliance_fit_R2": 0.9999999999999963,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.2267006782045864,
+  "final_solver_energy_balance_error": 1.1277682786777217,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 1.127768346057845,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_rho1e4_dt02 COMPLETED
+START dcb_ps03_rho1e4_dt001
+dcb_ps03_rho1e4_dt001 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/dcb_ps03_rho1e4_dt001
+{
+  "name": "dcb_ps03_rho1e4_dt001",
+  "termination": "COMPLETED",
+  "peak_force_N": 51.82720184326172,
+  "peak_displacement_mm": 2.615999937057495,
+  "maximum_reached_force_N": 51.82720184326172,
+  "displacement_at_maximum_reached_force_mm": 2.615999937057495,
+  "last_displacement_mm": 4.0,
+  "target_displacement_mm": 4.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.047078910593893346,
+  "compliance_fit_R2": 0.9999999999999876,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": 0.22670072201400293,
+  "final_solver_energy_balance_error": 0.0041455922322880066,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.004145563849520674,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END dcb_ps03_rho1e4_dt001 COMPLETED
+START dcb_ps03_rho1e4_dt001_adaptive
+SKIP dcb_ps03_rho1e4_dt001_adaptive Baseline dcb_ps03_rho1e4_dt001 did not fail

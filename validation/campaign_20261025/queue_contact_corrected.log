@@ -1,0 +1,179 @@
+START contact_enf_elastic
+contact_enf_elastic COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/contact_enf_elastic
+{
+  "name": "contact_enf_elastic",
+  "termination": "COMPLETED",
+  "peak_force_N": 7.2739481925964355,
+  "peak_displacement_mm": 0.10000000149011612,
+  "maximum_reached_force_N": 7.2739481925964355,
+  "displacement_at_maximum_reached_force_mm": 0.10000000149011612,
+  "last_displacement_mm": 0.10000000149011612,
+  "target_displacement_mm": 0.1,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 4.09713151628282e-07,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 4.09713151628282e-07,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END contact_enf_elastic COMPLETED
+START contact_enf_elastic_K1e7
+contact_enf_elastic_K1e7 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/contact_enf_elastic_K1e7
+{
+  "name": "contact_enf_elastic_K1e7",
+  "termination": "COMPLETED",
+  "peak_force_N": 7.273950576782227,
+  "peak_displacement_mm": 0.10000000149011612,
+  "maximum_reached_force_N": 7.273950576782227,
+  "displacement_at_maximum_reached_force_mm": 0.10000000149011612,
+  "last_displacement_mm": 0.10000000149011612,
+  "target_displacement_mm": 0.1,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END contact_enf_elastic_K1e7 COMPLETED
+START fixed_dcb_a35p0
+fixed_dcb_a35p0 COMPLETED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_dcb_a35p0
+{
+  "name": "fixed_dcb_a35p0",
+  "termination": "COMPLETED",
+  "peak_force_N": 4.258536994457245,
+  "peak_displacement_mm": 0.20000000298023224,
+  "maximum_reached_force_N": 4.258536994457245,
+  "displacement_at_maximum_reached_force_mm": 0.20000000298023224,
+  "last_displacement_mm": 0.20000000298023224,
+  "target_displacement_mm": 0.2,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": 0.03837848119678203,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": null,
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END fixed_dcb_a35p0 COMPLETED
+START fixed_turon2010_mmb50
+fixed_turon2010_mmb50 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_turon2010_mmb50
+{
+  "name": "fixed_turon2010_mmb50",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 0.2,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": null,
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END fixed_turon2010_mmb50 FAILED
+START t2010_enf_pc
+t2010_enf_pc FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_enf_pc
+{
+  "name": "t2010_enf_pc",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": 467.41580963134766,
+  "displacement_at_maximum_reached_force_mm": 6.617812633514404,
+  "last_displacement_mm": 6.627381324768066,
+  "target_displacement_mm": 9.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": 0.013798789177600933,
+  "compliance_fit_R2": 0.9999995488984579,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 1.9030955346230075e-05,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 1.9030955346230075e-05,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2010_enf_pc FAILED
+START t2010_mmb20_pc
+t2010_mmb20_pc FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb20_pc
+{
+  "name": "t2010_mmb20_pc",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 9.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2010_mmb20_pc FAILED
+START t2010_mmb50
+ERROR t2010_mmb50 Another live execution owns t2010_mmb50
+END t2010_mmb50 None
+START t2010_mmb80
+t2010_mmb80 FAILED
+Extracted /mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb80
+{
+  "name": "t2010_mmb80",
+  "termination": "FAILED",
+  "peak_force_N": null,
+  "peak_displacement_mm": null,
+  "maximum_reached_force_N": -0.0,
+  "displacement_at_maximum_reached_force_mm": -0.0,
+  "last_displacement_mm": -0.0,
+  "target_displacement_mm": 9.0,
+  "target_reached": false,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.0,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}
+END t2010_mmb80 FAILED
+START kr_mmb20_K170k

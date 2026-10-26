@@ -1,0 +1,80 @@
+{
+  "name": "fixed_dcb_a35p5",
+  "solver_status": "COMPLETED",
+  "completed": true,
+  "peak_observed": false,
+  "damage": {
+    "status": "NOT RUN",
+    "reason": "Fixed-crack tied elastic control; no damage law active"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.048866732828288455,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "max_abs_E": 0.00034673738991841674,
+    "max_abs_E13": 1.061944293165351e-18,
+    "max_abs_E23": 1.6686001467344207e-17,
+    "max_abs_E33": 8.923505334213855e-18,
+    "max_abs_U3_mm": 1.8424711656141107e-37,
+    "max_inplane_width_pair_difference_mm": 0.0,
+    "max_precrack_global_Y_penetration_mm": 0.0,
+    "max_precrack_projected_normal_penetration_mm": 0.0
+  },
+  "VCCT": {
+    "GI_N_per_mm": 0.001614278828815173,
+    "GII_N_per_mm": 0.0,
+    "GT_N_per_mm": 0.001614278828815173,
+    "closure_length_mm": 0.5,
+    "evidence": "Independent virtual crack closure using tied-front bulk NFORC and behind-front relative nodal displacements; first-order straight-front approximation",
+    "B_GII_over_GT": 0.0,
+    "BK_Gc_N_per_mm": 0.26,
+    "linear_critical_scale": 12.691045421432488,
+    "critical_load_N": 51.94145332014946,
+    "critical_displacement_mm": 2.53820912210876
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ALLDMD": 0.0,
+    "ETOTAL": 6.261692553355402e-13,
+    "ALLSE": 0.020463820546865463,
+    "ALLSD": 0.0,
+    "ALLWK": 0.020463820546865463,
+    "ALLVD": 0.0,
+    "ALLPD": 0.0,
+    "ALLIE": 0.020463820546865463
+  },
+  "subset_ledger_final_relative_error": 0.0,
+  "final_work_balance_relative_error": 3.059884413575223e-11,
+  "work_balance_relative_error": 3.059884413575223e-11,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "numerical_reference": {
+    "kind": "published numerical curve, graphical estimate",
+    "uncertainty_mm_N": [
+      0.03,
+      0.8
+    ],
+    "path": "validation/campaign_20261025/reference_data/turon2010CS_dcb/fig04_tau30_graphical.csv",
+    "peak_graphical_N": 50.99977071338087,
+    "peak_graphical_displacement_mm": 2.661079451043755,
+    "peak_relative_error": null,
+    "maximum_reached_relative_difference": -0.9197493654753304,
+    "stable_propagation": {
+      "status": "INCONCLUSIVE",
+      "reason": "Insufficient common stable postpeak interval"
+    }
+  },
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 55.43523128915158,
+    "initial_compliance_mm_per_N": 0.04004688216799257,
+    "initial_beam_GII_over_GT": 0.0,
+    "final_beam_GII_over_GT": 0.0,
+    "initial_compliance_relative_error": null
+  }
+}

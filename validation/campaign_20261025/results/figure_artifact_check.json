@@ -1,0 +1,98 @@
+[
+  {
+    "name": "01_element_response",
+    "width_mm": 179.99999999998556,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 41
+  },
+  {
+    "name": "02_material_tangent",
+    "width_mm": 85.00000000001278,
+    "height_mm": 67.9999999999961,
+    "svg_text_elements": 15
+  },
+  {
+    "name": "03_dcb_reference",
+    "width_mm": 85.00000000001278,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 20
+  },
+  {
+    "name": "04_dcb_mesh_stabilization",
+    "width_mm": 179.99999999998556,
+    "height_mm": 73.00000000001138,
+    "svg_text_elements": 43
+  },
+  {
+    "name": "05_dcb_numerical_sensitivity",
+    "width_mm": 179.99999999998556,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 41
+  },
+  {
+    "name": "06_turon2010_mmb",
+    "width_mm": 179.99999999998556,
+    "height_mm": 67.9999999999961,
+    "svg_text_elements": 57
+  },
+  {
+    "name": "07_krueger_mmb",
+    "width_mm": 179.99999999998556,
+    "height_mm": 67.9999999999961,
+    "svg_text_elements": 49
+  },
+  {
+    "name": "08_turon2018_mmb",
+    "width_mm": 179.99999999998556,
+    "height_mm": 67.9999999999961,
+    "svg_text_elements": 56
+  },
+  {
+    "name": "09_experimental_peak_tables",
+    "width_mm": 179.99999999998556,
+    "height_mm": 75.0000000000175,
+    "svg_text_elements": 18
+  },
+  {
+    "name": "12_experimental_marker_comparisons",
+    "width_mm": 179.99999999998556,
+    "height_mm": 120.00000000001387,
+    "svg_text_elements": 88
+  },
+  {
+    "name": "10_energy_consistency",
+    "width_mm": 179.99999999998556,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 19
+  },
+  {
+    "name": "11_dcb_front_definition",
+    "width_mm": 85.00000000001278,
+    "height_mm": 67.9999999999961,
+    "svg_text_elements": 18
+  },
+  {
+    "name": "13_fixed_crack_vcct",
+    "width_mm": 179.99999999998556,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 39
+  },
+  {
+    "name": "14_elastic_geometry_cycles",
+    "width_mm": 179.99999999998556,
+    "height_mm": 70.00000000000222,
+    "svg_text_elements": 38
+  },
+  {
+    "name": "15_dcb_viscosity_increment",
+    "width_mm": 179.99999999998556,
+    "height_mm": 75.0000000000175,
+    "svg_text_elements": 38
+  },
+  {
+    "name": "16_mmb_penalty_tangent",
+    "width_mm": 179.99999999998556,
+    "height_mm": 73.00000000001138,
+    "svg_text_elements": 28
+  }
+]

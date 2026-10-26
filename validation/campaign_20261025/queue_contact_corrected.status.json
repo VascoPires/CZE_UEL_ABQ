@@ -1,0 +1,61 @@
+[
+  {
+    "name": "contact_enf_elastic",
+    "started_utc": "2026-10-25T17:26:18.288285+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/contact_enf_elastic/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:26:51.291302+00:00"
+  },
+  {
+    "name": "contact_enf_elastic_K1e7",
+    "started_utc": "2026-10-25T17:26:51.295398+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/contact_enf_elastic_K1e7/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:27:23.483048+00:00"
+  },
+  {
+    "name": "fixed_dcb_a35p0",
+    "started_utc": "2026-10-25T17:27:23.486503+00:00",
+    "solver_status": "COMPLETED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_dcb_a35p0/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:27:57.431797+00:00"
+  },
+  {
+    "name": "fixed_turon2010_mmb50",
+    "started_utc": "2026-10-25T17:27:57.435035+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/fixed_turon2010_mmb50/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:28:36.262395+00:00"
+  },
+  {
+    "name": "t2010_enf_pc",
+    "started_utc": "2026-10-25T17:28:36.265950+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_enf_pc/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:34:01.772836+00:00"
+  },
+  {
+    "name": "t2010_mmb20_pc",
+    "started_utc": "2026-10-25T17:34:01.775930+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb20_pc/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:34:52.666128+00:00"
+  },
+  {
+    "name": "t2010_mmb50",
+    "started_utc": "2026-10-25T17:34:52.668766+00:00",
+    "error": "Another live execution owns t2010_mmb50",
+    "ended_utc": "2026-10-25T17:34:52.689874+00:00"
+  },
+  {
+    "name": "t2010_mmb80",
+    "started_utc": "2026-10-25T17:34:52.692147+00:00",
+    "solver_status": "FAILED",
+    "assessment": "/mnt/c/Users/p2321038/Documents/GitHub/CZE_UEL_ABQ/validation/campaign_20261025/runs/t2010_mmb80/assessment/metrics.json",
+    "ended_utc": "2026-10-25T17:35:45.328482+00:00"
+  },
+  {
+    "name": "kr_mmb20_K170k",
+    "started_utc": "2026-10-25T17:35:45.334553+00:00"
+  }
+]

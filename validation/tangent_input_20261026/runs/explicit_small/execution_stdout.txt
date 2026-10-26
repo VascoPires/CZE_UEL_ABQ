@@ -1,0 +1,44 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.13
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+Analysis initiated from SIMULIA established products
+Abaqus JOB explicit_small
+Abaqus 2023
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server licsrv.unileoben.ac.at.
+<189 out of 425 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+10/26/2026 11:24:17 AM
+Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.8.0 Build 20221119_000000
+Copyright (C) 1985-2022 Intel Corporation.  All rights reserved.
+
+C:\SIMULIA\EstProducts\2023\win_b64\code\include\SMAAspUserSubroutines.hdr(1): warning #5117: Bad # preprocessor line
+#include "SMAUsubs\PublicInterfaces\SMAAspUserSubroutines.hdr"
+-^
+C:\SIMULIA\EstProducts\2023\win_b64\code\include\SMAAspUserSubroutines.hdr(1): warning #5117: Bad # preprocessor line
+#include "SMAUsubs\PublicInterfaces\SMAAspUserSubroutines.hdr"
+-^
+End Compiling Abaqus/Standard User Subroutines
+Begin Linking Abaqus/Standard User Subroutines
+   Creating library standardU.lib and object standardU.exp
+libirc.lib(fast_mem_ops.obj) : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
+End Linking Abaqus/Standard User Subroutines
+10/26/2026 11:24:19 AM
+Begin Analysis Input File Processor
+10/26/2026 11:24:19 AM
+Run pre.exe
+10/26/2026 11:24:21 AM
+End Analysis Input File Processor
+Begin Abaqus/Standard Analysis
+10/26/2026 11:24:21 AM
+Run standard.exe
+10/26/2026 11:25:50 AM
+End Abaqus/Standard Analysis
+Begin SIM Wrap-up
+10/26/2026 11:25:51 AM
+Run SMASimUtility.exe
+10/26/2026 11:25:51 AM
+End SIM Wrap-up
+Abaqus JOB explicit_small COMPLETED

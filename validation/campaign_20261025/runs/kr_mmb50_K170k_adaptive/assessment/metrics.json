@@ -1,0 +1,21 @@
+{
+  "name": "kr_mmb50_K170k_adaptive",
+  "termination": "COMPLETED",
+  "peak_force_N": 610.0889236450195,
+  "peak_displacement_mm": 8.0,
+  "maximum_reached_force_N": 610.0889236450195,
+  "displacement_at_maximum_reached_force_mm": 8.0,
+  "last_displacement_mm": 8.0,
+  "target_displacement_mm": 8.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": null,
+  "compliance_fit_R2": null,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.0078041996239664145,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.008217262443883308,
+  "stabilization_over_peak_work": 0.00041306281991689367,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

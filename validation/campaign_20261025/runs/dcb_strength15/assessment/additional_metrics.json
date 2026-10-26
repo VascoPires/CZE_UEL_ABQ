@@ -1,0 +1,61 @@
+{
+  "name": "dcb_strength15",
+  "solver_status": "FAILED",
+  "completed": false,
+  "peak_observed": false,
+  "damage": {
+    "status": "EXTRACTED",
+    "printed_states": 4,
+    "minimum_sampled_damage_increment": 0.0,
+    "front_damage_variable": "D",
+    "final_printed_state": {
+      "step": 1,
+      "increment": 39,
+      "sampled_elements": 114,
+      "damage_variable": "D",
+      "damage_front_any_D_gt_1e6_mm": 37.976190476190474,
+      "contiguous_all_IP_D_ge_0.995_mm": 37.083333333333336,
+      "cohesive_zone_extent_0.995_mm": 0.8928571428571388,
+      "contiguous_all_IP_D_ge_0.999_mm": 36.48809523809524,
+      "cohesive_zone_extent_0.999_mm": 1.4880952380952337,
+      "active_local_B_min": 1.037e-21,
+      "active_local_B_max": 1.037e-21
+    },
+    "limitation": "D is rounded in DAT and printed every ten increments plus final output; fronts bracket mesh intervals and are not experimental crack observations"
+  },
+  "first_accepted_secant_compliance_mm_per_N": 0.04707892702633853,
+  "first_secant_scope": "Single accepted early-load secant; not a multi-point undamaged compliance fit",
+  "peak_eligible": false,
+  "peak_eligibility_scope": "Completed loading path with resolved postpeak; energy, contact, convergence and source-equivalence screens remain separate",
+  "kinematics": {
+    "status": "NOT RUN",
+    "reason": "Earlier ODB extraction predates additional strain and lever checks"
+  },
+  "energies_final_Nmm": {
+    "ALLAE": 0.0,
+    "ETOTAL": 0.0104877520352602,
+    "ALLSE": 3.4526305198669434,
+    "ALLSD": 0.0,
+    "ALLWK": 3.7465991973876953,
+    "ALLVD": 0.0,
+    "ALLPD": 0.3044564127922058,
+    "ALLIE": 3.757086992263794
+  },
+  "subset_ledger_final_relative_error": 0.002799283916841496,
+  "final_work_balance_relative_error": 0.002799272482248102,
+  "work_balance_relative_error": 0.002799272482248102,
+  "energy_balance_method": "Maximum reported ETOTAL variation / peak absolute ALLWK; includes host contact-energy accounting",
+  "separate_contact_energy_histories_available": false,
+  "stabilization_over_peak_work": 0.0,
+  "artificial_energy_over_peak_work": 0.0,
+  "energy_screen": "PASS",
+  "stabilization_screen": "PASS",
+  "LEFM": {
+    "policy": "Printed 2010 Appendix A; MMB uses evolving beam energy fraction and is a formal equilibrium path",
+    "initial_critical_load_N": 56.22716316471089,
+    "initial_compliance_mm_per_N": 0.03837848119678203,
+    "initial_beam_GII_over_GT": 0.0,
+    "final_beam_GII_over_GT": 0.0,
+    "initial_compliance_relative_error": 0.24599634852363117
+  }
+}

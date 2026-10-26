@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-10-26T12:40:52.008816+00:00",
+  "prepared_jobs": 48,
+  "protected_files": 2957,
+  "changed": [],
+  "status": "PASS",
+  "scope": "Input hashes and preservation only; no solver validation"
+}

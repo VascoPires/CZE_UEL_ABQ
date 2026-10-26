@@ -1,0 +1,57 @@
+[
+  {
+    "max_abs_E33": 0.0, 
+    "max_abs_E23": 0.0, 
+    "max_abs_E": 0.0, 
+    "max_abs_E13": 0.0, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "increment": 0, 
+    "time": 0.0, 
+    "max_abs_U3_mm": 0.0
+  }, 
+  {
+    "max_abs_E33": 3.864730924093717e-18, 
+    "max_abs_E23": 7.51691365388887e-18, 
+    "max_abs_E": 8.77883649081923e-05, 
+    "max_abs_E13": 3.429616447700384e-19, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "increment": 1, 
+    "time": 0.25, 
+    "max_abs_U3_mm": 5.174401078202676e-38
+  }, 
+  {
+    "max_abs_E33": 6.98482807050291e-18, 
+    "max_abs_E23": 9.947213306961519e-18, 
+    "max_abs_E": 0.00017557675892021507, 
+    "max_abs_E13": 5.104868636164349e-19, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "increment": 2, 
+    "time": 0.5, 
+    "max_abs_U3_mm": 1.0348803277444123e-37
+  }, 
+  {
+    "max_abs_E33": 7.82654390077972e-18, 
+    "max_abs_E23": 1.4864797912686206e-17, 
+    "max_abs_E": 0.00026336516020819545, 
+    "max_abs_E13": 7.064546878254673e-19, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "increment": 3, 
+    "time": 0.75, 
+    "max_abs_U3_mm": 1.5523208839801884e-37
+  }, 
+  {
+    "max_abs_E33": 9.438905030283395e-18, 
+    "max_abs_E23": 1.5353120678584435e-17, 
+    "max_abs_E": 0.00035115357604809105, 
+    "max_abs_E13": 9.578105258510503e-19, 
+    "max_inplane_width_pair_difference_mm": 0.0, 
+    "step": "LOAD", 
+    "increment": 4, 
+    "time": 1.0, 
+    "max_abs_U3_mm": 2.0697615523198417e-37
+  }
+]

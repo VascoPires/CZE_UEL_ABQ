@@ -1,0 +1,21 @@
+{
+  "name": "as4_mmb80_adaptive",
+  "termination": "COMPLETED",
+  "peak_force_N": 470.9615146636963,
+  "peak_displacement_mm": 5.005547046661377,
+  "maximum_reached_force_N": 470.9615146636963,
+  "displacement_at_maximum_reached_force_mm": 5.005547046661377,
+  "last_displacement_mm": 6.0,
+  "target_displacement_mm": 6.0,
+  "target_reached": true,
+  "initial_compliance_mm_per_N": 0.010259931606645152,
+  "compliance_fit_R2": 0.9999970145911263,
+  "source_beam_compliance_mm_per_N": null,
+  "relative_beam_compliance_error": null,
+  "final_solver_energy_balance_error": 0.011032040426918762,
+  "source_hash": "384d51a9b86d87fc76595e9a6c16aa495ae3a660f679d43514262c2097803d3f",
+  "raw_work_minus_internal_energy_relative_error": 0.01182523755034642,
+  "stabilization_over_peak_work": 0.000793197123427657,
+  "artificial_energy_over_peak_work": 0.0,
+  "evidence_limit": "Constrained-slice diagnostic with documented apparatus/element assumptions; no automatic experimental validation claim"
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "t2018_mmb50_lefmlever_adaptive",
+    "material": "turon2018",
+    "kind": "mmb",
+    "mix": 0.5,
+    "dx": 0.3,
+    "ny": 5,
+    "refine_to": 80.0,
+    "max_inc": 0.02,
+    "line_search": 5,
+    "source": "validation/campaign_20261025/sources/3D_CZM_io_off.f",
+    "opening": 6.0,
+    "nlgeom": true,
+    "precrack_contact": false,
+    "lever_policy": "corrected-beam-initial-mode-fraction",
+    "when_failed": "t2018_mmb50_lefmlever",
+    "stabilize": 2e-05,
+    "stabilization_tolerance": 0.005
+  }
+]

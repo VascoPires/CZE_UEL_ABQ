@@ -1,0 +1,16 @@
+[
+  {
+    "current": "material_default",
+    "first_campaign_reference": "turon2018_K1e6_canonical",
+    "byte_identical": true,
+    "rows": 9600,
+    "sha256": "e1d9443705d141aa0fc1ee881bb9a92bf6dcc25b65380f1deee8693c9a3a1707"
+  },
+  {
+    "current": "material_small",
+    "first_campaign_reference": "turon2018_K1e6_z8",
+    "byte_identical": true,
+    "rows": 9600,
+    "sha256": "693315f113324c334184cca13481f4a933249f357e56a7286b1f4fe11eb32e26"
+  }
+]

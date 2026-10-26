@@ -1,0 +1,130 @@
+as4_dcb FAILED peak eligible False
+as4_dcb_ps FAILED peak eligible False
+as4_dcb_ps_adaptive FAILED peak eligible False
+as4_enf FAILED peak eligible False
+as4_enf_adaptive FAILED peak eligible False
+as4_mmb20 FAILED peak eligible False
+as4_mmb20_adaptive COMPLETED peak eligible True
+as4_mmb50 FAILED peak eligible False
+as4_mmb50_adaptive FAILED peak eligible False
+as4_mmb80 FAILED peak eligible False
+as4_mmb80_adaptive COMPLETED peak eligible True
+as4_mmb80_dx01 FAILED peak eligible False
+contact_enf_elastic COMPLETED peak eligible False
+contact_enf_elastic_K1e7 COMPLETED peak eligible False
+dcb_K1e5 COMPLETED peak eligible True
+dcb_K1e7 COMPLETED peak eligible True
+dcb_K1e7_z8 COMPLETED peak eligible True
+dcb_adaptive_dx0p15 COMPLETED peak eligible True
+dcb_adaptive_dx0p3 COMPLETED peak eligible True
+dcb_adaptive_dx0p6 FAILED peak eligible False
+dcb_dx06_ls5 FAILED peak eligible False
+dcb_dx06_v2 FAILED peak eligible False
+dcb_dx06_z8 FAILED peak eligible False
+dcb_gauss FAILED peak eligible False
+dcb_inc01 FAILED peak eligible False
+dcb_local015 FAILED peak eligible False
+dcb_local015_rho1e5 COMPLETED peak eligible True
+dcb_local015_z8 FAILED peak eligible False
+dcb_local03 COMPLETED peak eligible True
+dcb_local06 FAILED peak eligible False
+dcb_native_dx06 FAILED peak eligible False
+dcb_native_local015 FAILED peak eligible False
+dcb_native_local03 FAILED peak eligible False
+dcb_nlgeom FAILED peak eligible False
+dcb_ps0075 COMPLETED peak eligible True
+dcb_ps015 FAILED peak eligible False
+dcb_ps015_stab2e5 COMPLETED peak eligible True
+dcb_ps03 COMPLETED peak eligible True
+dcb_ps03_K1e5 COMPLETED peak eligible True
+dcb_ps03_K1e7 COMPLETED peak eligible True
+dcb_ps03_gauss FAILED peak eligible False
+dcb_ps03_inc005 FAILED peak eligible False
+dcb_ps03_nlgeom FAILED peak eligible False
+dcb_ps03_refarea COMPLETED peak eligible True
+dcb_ps03_rho1e4_dt001 COMPLETED peak eligible True
+dcb_ps03_rho1e4_dt02 COMPLETED peak eligible True
+dcb_ps03_stab2e4 COMPLETED peak eligible True
+dcb_ps03_stab2e5 COMPLETED peak eligible True
+dcb_ps06 FAILED peak eligible False
+dcb_rho1e3 COMPLETED peak eligible False
+dcb_rho1e4 COMPLETED peak eligible True
+dcb_strength15 FAILED peak eligible False
+dcb_strength60 FAILED peak eligible False
+elastic_turon2010_mmb50_n2s FAILED peak eligible False
+fixed_as4_dcb COMPLETED peak eligible False
+fixed_dcb_a34p5 COMPLETED peak eligible False
+fixed_dcb_a35p0 COMPLETED peak eligible False
+fixed_dcb_a35p5 COMPLETED peak eligible False
+fixed_krueger2012_mmb20_open COMPLETED peak eligible False
+fixed_krueger2012_mmb50_dx025_open COMPLETED peak eligible False
+fixed_krueger2012_mmb50_open COMPLETED peak eligible False
+fixed_krueger2012_mmb80_open COMPLETED peak eligible False
+fixed_turon2010_mmb20_open COMPLETED peak eligible False
+fixed_turon2010_mmb50 FAILED peak eligible False
+fixed_turon2010_mmb50_n2s FAILED peak eligible False
+fixed_turon2010_mmb50_open COMPLETED peak eligible False
+fixed_turon2010_mmb80_open COMPLETED peak eligible False
+kr_mmb20_K170k FAILED peak eligible False
+kr_mmb20_K170k_open FAILED peak eligible False
+kr_mmb50_3d_w3 FAILED peak eligible False
+kr_mmb50_K170k FAILED peak eligible False
+kr_mmb50_K170k_adaptive COMPLETED peak eligible False
+kr_mmb50_K1m FAILED peak eligible False
+kr_mmb50_dx025 FAILED peak eligible False
+kr_mmb80_K170k FAILED peak eligible False
+ps_elastic_C3D8 COMPLETED peak eligible False
+ps_elastic_C3D8I COMPLETED peak eligible False
+ps_elastic_C3D8R COMPLETED peak eligible False
+t2010_enf FAILED peak eligible False
+t2010_enf_pc FAILED peak eligible False
+t2010_enf_pc_adaptive FAILED peak eligible False
+t2010_mmb20 FAILED peak eligible False
+t2010_mmb20_open FAILED peak eligible False
+t2010_mmb20_pc FAILED peak eligible False
+t2010_mmb50 FAILED peak eligible False
+t2010_mmb50_open FAILED peak eligible False
+t2010_mmb50_open_adaptive FAILED peak eligible False
+t2010_mmb80 FAILED peak eligible False
+t2010_mmb80_open FAILED peak eligible False
+t2018_mmb20 COMPLETED peak eligible True
+t2018_mmb20_lefmlever COMPLETED peak eligible True
+t2018_mmb20_lefmlever_K1e6 FAILED peak eligible False
+t2018_mmb20_lefmlever_K1e6_z8 COMPLETED peak eligible True
+t2018_mmb20_lefmlever_dx01 COMPLETED peak eligible True
+t2018_mmb20_lefmlever_refarea COMPLETED peak eligible True
+t2018_mmb50 COMPLETED peak eligible True
+t2018_mmb50_lefmlever FAILED peak eligible False
+t2018_mmb50_lefmlever_adaptive COMPLETED peak eligible True
+t2018_mmb70 FAILED peak eligible False
+t2018_mmb70_lefmlever FAILED peak eligible False
+Onset brackets passed 20 /20; fixed-crack records 13
+Elastic area cycles [('area_cycle_canonical', 'FAIL'), ('area_cycle_canonical_fine', 'FAIL'), ('area_cycle_reference', 'PASS')]
+{
+  "generated_utc": "2026-10-26T00:21:42.803400+00:00",
+  "solver_status_counts": {
+    "FAILED": 56,
+    "COMPLETED": 50
+  },
+  "case_status_counts": {
+    "FAIL": 1,
+    "INCONCLUSIVE": 16
+  },
+  "figures": 16,
+  "preservation": {
+    "checked_files": 62,
+    "changed_or_missing": [],
+    "checked_run_decks_and_sources": 106,
+    "run_hash_mismatches": [],
+    "canonical_sha256": "bfa62fce8fef54fc8f3ba6f04946b3e0c5b68e4dbed5fb60987c8b27cc8d455c"
+  },
+  "diagnostic_subcheck_status_counts": {
+    "PASS": 549,
+    "FAIL": 46,
+    "INCONCLUSIVE": 170
+  },
+  "submission_interval_overlaps": 0,
+  "unresolved_controller_errors": 0,
+  "figures_regenerated": true
+}
+Wrote technical report; pending 0 running/prepared 0

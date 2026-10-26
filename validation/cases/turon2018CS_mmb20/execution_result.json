@@ -1,0 +1,13 @@
+{
+  "case": "turon2018CS_mmb20",
+  "primary_run": "t2018_mmb20_lefmlever",
+  "evaluated_run": "t2018_mmb20_lefmlever",
+  "classification": "INCONCLUSIVE",
+  "solver_status": "COMPLETED",
+  "eligible_peak_N": 99.57463307380675,
+  "relative_peak_difference": 0.024540071186433643,
+  "reason": "Completed prediction; source apparatus equivalence and numerical convergence not established",
+  "generated_utc": "2026-10-26T00:22:39.115591+00:00",
+  "primary_run_manifest": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever/run.json",
+  "evaluated_assessment": "validation/campaign_20261025/runs/t2018_mmb20_lefmlever/assessment/"
+}

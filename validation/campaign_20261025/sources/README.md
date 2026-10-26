@@ -1,0 +1,9 @@
+# Isolated UEL source experiments
+
+The canonical source is unchanged. `3D_CZM_zeta1e8.f` changes only the material forward-difference perturbation from1e-6 to1e-8 mm. Independent central-difference checks measured smooth mixed-mode tangent errors up to about12.6% at K3=1e7 in the original. The traction, history and energy routines are identical. This is a numerical tangent experiment, not an approved constitutive reformulation. Separate material and full Abaqus comparisons are retained. No original result is overwritten.
+
+The io_off copies change only echo=1 to echo=0, disabling formatted visualization export during solver iterations. They retain DAT/ODB output. The source with only this I/O change is tested against the canonical unit batch before using it for larger solves. These are isolated source copies and have distinct hashes; the canonical source is preserved.
+
+`3D_CZM_reference_area_experiment.f` changes force/tangent/energy integration to the undeformed midsurface area, with unchanged material routines and current local basis. This is a different traction/energy-measure hypothesis. Its [manifest](reference_area_experiment.json) and [patch](reference_area_experiment.patch) identify the exact changes. It closes the restricted elastic area cycle, but **both canonical and reference-area copies fail the constant-area basis cycle**. It is therefore not a complete geometric-energy correction. Matched unit, DCB and MMB runs document its restricted effects; they do not establish general finite-deformation validity or approval to replace canonical source.
+
+The higher-penalty2018 material sensitivity also checks both tangent perturbations at the same K3=1e6. Its [response-equivalence record](turon2018_K1e6_response_equivalence.json) shows exact equality of all non-tangent columns in the five proportional histories. This is separate from changing K relative to the source-stated1e5 baseline, which changes interface compliance.
